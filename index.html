@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<title>cadastre-se!</title>
+</head>
+<body>
+		
+
+	<section id="cad"><h1>Quem é você?</h1><br>
+<!--NOME -->
+        <p>	<label for="nome">nome</label>
+        	<input type="text" name="nome" id="txtn" value="">
+        </p>
+<!--SEXO -->
+		<p>sexo:<br>
+			<label>Homem</label>
+			<input type="radio" name="radx" id="mas" checked>
+			<label>Mulher</label>
+			<input type="radio" name="radx" id="fem"></p>
+<!--Idade -->
+			<p>
+			<label>idade</label>
+			<input type="number" name="idade" id="idade" min="1" max="122">
+			</p>
+<!--país-->
+		<p>você mora no..
+			país:
+			<select id="nações">
+				<option>Brasil</option>
+				<option>argentina</option>
+				<option>s</option>
+				<option>d</option>
+				<option>f</option>
+				<option>g</option>
+				<option>h</option>
+				<option>j</option>
+				<option>k</option>
+				<option>l</option>
+				<option>ç</option>
+				<option id="outros">outros</option>
+				
+			</select> &#x1F1E7 &#x1F1F7<!-- &#x para por emoji -->	
+		</p>
+<!--cidade-->
+	<p>Cidade:
+		<select>
+				<option>ananindeua</option>
+				<option>a</option>
+				<option>s</option>
+				<option>d</option>
+				<option>f</option>
+				<option>g</option>
+				<option>h</option>
+				<option>j</option>
+				<option>k</option>
+				<option>l</option>
+				<option>ç</option>
+				<option id="outros">outros</option>
+			</select></p>
+<!--bairro-->
+	<p>no Bairro..
+		<select>
+				<option>cidade nova 2</option>
+				<option>a</option>
+				<option>s</option>
+				<option>d</option>
+				<option>f</option>
+				<option>g</option>
+				<option>h</option>
+				<option>j</option>
+				<option>k</option>
+				<option>l</option>
+				<option>ç</option>
+				<option id="outros">outros</option>
+		</select></p>	
+		<input type="button" id="verif" value="verificar" onclick="verificar()">
+<!--ladoDireitoSection -->
+	<div id="res">
+		<p>confirme se seus dados estão tudo certinho..</p>
+
+		  
+	</div>
+	</section>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
