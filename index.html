@@ -28,23 +28,23 @@
 <!--país-->
 		<p>você mora no..
 			país:
-			<select id="paises">
-				<option value="Brasil">Brasil</option>
-				<option value="argentina">argentina</option>
-				<option value="EUA">EUA</option>
-				<option value="Mexico">Mexico</option>
-				<option value="Paraguai">Paraguai</option>
-				<option value="Israel">Israel</option>
-				<option value="japão">japão</option>
-				<option value="China">China</option>
-				<option value="outros" id="outros">outros</option>
+			<select id="paises" onchange="mudarselect()">
+				<option selected value="pt-br">Brasil</option>
+				<option value="A">Argentina</option>
+				<option value="E">EUA</option>
+				<option value="M">Mexico</option>
+				<option value="P">Paraguai</option>
+				<option value="I">Israel</option>
+				<option value="j">Japão</option>
+				<option value="C">China</option>
+				<option value="o" id="outros">outros</option>
 				
 			</select> &#x1F1E7 &#x1F1F7<!-- &#x para por emoji -->	
 		</p>
 <!--cidade-->
 	<p>Cidade:
-		<select>
-				<option>ananindeua</option>
+		<select id="cidade">
+				<option selected>ananindeua</option>
 				<option>a</option>
 				<option>s</option>
 				<option>d</option>
@@ -59,7 +59,7 @@
 			</select></p>
 <!--bairro-->
 	<p>no Bairro..
-		<select>
+		<select id="bairro">
 				<option>cidade nova 2</option>
 				<option>a</option>
 				<option>s</option>
