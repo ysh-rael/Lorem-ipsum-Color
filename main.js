@@ -43,6 +43,6 @@ function verificar() {
 	res.innerHTML += `Idade: ${idad} anos<br>`
 	res.innerHTML += `País: ${vpaís} <br>`
 	res.innerHTML += `Cidade: ${vcidad}<br>`
-	res.innerHTML += `bairro: ${vbairr}<br>`
+	res.innerHTML += `Bairro: ${vbairr}<br>`
 }
 }

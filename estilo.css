@@ -1,15 +1,18 @@
-
+/*				paleta de cores
+#B95C50,	 #DE847B,	 #DEB3AD	 ,#3B0404
+*/
 body{
-		background-color: rgba(184, 117, 17, 0.801);
+	 
 }
 section#cad{
+	font-size: 14pt;
 	color: rgba(255, 255, 255, 0.849);
 	text-align: left;
 	width: 600px;
 	height: 400px;
 	margin: auto;
 	border-radius: 20px;
-	background-color: #acacac;
+	background-color: #B95C50;
 	padding: 20px;
 	box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.671);
  }
@@ -19,20 +22,21 @@ input#verif:hover {
 }
 
 h1{
+	font-family: arial, sans-seref;
 	color: white;
-	border-bottom:2px solid rgb(189, 50, 7);
+	border-bottom:2px solid #3B0404;
  }
 
 input#txtn {
 	text-indent: 10px;
-	border-radius: 10px;
+	border-radius: 5px;
 	box-shadow: 0px 2px 3px rgba(17, 17, 17, 0.884);
  }
 
 input#idade {
 	width: 80px;
-	text-indent: 10px;
-	border-radius: 10px;
+	text-indent: 5px;
+	border-radius: 5px;
 	box-shadow: 0px 2px 3px rgba(17, 17, 17, 0.884);
  }
 
@@ -40,7 +44,7 @@ select {
 	display: inline-block;
 	width: 100px;
 	text-indent: 5px;
-	border-radius: 10px;
+	border-radius: 5px;
 	box-shadow: 0px 2px 3px rgba(17, 17, 17, 0.884);
  }
 
@@ -60,13 +64,31 @@ select {
  }
 
 div#res {
-	color: rgb(189, 50, 7);
+	color: #3B0404;
 	width: 300px;
 	height: 100px;
 	margin-left: 300px;
 	margin-top: -240px;
 	padding-left: 10px;
 	/*box-shadow: -1px 0px 5px black;*/
-	border-left: 2px solid #080808d2;
+	border-left: 2px solid #3B0404;
 
+ }
+
+ div.palletcolor {
+ 	margin: auto;
+ 	display: inline;
+ 	margin-top: 20px;
+ 	width: 20px;
+ 	height: 20px;
+ 	padding: 10px;
+ }
+
+ div#cores {
+ 	margin-left: 20px;
+ 	margin-bottom: 20px;
+ }
+
+ footer {
+ 	border-top: 2px solid #DE847B;
  }
