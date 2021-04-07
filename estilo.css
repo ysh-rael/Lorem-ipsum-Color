@@ -1,20 +1,25 @@
 /*				paleta de cores
 #B95C50,	 #DE847B,	 #DEB3AD	 ,#3B0404
 */
-body{
-	 
+*{
+	
 }
+body{
+	height:  800px;
+	 /* background-image: linear-gradient(to bottom, #B95C50, #ac635a, #d6968e, #DEB3AD, #fdd2cd); */
+}
+
 section#cad{
 	font-size: 14pt;
-	color: rgba(255, 255, 255, 0.849);
+	color: rgba(5, 5, 5, 0.849);
 	text-align: left;
 	width: 600px;
 	height: 400px;
 	margin: auto;
 	border-radius: 20px;
-	background-color: #B95C50;
+	background-image: linear-gradient(to bottom, #B95C50, #ac635a, #d6968e, #DEB3AD, #fdd2cd);
 	padding: 20px;
-	box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.671);
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.671);
  }
 
 input#verif:hover {
