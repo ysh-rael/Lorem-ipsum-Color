@@ -1,9 +1,9 @@
 function verificar() {
 // VAR NOME
 	var txtn = window.document.getElementById('txtn')
-	var nome = txtn.value
+	var nome = txtn.value.toUpperCase()
 
-// VAR SEXO 
+// VAR GENERO 
 	var sex = window.document.getElementsByName('radx')
 	var genero = ''
 	if (sex[0].checked) {
@@ -44,5 +44,23 @@ function verificar() {
 	res.innerHTML += `País: ${vpaís} <br>`
 	res.innerHTML += `Cidade: ${vcidad}<br>`
 	res.innerHTML += `Bairro: ${vbairr}<br>`
+
+//BUTÃO CONFIRMAR
+	var confir = window.document.createElement('input')
+	confir.type = 'button'
+	confir.value = 'confirmar'
+	confir.id = 'confir'
+	confir.style.src ='estilo.css'
+	res.appendChild(confir)
+
+ }
+ }
+
+function confirmar() {
+	var dados01 = [nome, genero, idad, vpaís, vcidad, vbairr]
+	alert(usuario01.value)
 }
-}
+
+
+
+/*Para alterar um texto para maiúsculo em JavaScript, utilizamos o método toUpperCase(). Para alterar para minúsculo, utilizamos o método toLowerCase().*/

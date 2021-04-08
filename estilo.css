@@ -1,15 +1,19 @@
 /*				paleta de cores
 #B95C50,	 #DE847B,	 #DEB3AD	 ,#3B0404
 */
+
+/*   */
+
 *{
 	
-}
+ }
+
 body{
 	height:  800px;
 	 /* background-image: linear-gradient(to bottom, #B95C50, #ac635a, #d6968e, #DEB3AD, #fdd2cd); */
-}
-
-section#cad{
+	}
+ 
+section#cad {
 	font-size: 14pt;
 	color: rgba(5, 5, 5, 0.849);
 	text-align: left;
@@ -22,11 +26,7 @@ section#cad{
 	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.671);
  }
 
-input#verif:hover {
-	background-color: #acacac;
-}
-
-h1{
+h1 {
 	font-family: arial, sans-seref;
 	color: white;
 	border-bottom:2px solid #3B0404;
@@ -36,6 +36,34 @@ input#txtn {
 	text-indent: 10px;
 	border-radius: 5px;
 	box-shadow: 0px 2px 3px rgba(17, 17, 17, 0.884);
+ }
+
+input[type='radio']:after {
+    width: 10px;
+    height: 10px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: white;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+ }
+
+input[type='radio']:checked:after {
+    width: 10px;
+    height: 10px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #3B0404;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
  }
 
 input#idade {
@@ -48,7 +76,7 @@ input#idade {
 select {
 	display: inline-block;
 	width: 100px;
-	text-indent: 5px;
+	text-indent: 3px;
 	border-radius: 5px;
 	box-shadow: 0px 2px 3px rgba(17, 17, 17, 0.884);
  }
@@ -80,7 +108,7 @@ div#res {
 
  }
 
- div.palletcolor {
+div.palletcolor {
  	margin: auto;
  	display: inline;
  	margin-top: 20px;
@@ -94,6 +122,27 @@ div#res {
  	margin-bottom: 20px;
  }
 
- footer {
+input#verif:hover {
+	background-color: #acacac;
+	border-radius: 5px;
+	width:  65px;
+	height: 20px;
+ }
+
+input#confir{
+	margin-left: 220px;
+	margin-top: 86px;
+	border-radius: 5px;
+ }
+
+input#confir:hover {
+	background-color: #acacac;
+	border-radius: 5px;
+	width:  75px;
+	height: 20px;
+ }
+
+footer {
  	border-top: 2px solid #DE847B;
+
  }
