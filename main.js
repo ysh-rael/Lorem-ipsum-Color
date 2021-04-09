@@ -21,17 +21,8 @@ function verificar() {
 	var select = window.document.getElementById('paises')
 	var vpaís = select.options[select.selectedIndex].text
 
-// VAR CIDADE
-	var select = window.document.getElementById('cidade')
-	var vcidad = select.options[select.selectedIndex].text
-
-// VAR BAIRRO
-	var select = window.document.getElementById('bairro')
-	var vbairr = select.options[select.selectedIndex].text
-
-
 // SE TIVER DADOSS INCORRETOS..
-	if (nome == 0 || idade <= 0 || idade <122) {
+	if (nome == 0 || idad <= 0 || idad > 122) {
 		alert('[ERR0] Verifique os dados e tente novamente!')
 	}else{
 
@@ -42,8 +33,6 @@ function verificar() {
 	res.innerHTML += `Gênero: ${genero}<br>`
 	res.innerHTML += `Idade: ${idad} anos<br>`
 	res.innerHTML += `País: ${vpaís} <br>`
-	res.innerHTML += `Cidade: ${vcidad}<br>`
-	res.innerHTML += `Bairro: ${vbairr}<br>`
 
 //BUTÃO CONFIRMAR
 	var confir = window.document.createElement('input')

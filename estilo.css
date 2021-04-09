@@ -38,6 +38,10 @@ input#txtn {
 	box-shadow: 0px 2px 3px rgba(17, 17, 17, 0.884);
  }
 
+#txtn:hover {
+	background-color: #DEB3AD;
+ }
+
 input[type='radio']:after {
     width: 10px;
     height: 10px;
@@ -73,27 +77,27 @@ input#idade {
 	box-shadow: 0px 2px 3px rgba(17, 17, 17, 0.884);
  }
 
+#idade:hover {
+	background-color: #DEB3AD;
+ }
+
 select {
 	display: inline-block;
 	width: 100px;
 	text-indent: 3px;
 	border-radius: 5px;
 	box-shadow: 0px 2px 3px rgba(17, 17, 17, 0.884);
- }
-
-#txtn:hover {
-	background-color: #d0cbcb;
- }
-
-#idade:hover {
-	background-color: #d0cbcb;
- }
-
-select {
 	background-color: white;
  }
- select:hover {
-	background-color: #d0cbcb;
+
+select:hover {
+	background-color: #DEB3AD;
+ }
+
+option {
+	color: black;
+	background-color:#DEB3AD;
+	
  }
 
 div#res {
@@ -123,7 +127,7 @@ div.palletcolor {
  }
 
 input#verif:hover {
-	background-color: #acacac;
+	background-color: #DEB3AD;
 	border-radius: 5px;
 	width:  65px;
 	height: 20px;
@@ -136,7 +140,7 @@ input#confir{
  }
 
 input#confir:hover {
-	background-color: #acacac;
+	background-color: #DEB3AD;
 	border-radius: 5px;
 	width:  75px;
 	height: 20px;
