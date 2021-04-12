@@ -21,7 +21,7 @@
 
 body{
 	height:  800px;
-	background-image: linear-gradient(to bottom, #E3B692, #5E4C3C);
+	 background-image: linear-gradient(to bottom, #474747, #333333);
 	}
  
 section#cad {
@@ -32,7 +32,7 @@ section#cad {
 	height: 400px;
 	margin: auto;
 	border-radius: 20px;
-	background-image: linear-gradient(to bottom, #DE8D4B, #5E4C3C);
+	background-image: linear-gradient(to bottom, #4D4D4D, #474747);
 	padding: 20px;
 	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.671);
  }
@@ -74,7 +74,7 @@ input[type='radio']:checked:after {
     top: -2px;
     left: -1px;
     position: relative;
-    background-color: #AC6E3B;
+    background-color: #A3A3A3;
     content: '';
     display: inline-block;
     visibility: visible;
@@ -159,6 +159,6 @@ input#confir:hover {
  }
 
 footer {
- 	border-top: 2px solid #5E3C20;
+ 	border-top: 2px solid #000000;
 
  }

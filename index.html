@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
+<head id="head">
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="estilo.css">
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link id="estilo" rel="stylesheet" type="text/css" href="estilo.css">
+	
 	<title>cadastre-se!</title>
 </head>
 <body>
@@ -26,9 +26,9 @@
 			<input type="number" name="idade" id="idade" min="1" max="122">
 			</p>
 <!--país-->
-		<p> País:
+	<p> País:
 			<select id="paises" onchange="mudarselect()">
-<!-- A -->				
+ <!-- A -->				
 				<option value="">Afeganistão</option>
 				<option value="">África do Sul</option>
 				<option value="">Albânia</option>
@@ -41,7 +41,7 @@
 				<option value="">Argentina
 				<option value="">Armênia</option>
 				<option value="">Austrália</option>
-<!-- B -->
+ <!-- B -->
 				<option value="">Bahamas</option>
 				<option value="">Bahrein</option>
 				<option value="">Bangladesh</option>
@@ -58,7 +58,7 @@
 				<option value="">Burkina Faso</option>
 				<option value="">Burundi</option>
 				<option value="">Butão</option>
-<!-- C -->
+ <!-- C -->
 				<option value="">Camarões</option>
 				<option value="">Camboja</option>
 				<option value="">Canadá</option>
@@ -78,11 +78,11 @@
 				<option value="">Costa Rica</option>
 				<option value="">Croácia</option>
 				<option value="">Cuba</option>
-<!-- D -->
+ <!-- D -->
 				<option value="">Dinamarca</option>
 				<option value="">Djibouti</option>
 				<option value="">Dominica</option>
-<!-- E -->
+ <!-- E -->
 				<option value="">Egito</option>
 				<option value="">El Salvador</option>
 				<option value="">Emirados Árabes Unidos</option>
@@ -97,12 +97,12 @@
 				<option value="">Estônia</option>
 				<option value="">Eswatini</option>
 				<option value="">Etiópia</option>			
-<!-- F -->								
+ <!-- F -->
 				<option value="">Fiji</option>
 				<option value="">Filipinas</option>
 				<option value="">Finlândia</option>
 				<option value="">França</option>
-<!-- G -->
+ <!-- G -->
 				<option value="">Gabão</option>
 				<option value="">Gâmbia</option>
 				<option value="">Gana</option>
@@ -114,12 +114,12 @@
 				<option value="">Guiné</option>
 				<option value="">Guiné-Bissau</option>
 				<option value="">Guiné Equatorial</option>	
-<!-- H -->
+ <!-- H -->
 				<option value="" >Haiti</option>
 				<option value="" >Holanda</option>
 				<option value="" >Honduras</option>
 				<option value="" >Hungria</option>
-<!-- I -->
+ <!-- I -->
 				<option value="">Iêmen;</option>
 				<option value="">Índia;</option>
 				<option value="">Indonésia;</option>
@@ -130,8 +130,134 @@
 				<option value="">Irlanda;</option>
 				<option value="">Islândia;</option>
 				<option value="">Israel;</option>
-				<option value="">Itália.</option>													
-
+				<option value="">Itália.</option>	
+ <!-- J -->
+				<option value="">Jamaica</option>
+				<option value="">Japão</option>
+				<option value="">Jordânia</option>
+ <!-- K -->
+				<option value="">Kiribati</option> 
+				<option value="">Kosovo</option>
+				<option value="">Kuwait</option>
+ <!-- L -->
+				<option value="">Laos</option>
+				<option value="">Lesoto</option>
+				<option value="">Letônia</option>
+				<option value="">Líbano</option>
+				<option value="">Libéria</option>
+				<option value="">Líbia</option>
+				<option value="">Liechtenstein
+				<option value="">Lituânia</option>
+				<option value="">Luxemburgo</option>			
+ <!-- K -->
+				<option value="">Macedônia do Norte</option>
+				<option value="">Madagascar</option>
+				<option value="">Malásia</option>
+				<option value="">Malawi</option>
+				<option value="">Maldivas</option>
+				<option value="">Mali</option>
+				<option value="">Malta</option>
+				<option value="">Marrocos</option>
+				<option value="">Marshall</option>
+				<option value="">Maurícia</option>
+				<option value="">Mauritânia</option>
+				<option value="">México</option>
+				<option value="">Mianmar</option>
+				<option value="">Micronésia</option>
+				<option value="">Moçambique</option>
+				<option value="">Moldávia</option>
+				<option value="">Mônaco</option>
+				<option value="">Mongólia</option>
+				<option value="">Montenegro</option>
+ <!-- N -->
+				<option value="">Namíbia</option>
+				<option value="">Nauru</option>
+				<option value="">Nepal</option>
+				<option value="">Nicarágua</option>
+				<option value="">Níger</option>
+				<option value="">Nigéria</option>
+				<option value="">Noruega</option>
+				<option value="">Nova Zelândia</option>
+ <!-- O -->
+				<option value="">Omã</option>
+				<option value="">Ossétia do Sul</option>
+ <!-- P -->
+				<option value="">País de Gales</option>
+				<option value="">Países Baixos</option>
+				<option value="">Palau</option>
+				<option value="">Palestina</option>
+				<option value="">Panamá</option>
+				<option value="">Papua-Nova Guiné</option>
+				<option value="">Paquistão</option>
+				<option value="">Paraguai</option>
+				<option value="">Peru</option>
+				<option value="">Polônia</option>
+				<option value="">Portugal</option>
+ <!-- Q -->
+				<option value="">Qatar</option>
+				<option value="">Quênia</option>
+				<option value="">Quirguistão</option>
+				<option value="">Quiribati</option>
+ <!-- R -->
+				<option value="">Reino Unido</option>
+				<option value="">República Árabe Saaraui Democrática</option>
+				<option value="">República Centro-Africana</option>
+				<option value="">República Democrática do Congo</option>
+				<option value="">República do Congo</option>
+				<option value="">República Dominicana</option>
+				<option value="">República Tcheca</option>
+				<option value="">República Turca de Chipre do Norte</option>
+				<option value="">Romênia</option>
+				<option value="">Ruanda</option>
+				<option value="">Rússia</option>
+ <!-- S -->
+				<option value="">Salomão</option>
+				<option value="">San Marino</option>
+				<option value="">Santa Lúcia</option>
+				<option value="">São Cristóvão e Névis</option>
+				<option value="">São Tomé e Príncipe</option>
+				<option value="">São Vicente e Granadinas</option>
+				<option value="">Senegal</option>
+				<option value="">Serra Leoa</option>
+				<option value="">Sérvia</option>
+				<option value="">Seychelles</option>
+				<option value="">Singapur</option>
+				<option value="">Síria</option>
+				<option value="">Somália</option>
+				<option value="">Sri Lanka</option>
+				<option value="">Suazilândia</option>
+				<option value="">Sudão do Sul</option>
+				<option value="">Sudão</option>
+				<option value="">Suécia</option>
+				<option value="">Suíça</option>
+				<option value="">Suriname</option>
+ <!-- T -->
+				<option value="">Tailândia</option>
+				<option value="">Taiwan</option>
+				<option value="">Tajiquistã</option>
+				<option value="">Tanzânia</option>
+				<option value="">Tchéquia</option>
+				<option value="">Timor-Leste</option>
+				<option value="">Togo</option>
+				<option value="">Tonga</option>
+				<option value="">Trinidad e Tobago</option>
+				<option value="">Tunísia</option>
+				<option value="">Turcomenistão</option>
+				<option value="">Turquia</option>
+				<option value="">Tuvalu</option>
+ <!-- U -->
+				<option value="">Ucrânia</option>
+				<option value="">Uganda</option>
+				<option value="">Uruguai</option>
+				<option value="">Uzbequistão</option>
+ <!-- V -->
+				<option value="">Vanuatu</option>
+				<option value="">Vaticano</option>
+				<option value="">Venezuela</option>
+ <!-- Z -->				
+				<option value="">Vietnã</option>
+				<option value="">Zâmbia</option>
+				<option value="">Zimbábue</option>
 			</select> &#x1F1E7 &#x1F1F7<!-- &#x para por emoji -->	
 		</p>	
 		<input type="button" id="verif" value="verificar" onclick="verificar()">
@@ -142,13 +268,44 @@
 		  
 	</div>
 	</section>
-	<div id="cores">
-	<p>paleta de cores</p>
-	<div class="palletcolor" style="background-color: #B95C50"></div>
-	<div class="palletcolor" style="background-color: #DE847B"></div>
-	<div class="palletcolor" style="background-color: #DEB3AD"></div>
-	<div class="palletcolor" style="background-color: #3B0404"></div>
-	</div>
+
+<!-- PALETA DE CORES -->
+	<P><div id="cores">
+	<p>paleta de cores 01 <input type="radio" name="cor" onclick="cores001()"></p> 
+	<div class="palletcolor" style="background-color: #DE8D4B"></div>
+	<div class="palletcolor" style="background-color: #5E3C20"></div>
+	<div class="palletcolor" style="background-color: #E3B692"></div>
+	<div class="palletcolor" style="background-color: #5E4C3C"></div>
+	<div class="palletcolor" style="background-color: #AC6E3B"></div>
+	</P>
+
+	<P>
+	<p>paleta de cores 02 <input type="radio" name="cor" onclick="cores002()"></p>
+	<div class="palletcolor" style="background-color: #5EA9D1"></div>
+	<div class="palletcolor" style="background-color: #3C6C85"></div>
+	<div class="palletcolor" style="background-color: #738C99"></div>
+	<div class="palletcolor" style="background-color: #9DBFD1"></div>
+	<div class="palletcolor" style="background-color: #254252"></div>
+	</P>
+
+	<P>
+	<p>paleta de cores 03 <input type="radio" name="cor" onclick="cores003()"></p>
+	<div class="palletcolor" style="background-color: #6058D1"></div>
+	<div class="palletcolor" style="background-color: #3D3885"></div>
+	<div class="palletcolor" style="background-color: #716E99"></div>
+	<div class="palletcolor" style="background-color: #9A97D1"></div>
+	<div class="palletcolor" style="background-color: #272456"></div>
+	</P>
+
+	<P>
+	<p>paleta de cores 04 <input type="radio" name="cor" onclick="cores004()"></p>
+	<div class="palletcolor" style="background-color: #4D4D4D"></div>
+	<div class="palletcolor" style="background-color: #000000"></div>
+	<div class="palletcolor" style="background-color: #333333"></div>
+	<div class="palletcolor" style="background-color: #474747"></div>
+	<div class="palletcolor" style="background-color: #A3A3A3"></div>
+	</P>
+
 	<footer>
 		sem nada por enquanto
 	</footer>

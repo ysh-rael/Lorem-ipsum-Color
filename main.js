@@ -48,8 +48,27 @@ function verificar() {
 function confirmar() {
 	var dados01 = [nome, genero, idad, vpaís, vcidad, vbairr]
 	alert(usuario01.value)
+ }
+
+//PALETA DE CORES
+function cores001(){
+	var estilo = window.document.getElementById('estilo')
+	estilo.href = 'estilo.css'
 }
 
+function cores002(){
+	var estilo = window.document.getElementById('estilo')
+	estilo.href = 'estilo-002.css'
+}
 
+function cores003(){
+	var estilo = window.document.getElementById('estilo')
+	estilo.href = 'estilo-003.css'
+}
+
+function cores004(){
+	var estilo = window.document.getElementById('estilo')
+	estilo.href = 'estilo-004.css'
+}
 
 /*Para alterar um texto para maiúsculo em JavaScript, utilizamos o método toUpperCase(). Para alterar para minúsculo, utilizamos o método toLowerCase().*/
