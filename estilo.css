@@ -52,11 +52,10 @@ li.menu:hover {
  }
 
 div#cad {
-	font-size: 0.8em;
-	color: snow;
+	font-size: 1em;
+	color: black;
 	text-align: left;
 	width: 250px;
-	/*height: 280px;*/
 	margin: auto;
 	border-radius: 10px;
 	background-image: linear-gradient(to bottom, #df7f30, #DE8D4B);

@@ -31,33 +31,29 @@ function confirmar() {
 // VAR SENHA
 	var txts = window.document.getElementById('senha')
 	var senha = txts.value
+	var caracteres = senha.length
 	var txtcs = window.document.getElementById('confirsenha')
 	var csenha = txtcs.value
 
 // SE TIVER DADOSS INCORRETOS..
-	if (senha !== csenha || senha == null || csenha == null) {
+	if (nome == 0 || idad <= 0 || idad > 122) {
+		alert('[ERR0] Verifique os dados e tente novamente!')
+	}
+	else if (senha !== csenha || senha == 0 || csenha == 0) {
 		alert('Senhas diferente')
 	}
 
-	if (nome == 0 || idad <= 0 || idad > 122) {
-		alert('[ERR0] Verifique os dados e tente novamente!')
-	}else{
+	else if (caracteres < 4){
+		alert('senha deve conter pelo menos 4 caracteres.')
+	}
+	else{
 
-// SE NÃO..
 
-	/*//BUTÃO CONFIRMAR
-		var confir = window.document.createElement('input')
-		confir.type = 'button'
-		confir.value = 'confirmar'
-		confir.id = 'confir'
-		confir.style.src ='estilo.css'
-		res.appendChild(confir)
-
- 	 }*/
  	 var usuario01 = [nome, senha, genero, idad, vpaís]
 	 alert(`usuario: "${usuario01[0]}" com a senha: "${usuario01[1]}"`)
   }
  }
+
 //PALETA DE CORES
  function cores001(){
 	var estilo = window.document.getElementById('estilo')
