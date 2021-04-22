@@ -1,7 +1,6 @@
 # cadastre-se!
 ---
-A **Principal** ideia proposta é criar um formulário de cadastro (inicialmente simples) usando html, css e javaScript.
-trabalhando diversas maneiras de guardar, tratar e validar os dados inserido pelo usuario. 
+A ideia proposta é criar um formulário de cadastro (simples) usando html, css e javaScript.
+tendo a possibilidade de usar várias paletas de cores.
 
-
-apenas um exercício para praticar o uso de git, github e JavaScript.
+Toda ajuda é bem vinda!
