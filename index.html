@@ -7,25 +7,49 @@
 	<title>cadastre-se!</title>
 </head>
 <body>
-		
+		<header>
+		<nav id="menu">
+			<ul id="menu">
+				<li class="menu"><a href="index.html-">HOME</a></li>
+				<li class="menu"><a href="sobre-mim.html">SOBRE MIM</a></li>
+				<li class="menu"><a href="ajuda.html">PRECISA DE AJUDA?</a></li>
+			</ul>
+		 </nav>
+			<h1>Lorem ipsum dolor</h1>
+			<h2>consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua.</h2>
+			<nav id="tiposDpaletas">
+				<ul>
+					<li>
+						<a href="" onload="monocromatico()">monocromático</a>
+					</li>
+					<li>
+						<a href="" onclick="tríade()">tríade</a>
+					</li>
+					<li>
+						<a href="" onclick="complementar()">complementar</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
 
-	<section id="cad"><h1>Quem é você?</h1><br>
-<!--NOME -->
-        <p>	<label for="nome">Nome</label>
-        	<input type="text" name="nome" id="txtn">
+<div id="cad"><h1>Quem é você?</h1><br>
+	<!--NOME -->
+        <p>	<label for="nome">Nome:</label>
+        	<input type="text" name="nome" id="txtn" placeholder="Nome e sobrenome">
         </p>
-<!--SEXO -->
+	<!--SEXO -->
 		<p>
 			<label>Homem</label>
 			<input type="radio" name="radx" id="mas" checked>
-			<label>Mulher</label>
+			<label id="fem">Mulher</label>
 			<input type="radio" name="radx" id="fem"></p>
-<!--Idade -->
+	<!--Idade -->
 			<p>
-			<label>Idade</label>
-			<input type="number" name="idade" id="idade" min="1" max="122">
+			<label>Idade:</label>
+			<input type="number" name="idade" id="idade" min="1" max="122" placeholder="Idade">
 			</p>
-<!--país-->
+	<!--país-->
 	<p> País:
 			<select id="paises" onchange="mudarselect()">
  <!-- A -->				
@@ -52,7 +76,7 @@
 				<option value="">Bielorrússia</option>
 				<option value="">Bósnia e Herzegovina</option>
 				<option value="">Botswana</option>
-				<option value="" selected>Brasil</option>
+				<option value="br" selected>Brasil</option>
 				<option value="">Brunei</option>
 				<option value="">Bulgária</option>
 				<option value="">Burkina Faso</option>
@@ -254,38 +278,37 @@
 				<option value="">Vanuatu</option>
 				<option value="">Vaticano</option>
 				<option value="">Venezuela</option>
- <!-- Z -->				
+ <!-- Z -->
 				<option value="">Vietnã</option>
 				<option value="">Zâmbia</option>
 				<option value="">Zimbábue</option>
-			</select> &#x1F1E7 &#x1F1F7<!-- &#x para por emoji -->	
+			</select> <div id="emoji"><!-- &#x para por emoji --></div><br>
+			<label>Senha:</label>
+			<input id="senha" type="password" name="senha" class="senha" placeholder="Digite Sua Senha"><br>
+
+			<label>Confirme sua Senha:</label>
+			<input id="confirsenha" type="password" name="confirsenha" class="senha" placeholder="Digite sua Senha">
+
+			<br><input type="button" id="confir" value="Confirmar" onclick="confirmar()">
+		</div>
 		</p>	
-		<input type="button" id="verif" value="verificar" onclick="verificar()">
-<!--ladoDireitoSection -->
-	<div id="res">
-		<p>confirme se seus dados estão tudo certinho..</p>
-
-		  
-	</div>
-	</section>
-
 <!-- PALETA DE CORES -->
 	<P><div id="cores">
-	<p>paleta de cores 01 <input type="radio" name="cor" onclick="cores001()"></p> 
-	<div class="palletcolor" style="background-color: #DE8D4B"></div>
-	<div class="palletcolor" style="background-color: #5E3C20"></div>
-	<div class="palletcolor" style="background-color: #E3B692"></div>
+	<p>paleta de cores 01 <input type="radio" name="cor" onclick="cores001()" checked></p> 
+	<div id="c101" class="palletcolor" style="background-color: #DE8D4B"></div>
+	<div id="c102" class="palletcolor" style="background-color: #5E3C20"></div>
+	<div id="c103" class="palletcolor" style="background-color: #E3B692"></div>
 	<div class="palletcolor" style="background-color: #5E4C3C"></div>
-	<div class="palletcolor" style="background-color: #AC6E3B"></div>
+	<div id="c104" class="palletcolor" style="background-color: #AC6E3B"></div>
 	</P>
 
 	<P>
 	<p>paleta de cores 02 <input type="radio" name="cor" onclick="cores002()"></p>
-	<div class="palletcolor" style="background-color: #5EA9D1"></div>
-	<div class="palletcolor" style="background-color: #3C6C85"></div>
-	<div class="palletcolor" style="background-color: #738C99"></div>
-	<div class="palletcolor" style="background-color: #9DBFD1"></div>
-	<div class="palletcolor" style="background-color: #254252"></div>
+	<div id="c201" class="palletcolor" style="background-color: #5EA9D1"></div>
+	<div id="c202" class="palletcolor" style="background-color: #3C6C85"></div>
+	<div id="c203" class="palletcolor" style="background-color: #738C99"></div>
+	<div id="c204" class="palletcolor" style="background-color: #9DBFD1"></div>
+	<div id="c205" class="palletcolor" style="background-color: #254252"></div>
 	</P>
 
 	<P>
@@ -305,10 +328,20 @@
 	<div class="palletcolor" style="background-color: #474747"></div>
 	<div class="palletcolor" style="background-color: #A3A3A3"></div>
 	</P>
+	</div>
+ </P>
 
-	<footer>
-		sem nada por enquanto
-	</footer>
+<footer>
+	<ul>
+		 <li><a href="http://instagram.com/ysh_rael" target="_blank"><img src="imagens/instagram-mark.png" class="social"> @ysh_rael</a></li>
+
+		 <li style="margin-top: -5px;"><a href="https://github.com/ysh-rael" target="_blank"><img src="imagens/github-mark.png" class="social"> ysh-rael</a></li>
+
+		<li><img src="imagens/gmail-mark.png" class="social"> ysp.rael@gmail.com</li>
+	</ul>
+	<p>Direitos Reservados &copy;Ysh-rael</p>
+ </footer>
+
 <script type="text/javascript" src="main.js"></script>
 </body>
 </html>

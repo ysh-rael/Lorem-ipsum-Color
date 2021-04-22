@@ -28,7 +28,7 @@ section#cad {
 	font-size: 14pt;
 	color: rgba(5, 5, 5, 0.849);
 	text-align: left;
-	width: 600px;
+	width: 300px;
 	height: 400px;
 	margin: auto;
 	border-radius: 20px;
@@ -79,6 +79,10 @@ input[type='radio']:checked:after {
     display: inline-block;
     visibility: visible;
     border: 2px solid white;
+ }
+
+label#fem {
+	margin-left: 70px;
  }
 
 input#idade {
