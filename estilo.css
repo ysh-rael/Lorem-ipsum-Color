@@ -76,6 +76,7 @@ header {
  	display: inline-block;
  	border-radius: 0px;
 	padding: 20px 10px 20px 0px;
+	font-family: heaters, monospace;
  }
 
  li.menu{
@@ -86,19 +87,33 @@ header {
 	border-radius: 0px;
 	padding: 30px 6px 4px 6px;
 	margin-right: 7px;
+	font-family: heaters, monospace;
  }
 
  li.tiposDpaletas:hover {
  	font-size: 0.9em;
+ 	color: white;
  }
 
  li.menu:hover {
  	font-size: 0.9em;
+ 	color: white;
  }
 
- a.menu {
- 	font-family: heaters, monospace;
+ input.cor {
+ 	background-color: transparent;
+ 	border-bottom: none;
+ 	border-top: none;
+ 	border-left: none;
+ 	border-right: none;
  }
+
+ input.cor:hover{
+ 	font-size: 0.9em;
+ 	color: white;
+ }
+
+
 
 section {
 	display: inline-block;

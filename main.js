@@ -130,15 +130,52 @@ function confirmar() {
  }
 
 var conteudo = window.document.getElementById('conteudo')
-conteudo.innerHTML = `<h3>Monocromática!?</h3>
-<img src="">
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+
+function monocromatico() {
+	conteudo.innerHTML = `<h3>Monocromática!?</h3>
+<img src="imagens/github-mark.png">
+<p>Losvdfjh s hoabore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 <p>selecione a paleta de cores que achres melhor.</p>`
+}
+
+function triade() {
+	conteudo.innerHTML = `<h3>tríade!?</h3>
+<img src="imagens/github-mark.png">
+<p>Lofdsvr sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et fdsvr sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitadsullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Ex dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitadsullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<p>selecione a paleta de cores que achres melhor.</p>`
+}
+
+function complementar() {
+	conteudo.innerHTML = `<h3>complementar!?</h3>
+<img src="imagens/github-mark.png">
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut fdsvr sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitadsullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Ex labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostr Lorem  in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<p>selecione a paleta de cores que achres melhor.</p>`
+}
+
+
 
 /*Para alterar um texto para maiúsculo em JavaScript, utilizamos o método toUpperCase(). Para alterar para minúsculo, utilizamos o método toLowerCase().*/
