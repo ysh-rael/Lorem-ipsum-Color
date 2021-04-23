@@ -263,7 +263,7 @@ section#conteudo {
 	text-indent: 10px;
 	text-align: justify;
 	display: inline-block;
-	background-color: gray;
+	background-color: rgba(210, 210, 210, 0.9);
 	width: auto;
 	max-width: 850px;
 	float: right;

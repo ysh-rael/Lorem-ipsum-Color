@@ -132,8 +132,8 @@ function confirmar() {
 var conteudo = window.document.getElementById('conteudo')
 
 function monocromatico() {
-	conteudo.innerHTML = `<h3>Monocromática!?</h3>
-<img src="imagens/github-mark.png">
+	conteudo.innerHTML = `<img src="imagens/monocromatica.png"> <h3>Monocromática!?</h3>
+
 <p>Losvdfjh s hoabore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -144,8 +144,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 }
 
 function triade() {
-	conteudo.innerHTML = `<h3>tríade!?</h3>
-<img src="imagens/github-mark.png">
+	conteudo.innerHTML = `<img src="imagens/triade.png"> <h3>tríade!?</h3>
 <p>Lofdsvr sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et fdsvr sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -161,8 +160,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 }
 
 function complementar() {
-	conteudo.innerHTML = `<h3>complementar!?</h3>
-<img src="imagens/github-mark.png">
+	conteudo.innerHTML = `<img src="imagens/complementar.png"> <h3>complementar!?</h3>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut fdsvr sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
