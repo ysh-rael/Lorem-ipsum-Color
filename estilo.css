@@ -114,6 +114,7 @@ section {
 	padding: 20px;
 	padding-top: 5px;
 	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.671);
+	margin-bottom: 15px;
  }
 
 
@@ -241,6 +242,17 @@ section {
 	border-radius: 5px;
  }
 
+section#conteudo {
+	display: inline-block;
+	background-color: gray;
+	width: auto;
+	max-width: 850px;
+	float: right;
+	padding: 15px;
+	margin-bottom: 15px; 
+
+}
+
 aside {
 	padding-right: 10px;
 	display: inline-block;
@@ -257,13 +269,21 @@ aside {
  }
 
  div#cores {
+ 	font-family: heaters, monospace;
  	display: absolute;
  	margin-top: 0px;
  	vertical-align: top;
  	margin-left: 20px;
  }
 
+ p#pc { /*"p" paletas de cores*/
+ 	margin-top: 30px;
+ 	font-size: 0.7em;
+ 	font-family: heaters, monospace;
+ }
+
 footer {
+	font-size: 0.9em;
 	text-align: center;
 	margin-top: 20px;
  	border-top: 2px solid #5E3C20;
@@ -280,7 +300,6 @@ footer {
 	 }
 
 	a {	
-		font-family: normal arial, sans-seref;
 		color: black;
 		text-decoration-line: none;
 	}
