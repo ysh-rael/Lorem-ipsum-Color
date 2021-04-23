@@ -52,9 +52,11 @@ function confirmar() {
  	 var usuario01 = [nome, senha, genero, idad, vpaís]
 	 alert(`usuario: "${usuario01[0]}" com a senha: "${usuario01[1]}"`)
   }
- }
+}
 
-//PALETA DE CORES
+
+
+//PALETA DE CORES MONOCROMÁTICAS
  function cores001(){
 	var estilo = window.document.getElementById('estilo')
 	estilo.href = 'estilo.css'
@@ -127,5 +129,16 @@ function confirmar() {
    }
  }
 
+var conteudo = window.document.getElementById('conteudo')
+conteudo.innerHTML = `<h3>Monocromática!?</h3>
+<img src="">
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<p>selecione a paleta de cores que achres melhor.</p>`
 
 /*Para alterar um texto para maiúsculo em JavaScript, utilizamos o método toUpperCase(). Para alterar para minúsculo, utilizamos o método toLowerCase().*/

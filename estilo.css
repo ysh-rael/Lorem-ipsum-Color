@@ -243,6 +243,10 @@ section {
  }
 
 section#conteudo {
+	font-family: heaters, monospace;
+	color: ;
+	text-indent: 10px;
+	text-align: justify;
 	display: inline-block;
 	background-color: gray;
 	width: auto;
