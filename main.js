@@ -103,7 +103,7 @@ function confirmar() {
 
 //PALETA DE CORES COMPLEMENTAR
  function complementar(){
- 	alert('tríade ok')
+ 	alert('complementar ok')
  	
 // pag recebe estilo 00x
  	function cores001(){
