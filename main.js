@@ -52,7 +52,7 @@ function confirmar() {
  	 var usuario01 = [nome, senha, genero, idad, vpaís]
 	 alert(`usuario: "${usuario01[0]}" com a senha: "${usuario01[1]}"`)
   }
-}
+ }
 
 
 
@@ -81,7 +81,7 @@ function confirmar() {
  function tríade(){
  	alert('tríade ok')
  	
-// pag recebe estilo 00x
+ // pag recebe estilo 00x
  	function cores001(){
 	var estilo = window.document.getElementById('estilo')
 	estilo.href = 'estilo-005.css'
@@ -107,7 +107,7 @@ function confirmar() {
  function complementar(){
  	alert('complementar ok')
  	
-// pag recebe estilo 00x
+ // pag recebe estilo 00x
  	function cores001(){
 	var estilo = window.document.getElementById('estilo')
 	estilo.href = 'estilo-005.css'
@@ -129,50 +129,26 @@ function confirmar() {
    }
  }
 
-var conteudo = window.document.getElementById('conteudo')
+//CONTEUDO-MENU
+ var conteudo = window.document.getElementById('conteudo')
 
-function monocromatico() {
+ function monocromatico() {
 	conteudo.innerHTML = `<img src="imagens/monocromatica.png"> <h3>Monocromática!?</h3>
 
-<p>Losvdfjh s hoabore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+ <p><strong>Cores monocromáticas</strong> são todas as cores de uma única tonalidade. Os esquemas de cores monocromáticos são derivados de uma única tonalidade base e estendidos usando suas tonalidades, tons e matizes. Os tons são alcançados adicionando branco e os tons e tons adicionando uma cor mais escura, cinza ou preto.</p>
 
-<p>selecione a paleta de cores que achres melhor.</p>`
-}
+ <p>selecione a paleta de cores que achres melhor.</p>`
+ }
 
-function triade() {
+ function triade() {
 	conteudo.innerHTML = `<img src="imagens/triade.png"> <h3>tríade!?</h3>
-<p>Lofdsvr sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et fdsvr sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitadsullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Ex dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitadsullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+ <p>As cores tríades são formadas por 3 cores que estão equidistantes no círculo cromático. Ou seja, se encontram exatamente na mesma distância dentro da roda de tonalidades. ... Assim, como as cores análogas e complementares, as tríades também são combinações harmonicamente perfeitas.</p>`
+ }
 
-<p>selecione a paleta de cores que achres melhor.</p>`
-}
-
-function complementar() {
+ function complementar() {
 	conteudo.innerHTML = `<img src="imagens/complementar.png"> <h3>complementar!?</h3>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut fdsvr sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitadsullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Ex labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostr Lorem  in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-<p>selecione a paleta de cores que achres melhor.</p>`
-}
+ <p>Cores Complementares são aquelas que mais oferecem contraste entre si. De acordo com a definição de Michel Eugene Chevreul, no século XIX, a cor complementar de uma matriz é aquela que mais absorve seu espectro.</p>`
+ }
 
 
 

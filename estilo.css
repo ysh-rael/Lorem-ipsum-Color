@@ -35,6 +35,7 @@ body {
 	marker: auto;
 	background-image: linear-gradient(to bottom, #E3B692, #dda77a);
 	}
+
  
 header {
 	
@@ -259,11 +260,10 @@ section {
 
 section#conteudo {
 	font-family: heaters, monospace;
-	color: ;
 	text-indent: 10px;
 	text-align: justify;
 	display: inline-block;
-	background-color: rgba(210, 210, 210, 0.9);
+	background-color: rgba(220, 220, 220, 0.9);
 	width: auto;
 	max-width: 850px;
 	float: right;
