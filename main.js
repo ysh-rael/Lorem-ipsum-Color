@@ -129,25 +129,23 @@ function confirmar() {
    }
  }
 
-//CONTEUDO-MENU
+//CONTEUDO-MENU DAS CORES
  var conteudo = window.document.getElementById('conteudo')
 
  function monocromatico() {
-	conteudo.innerHTML = `<img src="imagens/monocromatica.png"> <h3>Monocromática!?</h3>
+	conteudo.innerHTML = `<P><img src="imagens/monocromatica.png"> <h3>Monocromática</h3>
 
- <p><strong>Cores monocromáticas</strong> são todas as cores de uma única tonalidade. Os esquemas de cores monocromáticos são derivados de uma única tonalidade base e estendidos usando suas tonalidades, tons e matizes. Os tons são alcançados adicionando branco e os tons e tons adicionando uma cor mais escura, cinza ou preto.</p>
-
- <p>selecione a paleta de cores que achres melhor.</p>`
+ <strong>Cores monocromáticas</strong> são todas as cores de uma única tonalidade. Os esquemas de cores monocromáticos são derivados de uma única tonalidade base e estendidos usando suas tonalidades, tons e matizes. Os tons são alcançados adicionando branco e os tons e tons adicionando uma cor mais escura, cinza ou preto.</p>`
  }
 
  function triade() {
-	conteudo.innerHTML = `<img src="imagens/triade.png"> <h3>tríade!?</h3>
- <p>As cores tríades são formadas por 3 cores que estão equidistantes no círculo cromático. Ou seja, se encontram exatamente na mesma distância dentro da roda de tonalidades. ... Assim, como as cores análogas e complementares, as tríades também são combinações harmonicamente perfeitas.</p>`
+	conteudo.innerHTML = `<p><img src="imagens/triade.png"> <h3>tríade</h3>
+ As cores tríades são formadas por 3 cores que estão equidistantes no círculo cromático. Ou seja, se encontram exatamente na mesma distância dentro da roda de tonalidades. ... Assim, como as cores análogas e complementares, as tríades também são combinações harmonicamente perfeitas.</p>`
  }
 
  function complementar() {
-	conteudo.innerHTML = `<img src="imagens/complementar.png"> <h3>complementar!?</h3>
- <p>Cores Complementares são aquelas que mais oferecem contraste entre si. De acordo com a definição de Michel Eugene Chevreul, no século XIX, a cor complementar de uma matriz é aquela que mais absorve seu espectro.</p>`
+	conteudo.innerHTML = `<p><img src="imagens/complementar.png"> <h3>complementar</h3>
+ Cores Complementares são aquelas que mais oferecem contraste entre si. De acordo com a definição de Michel Eugene Chevreul, no século XIX, a cor complementar de uma matriz é aquela que mais absorve seu espectro.</p>`
  }
 
 
