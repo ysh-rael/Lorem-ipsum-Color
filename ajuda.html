@@ -13,6 +13,8 @@
 		}
 
 		header {
+			padding-right: 5%;
+		 	padding-left: 5%;
 			text-align: center;
 			background-color: #992705;
 			margin-top: 0px;
@@ -23,19 +25,28 @@
 		ul#menu {
 		 	display: inline-block;
 		 	background-color: #992705;
-		 	padding-left: 10px;
-		 	padding-bottom: 10px;
+		 	padding-left: 0px;
+		 	/*padding-left: 10px;
+		 	padding-bottom: 10px*/;
 		 }
 		section {
 		 	padding: 2% 5% 5% 5%;
-		 	background-color: #8BE635;
+		 	background-color: rgb(190, 190, 190);
 		 	box-shadow: 1px 1px 10px black;
 		 	font-style: bold;
 		 	text-indent: 2%
 		 }
 
+		div#h2 {
+			display: inline;
+		}
+
+		div#pesq {
+			display: inline-block;
+		}
+
 		 h1 {
-		 	padding-right: 		 	
+		 	margin-top: 30px;		 	
 		 	padding-top: 4%;
 		 	font-size: 4em;
 		 	font-family: monospace;
@@ -44,7 +55,7 @@
 
 		h2 {
 		  font-size: 5em;
-		  font-weight: bold;
+		  font-weight: bolder;
 		  text-align: center;
 		  /* fundo gradiente */
 		  background-image: linear-gradient(#000000, #001fff, #8406d6, #000000);
@@ -63,7 +74,7 @@
 		 	margin-bottom: 0px;
 		 	border-radius: 5px;
 		 	padding-top: 3%;
-		 	padding-bottom: 2%;
+		 	padding-bottom: 3%;
 		 	font-size: 2.5em;
 		 	font-family: monospace;
 		 	font-family: 'Amatic SC', cursive;
@@ -75,7 +86,11 @@
 		 	font-size: 2em;
 		 	font-family: monospace;
 		 	font-family: 'Amatic SC', cursive;
+		 	padding-top: 1%;
+		 	padding-bottom: 1%;
 		 	background-color: #0732E6;
+		 	color: snow;
+		 	font-weight: 200;
 
 		 }
 
@@ -84,7 +99,6 @@
  		 }
 
 		p { 
-			display: block;
 			margin-top: 0px;
 			border-radius: 5px;
 			padding: 2% 2% 5% 2%;
@@ -97,39 +111,38 @@
 		 }
 
 		li.menu{
+			border-top: 1px solid #992705;
+			border-right: 1px solid #992705;
+			border-bottom: 1px solid #992705;
+			border-left: 1px solid #992705;
 		 	display: inline;
 		 	text-align: center;
 		 	font-size: 0.8em;
 			border-radius: 0px;
-			padding: 10px;
+			padding: 1%;
 			margin: 30px 20px 20px 20px;
 			font-family: heaters, monospace;
 		 }
 
 		li.menu:hover {
-			background-color: #DE8D4B;
-		 	font-size: 0.9em;
+			background-color: #992705;
+		 	font-size: 0.8em;
 		 	border-radius: 5%;
 		 	color: white;
 		 }
 
 		li.tiposDpaletas {
 			display: none;
-			color: gray;
 		 }
 
-		li.tiposDpaletas:hover {
- 			font-size: 0.8em;
- 			color: gray;
- 		 }
  		ul#obs {
  			margin: auto;
  		}
 
  		li.obs {
-
+ 			margin: auto;
  			display: block;
- 			font-size: 0.9em;
+ 			font-size: 1.2em;
  			padding: 3%;
  			background-color: gray;
  		}
@@ -140,8 +153,14 @@
  		}
 
  		input#Bpesq{
+ 			margin-top: 7%;
  		 	margin-left: 2px;
  		 }
+
+ 		input#pesq {
+ 			margin-top: 7%;
+ 			display: inline-block;
+ 		}
 
 		footer {
 			margin-bottom: -3px;
@@ -203,14 +222,14 @@
 					<li class="menu">
 						<a class="menu" href="index.html">HOME</a></li>
 
-					<input type="text" id="pesq" placeholder="Pesquisar"> <input type="button" id="Bpesq" value="Pesquisar" onclick="pesquisar()">
+					<div id="pesq"><input type="text" id="pesq" placeholder="Pesquisar"> <input type="button" id="Bpesq" value="Pesquisar" onclick="pesquisar()"></div>
 
 			    </ul>
 		 	 </nav>
 	 </header>
 
 	<section id="conteudo">
-		<h2>Olá, Seja bem vindo ao<br> LYC!</h2>
+		<div id="h2"><h2>Olá, Seja bem vindo ao<br> LYC!</h2></div>
 			<h3>O que é o Lorem ipsum Color?</h3>
 		<p>
 			O Lorem ipsum Color (LYC) é uma página criada do zero com a finalidade de estudo e conhecimento, tanto para o usuário com o seu conteúdo sobre cores, com uma demonstração prática do aplicamento delas nas páginas de web-sites tanto quanto para o desenvolverdor <abbr title="termo usado para desenvolvedores que trabalham com linguagens de marcação/progamação que rodam ao lado do cliente">front-end</abbr> na criação e desenvolvimento do mesmo pondo em prática os conhecimentos adquiridos e pesquisando novas soluções a medida que novos problemas surgem.<br>
