@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Precisando de Ajuda?</title>
+	<style type="text/css">
+	 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+		body {
+			margin-top: -20px;
+			background-color: #738C99;
+			background-image: url(.jpg);
+		}
+
+		header {
+			text-align: center;
+			background-color: #DE8D4B;
+			margin-top: 0px;
+ 			display: block;
+ 
+ 			box-shadow: 1px 1px 10px black;
+		 }
+		ul#menu {
+		 	display: inline-block;
+		 	background-color: #DE8D4B;
+		 	padding-left: 10px;
+		 	padding-bottom: 10px;
+		 }
+		section {
+		 	padding: 2% 5% 5% 5%;
+		 	background-color: rgba(225, 225, 225, 0.8);
+		 	box-shadow: 1px 1px 10px black;
+		 	font-style: bold;
+		 	text-indent: 2%
+		 }
+
+		 h1 {		 	
+		 	padding-top: 4%;
+		 	font-size: 4em;
+		 	font-family: monospace;
+		 	font-family: 'Amatic SC', cursive;
+		 }
+
+		h2 {
+
+
+		  font-size: 5em;
+		  font-weight: bold;
+		  text-align: center;
+		  /* fundo gradiente */
+		  background-image: linear-gradient(#000000, #001fff, #8406d6, #000000);
+		  /* agora colocamos o fundo gradiente dentro do texto com essa propriedade */
+		  background-clip: text;
+		  -webkit-background-clip: text;
+		  /* a cor do texto deve estar como transparent */
+		  color: transparent;		 	
+		  margin: 0px 0px 100px 0px;
+		  font-family: 'Amatic SC', cursive;
+
+		 }
+
+		h3 {
+		 	margin-bottom: 0px;
+		 	border-radius: 5px;
+		 	padding-top: 3%;
+		 	padding-bottom: 2%;
+		 	font-size: 2.5em;
+		 	font-family: monospace;
+		 	font-family: 'Amatic SC', cursive;
+		 	background-image: linear-gradient(to right, #DE8D4B, #738C99);
+		 }
+
+		h4 {
+		 	font-size: 2em;
+		 	font-family: monospace;
+		 	font-family: 'Amatic SC', cursive;
+		 	background-color: green;
+
+		 }
+
+		 nav {
+
+ 		 }
+
+		p { 
+			border-radius: 5px;
+			padding: 2% 2% 5% 2%;
+			background-color: white;
+			font-size: 1.3em;
+			line-height: 2em;
+			color: black;
+			font-family:cursive;
+			box-shadow: 1px 1px 5px black;
+		 }
+
+		li.menu{
+		 	display: inline;
+		 	text-align: center;
+		 	font-size: 0.8em;
+			border-radius: 0px;
+			padding: 10px;
+			margin: 30px 20px 20px 20px;
+			font-family: heaters, monospace;
+		 }
+
+		li.menu:hover {
+			background-color: #DE8D4B;
+		 	font-size: 0.9em;
+		 	border-radius: 5%;
+		 	color: white;
+		 }
+
+		li.tiposDpaletas {
+			display: none;
+			color: gray;
+		 }
+
+		li.tiposDpaletas:hover {
+ 			font-size: 0.8em;
+ 			color: gray;
+ 		 }
+
+ 		input#Bpesq{
+ 		 	margin-left: 2px;
+ 		 }
+
+		footer {
+			margin-bottom: -3px;
+			background-color: #DE8D4B;
+			padding-top: 5%;
+			padding-bottom: 2%;
+			font-size: 1.2em;
+			text-align: center;
+		 	border-top: 2px solid black;
+		 	box-shadow: 1px 1px 10px black;
+		     }
+
+		 	ul {
+			 display: inline-flex;
+		     }
+
+		 	li {
+			 list-style-type: none;
+			 margin-right: 20px;
+			 }
+
+			a {	
+				color: black;
+				text-decoration-line: none;
+			}
+
+			a:hover {
+				color: white;
+			}
+
+			img.social { /*REDES SOCIAIS*/
+				text-align: left;
+				display: inline-block;
+				margin-top: 0px;
+			}
+		 }	
+	</style>
+</head>
+<body>
+	<header>
+
+		<h1>Lorem ipsum Color - LYC</h1>
+
+			<nav>
+				<ul id="menu">
+					<abbr title="desculpe, a opção selecionada não está disponivél nesse página web. volte para a nossa página inicial [BOTÃO 'HOME'] para acessa tal opção."><li class="tiposDpaletas"> MONOCROMÁTICA </li></abbr>
+
+					<abbr title="desculpe, a opção selecionada não está disponivél nesse página web. volte para a nossa página inicial [BOTÃO 'HOME'] para acessa tal opção."><li class="tiposDpaletas"> TRÍADE </li></abbr>
+
+					<abbr title="desculpe, a opção selecionada não está disponivél nesse página web. volte para a nossa página inicial [BOTÃO 'HOME'] para acessa tal opção."><li class="tiposDpaletas"> COMPLEMENTAR </li></abbr>
+			
+
+				 	<li class="menu">
+				 		<a class="menu" href="ajuda.html"><nobr>PRECISA DE AJUDA?</nobr></a></li>
+
+				 	<li class="menu">
+				 		<a class="menu" href="sobre-mim.html"><nobr>SOBRE MIM</nobr></a></li>
+
+					<li class="menu">
+						<a class="menu" href="index.html">HOME</a></li>
+
+					<input type="text" id="pesq" placeholder="Pesquisar"> <input type="button" id="Bpesq" value="Pesquisar" onclick="pesquisar()">
+
+			    </ul>
+		 	 </nav>
+	 </header>
+
+	<section id="conteudo">
+		<h2>Olá, Seja bem vindo ao<br> LYC!</h2>
+			<h3>O que é o Lorem ipsum Color?</h3>
+		<p>
+			O Lorem ipsum Color (LYC) é uma página criada do zero com a finalidade de estudo e conhecimento, tanto para o usuário com o seu conteúdo sobre cores, com uma demonstração prática do aplicamento delas nas páginas de web-sites tanto quanto para o desenvolverdor <abbr title="termo usado para desenvolvedores que trabalham com linguagens de marcação/progamação que rodam ao lado do cliente">front-end</abbr> na criação e desenvolvimento do mesmo pondo em prática os conhecimentos adquiridos e pesquisando novas soluções a medida que novos problemas surgem.<br>
+			<strong>Atenção:</strong> O <abbr title="Lorem ipsum Color">LYC</abbr> Foi criado com intuito de ajuda no aprendizado; sendo um projeto totalmente gratuito e sem fins lucrativos.
+		</p>
+
+		<h3>Okay, já sei o que ele é mas, O que ele faz?</h3>
+		<p>simples! O LYC pode ser dividido em 3 partes principais:</p>
+
+			<h4>Seção de conteúdo</h4>
+				<img src="jhj.jpg">
+				<p>A seção Conteúdo é a área reservada para mostrar o breve resumo sobre o tipo de combinação de cores esccolhida no menu [as opção posivéis são: Cores monocromáticas; Tríadess e Complementare]
+				</p>
+
+			<h4>Quem é você?</h4>
+				<img src="cadastro.png">
+				<p> um simples formulário de casdastro ondem posibilita uma interatividade com o usuário com campos em que o mesmo  pode(ou não) preencher com dados fictícios não precisando se preocupar com os dados  inseridos pois eles são apenas para demonstração e não ficará vinculado a você nem  serão usados, nem  salvos para  nenhum tipo de utilizão sem prévio avisa e concentimento do usuário.
+				</p>
+				<p>
+					obeserve que:
+					<ul>
+						<li>
+							o formulário é ficticio e não está vinculado a nenhum outro site.
+						</li>
+
+						<li> Os dados inssiridos são apenas paraa interação ee diverção do usuário não tendo nenhum proposito espercífico nem nenhuma utilização posterior.
+						</li>
+						<li>
+							<strong>Não adicione</strong> Senha verdadeiras como de seu cartão de credito ou Senhas vinculadas a suas contas pessoais - Não nos responsabilizamos pelo uso indeviddo de terceiro.
+						</li>
+						<li> a internet é um campo muito vasto e com muitas pessoas mal intecionadas prontas para tirar proveito do próximo.
+						Lembre: Enquanto naveegar na internet, TODO CUIDADO É POUCO.
+						</li>
+					</ul>
+				</p>
+
+			<h4>Paletas de Cores</h4>
+				<p> <img src="imagens/paleta-de-cores.png"> 
+					Aqui voccê poderá escolhe eentre algumas opções de paleta de cores seguindo o <abbr title="monocromáticas, tríade ou Complementar">tipo</abbr> de cores que você selecionou no menu. </p>
+
+				<p>O site ainda está em desenvolvimento e provavélmente essa parte em especial recebera algumas atualizações.
+				</p>
+
+		<h3>Além dessas temos também...</h3>
+			<h4>menu de navegação</h4>
+				<img src="menuNav.png">
+
+
+				<img src="menuCor.png">
+				Aqui você pode alterar o tipo de cores que desejar.
+				*curiosidade: foi feito com javascript o quee significa quee a página não irá recarregar toda vez que Você mudar.
+			<h4>minhas redes sociais</h4>
+				<p>você pode me ajudar me seguindo em minhas redes sociais e entrando em contato, seja porque gostou ou  por alguma crítica/sugestão. Sua opnião é muito bem vinda!!</p>
+
+				<p>Muito obrigado por ter lido até aqui e espero que tenha lhe ajudado de algma forma.</p>
+
+	 </section>	 
+
+	<footer>
+	 <ul>
+		 <li><a href="http://instagram.com/ysh_rael" target="_blank"><img src="imagens/instagram-mark.png" class="social"> @ysh_rael</a></li>
+
+		 <li style="margin-top: -5px;"><a href="https://github.com/ysh-rael" target="_blank"><img src="imagens/github-mark.png" class="social"> <nobr>ysh-rael</nobr></a></li>
+
+		<li><img src="imagens/gmail-mark.png" class="social"> ysp.rael@gmail.com</li>
+	 </ul>
+	 	<br>Direitos Reservados &copy;Ysh-rael
+ 	 </footer>
+<script type="text/javascript" src="main.js"></script>
+<script type="text/javascript">
+	function pesquisar() {
+		alert('Desculpe, o objeto de pesquisa ainda eestá em desenvolvimento e no momento não está funcionando.')
+	}
+</script>
+</body>
+</html>

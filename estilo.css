@@ -69,7 +69,7 @@ header {
  	display: block;
  	background-color: #5E4C3C;
  	padding-left: 10px;
- 	padding-bottom: 15px;
+ 	padding-bottom: 10px;
  	box-shadow: 1px 3px 15px #5E3C20;
  }
 
@@ -241,7 +241,7 @@ input#confir:hover {
 
 section {
 	display: inline-block;
-}
+ }
 
 section#conteudo {
 	float: left;
@@ -255,6 +255,7 @@ section#conteudo {
 	text-indent: 2%;
 	text-align: justify; 
  }
+
 
 aside {
 	display: inline-block;
