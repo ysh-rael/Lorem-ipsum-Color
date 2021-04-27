@@ -14,7 +14,7 @@
 
 		header {
 			text-align: center;
-			background-color: #DE8D4B;
+			background-color: #992705;
 			margin-top: 0px;
  			display: block;
  
@@ -22,19 +22,20 @@
 		 }
 		ul#menu {
 		 	display: inline-block;
-		 	background-color: #DE8D4B;
+		 	background-color: #992705;
 		 	padding-left: 10px;
 		 	padding-bottom: 10px;
 		 }
 		section {
 		 	padding: 2% 5% 5% 5%;
-		 	background-color: rgba(225, 225, 225, 0.8);
+		 	background-color: #8BE635;
 		 	box-shadow: 1px 1px 10px black;
 		 	font-style: bold;
 		 	text-indent: 2%
 		 }
 
-		 h1 {		 	
+		 h1 {
+		 	padding-right: 		 	
 		 	padding-top: 4%;
 		 	font-size: 4em;
 		 	font-family: monospace;
@@ -42,8 +43,6 @@
 		 }
 
 		h2 {
-
-
 		  font-size: 5em;
 		  font-weight: bold;
 		  text-align: center;
@@ -60,6 +59,7 @@
 		 }
 
 		h3 {
+			color: white;
 		 	margin-bottom: 0px;
 		 	border-radius: 5px;
 		 	padding-top: 3%;
@@ -67,14 +67,15 @@
 		 	font-size: 2.5em;
 		 	font-family: monospace;
 		 	font-family: 'Amatic SC', cursive;
-		 	background-image: linear-gradient(to right, #DE8D4B, #738C99);
+		 	background-color: #0C2799;
 		 }
 
 		h4 {
+			margin-bottom: 0px;
 		 	font-size: 2em;
 		 	font-family: monospace;
 		 	font-family: 'Amatic SC', cursive;
-		 	background-color: green;
+		 	background-color: #0732E6;
 
 		 }
 
@@ -83,6 +84,8 @@
  		 }
 
 		p { 
+			display: block;
+			margin-top: 0px;
 			border-radius: 5px;
 			padding: 2% 2% 5% 2%;
 			background-color: white;
@@ -119,6 +122,22 @@
  			font-size: 0.8em;
  			color: gray;
  		 }
+ 		ul#obs {
+ 			margin: auto;
+ 		}
+
+ 		li.obs {
+
+ 			display: block;
+ 			font-size: 0.9em;
+ 			padding: 3%;
+ 			background-color: gray;
+ 		}
+
+ 		li.obs:hover {
+ 			color: white;	
+ 			transition: 280ms;		
+ 		}
 
  		input#Bpesq{
  		 	margin-left: 2px;
@@ -126,7 +145,7 @@
 
 		footer {
 			margin-bottom: -3px;
-			background-color: #DE8D4B;
+			background-color: #992705;
 			padding-top: 5%;
 			padding-bottom: 2%;
 			font-size: 1.2em;
@@ -202,31 +221,31 @@
 		<p>simples! O LYC pode ser dividido em 3 partes principais:</p>
 
 			<h4>Seção de conteúdo</h4>
-				<img src="jhj.jpg">
-				<p>A seção Conteúdo é a área reservada para mostrar o breve resumo sobre o tipo de combinação de cores esccolhida no menu [as opção posivéis são: Cores monocromáticas; Tríadess e Complementare]
+				
+				<p> <img src="jhj.jpg"> A seção Conteúdo é a área reservada para mostrar o breve resumo sobre o tipo de combinação de cores esccolhida no menu [as opção posivéis são: Cores monocromáticas; Tríadess e Complementare]
 				</p>
 
 			<h4>Quem é você?</h4>
-				<img src="cadastro.png">
-				<p> um simples formulário de casdastro ondem posibilita uma interatividade com o usuário com campos em que o mesmo  pode(ou não) preencher com dados fictícios não precisando se preocupar com os dados  inseridos pois eles são apenas para demonstração e não ficará vinculado a você nem  serão usados, nem  salvos para  nenhum tipo de utilizão sem prévio avisa e concentimento do usuário.
+				
+				<p> <img src="cadastro.png">  um simples formulário de casdastro ondem posibilita uma interatividade com o usuário com campos em que o mesmo  pode(ou não) preencher com dados fictícios não precisando se preocupar com os dados  inseridos pois eles são apenas para demonstração e não ficará vinculado a você nem  serão usados, nem  salvos para  nenhum tipo de utilizão sem prévio avisa e concentimento do usuário. <br>
+				<strong>Atenção:</strong>
 				</p>
-				<p>
-					obeserve que:
-					<ul>
-						<li>
+				
+					<ul id="obs">
+						<li class="obs">
 							o formulário é ficticio e não está vinculado a nenhum outro site.
 						</li>
 
-						<li> Os dados inssiridos são apenas paraa interação ee diverção do usuário não tendo nenhum proposito espercífico nem nenhuma utilização posterior.
+						<li class="obs"> Os dados inssiridos são apenas paraa interação ee diverção do usuário não tendo nenhum proposito espercífico nem nenhuma utilização posterior.
 						</li>
-						<li>
+						<li class="obs">
 							<strong>Não adicione</strong> Senha verdadeiras como de seu cartão de credito ou Senhas vinculadas a suas contas pessoais - Não nos responsabilizamos pelo uso indeviddo de terceiro.
 						</li>
-						<li> a internet é um campo muito vasto e com muitas pessoas mal intecionadas prontas para tirar proveito do próximo.
+						<li class="obs"> a internet é um campo muito vasto e com muitas pessoas mal intecionadas prontas para tirar proveito do próximo.
 						Lembre: Enquanto naveegar na internet, TODO CUIDADO É POUCO.
 						</li>
 					</ul>
-				</p>
+				
 
 			<h4>Paletas de Cores</h4>
 				<p> <img src="imagens/paleta-de-cores.png"> 
@@ -237,12 +256,12 @@
 
 		<h3>Além dessas temos também...</h3>
 			<h4>menu de navegação</h4>
-				<img src="menuNav.png">
+				<p><img src="menuNav.png">
 
 
 				<img src="menuCor.png">
 				Aqui você pode alterar o tipo de cores que desejar.
-				*curiosidade: foi feito com javascript o quee significa quee a página não irá recarregar toda vez que Você mudar.
+				*curiosidade: foi feito com javascript o quee significa quee a página não irá recarregar toda vez que Você mudar.</p>
 			<h4>minhas redes sociais</h4>
 				<p>você pode me ajudar me seguindo em minhas redes sociais e entrando em contato, seja porque gostou ou  por alguma crítica/sugestão. Sua opnião é muito bem vinda!!</p>
 
