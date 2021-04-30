@@ -1,0 +1,65 @@
+ @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+		body {
+			margin-top: -20px;
+			background-color: #738C99;
+			background-image: url(.jpg);
+		}
+
+		header {
+			padding-right: 5%;
+		 	padding-left: 5%;
+			text-align: center;
+			background-color: #992705;
+			margin-top: 0px;
+ 			display: block;
+ 
+ 			box-shadow: 1px 1px 10px black;
+		 }
+		ul#sobrecores {
+		 	display: inline-block;
+		 	background-color: #992705;
+		 	padding-left: 0px;
+		 	/*padding-left: 10px;
+		 	padding-bottom: 10px*/;
+		 }
+		section {
+		 	padding: 2% 5% 5% 5%;
+		 	background-color: rgb(190, 190, 190);
+		 	box-shadow: 1px 1px 10px black;
+		 	font-style: bold;
+		 	text-indent: 2%
+		 }
+
+		p { 
+			margin-top: 0px;
+			border-radius: 5px;
+			padding: 2% 2% 5% 2%;
+			background-color: white;
+			font-size: 1.3em;
+			line-height: 2em;
+			color: #242424;
+			font-family: sans-serif;
+			box-shadow: 1px 1px 5px black;
+		 }
+
+		li.menu{
+			border-top: 1px solid #992705;
+			border-right: 1px solid #992705;
+			border-bottom: 1px solid #992705;
+			border-left: 1px solid #992705;
+		 	display: inline;
+		 	text-align: center;
+		 	font-size: 0.8em;
+			border-radius: 0px;
+			padding: 1%;
+			margin: 30px 20px 20px 20px;
+			font-family: heaters, monospace;
+		 }
+
+		li.menu:hover {
+			background-color: #992705;
+		 	font-size: 0.8em;
+		 	border-radius: 5%;
+		 	color: white;
+		 }

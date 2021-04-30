@@ -1,3 +1,7 @@
+function pesquisar() {
+		alert('Desculpe, o objeto de pesquisa ainda eestá em desenvolvimento e no momento não está funcionando.')
+	}
+
 function confirmar() {
 // VAR NOME
 	var txtn = window.document.getElementById('txtn')
@@ -59,7 +63,7 @@ function confirmar() {
 //PALETA DE CORES MONOCROMÁTICAS
  function cores001(){
 	var estilo = window.document.getElementById('estilo')
-	estilo.href = 'estilo.css'
+	estilo.href = 'estilo-001.css'
  }
 
  function cores002(){

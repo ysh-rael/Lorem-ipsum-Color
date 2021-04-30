@@ -2,17 +2,209 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<link id="estilo" rel="stylesheet" type="text/css" href="estilo.css">
-	<title>Sobre mim</title>
+	<title>LYC | Precisando de Ajuda?</title>
 	<style type="text/css">
-		li.tiposDpaletas {
-			color: gray;
+	 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+		body {
+			margin-top: -20px;
+			background-color: #738C99;
+			background-image: url(.jpg);
 		}
 
-		li.tiposDpaletas:hover {
- 			font-size: 0.8em;
- 			color: gray;
- 	}
+		header {
+			padding-right: 5%;
+		 	padding-left: 5%;
+			text-align: center;
+			background-color: #992705;
+			margin-top: 0px;
+ 			display: block;
+ 
+ 			box-shadow: 1px 1px 10px black;
+		 }
+		ul#menu {
+		 	display: inline-block;
+		 	background-color: #992705;
+		 	padding-left: 0px;
+		 	/*padding-left: 10px;
+		 	padding-bottom: 10px*/;
+		 }
+		section {
+		 	padding: 2% 5% 5% 5%;
+		 	background-color: rgb(190, 190, 190);
+		 	box-shadow: 1px 1px 10px black;
+		 	font-style: bold;
+		 	text-indent: 2%
+		 }
+
+		div#h2 {
+			display: inline;
+		}
+
+		div#pesquisar {
+			display: inline-block;
+		}
+
+		 h1 {
+		 	margin-top: 30px;		 	
+		 	padding-top: 4%;
+		 	font-size: 4em;
+		 	font-family: monospace;
+		 	font-family: 'Amatic SC', cursive;
+		 }
+
+		h2 {
+		  font-size: 5em;
+		  font-weight: bolder;
+		  text-align: center;
+		  /* fundo gradiente */
+		  background-image: linear-gradient(#000000, #001fff, #8406d6, #000000);
+		  /* agora colocamos o fundo gradiente dentro do texto com essa propriedade */
+		  background-clip: text;
+		  -webkit-background-clip: text;
+		  /* a cor do texto deve estar como transparent */
+		  color: transparent;		 	
+		  margin: 0px 0px 100px 0px;
+		  font-family: 'Amatic SC', cursive;
+
+		 }
+
+		h3 {
+			color: white;
+		 	margin-bottom: 0px;
+		 	border-radius: 5px;
+		 	padding-top: 3%;
+		 	padding-bottom: 3%;
+		 	font-size: 2.5em;
+		 	font-family: monospace;
+		 	font-family: 'Amatic SC', cursive;
+		 	background-color: #0C2799;
+		 }
+
+		h4 {
+			margin-bottom: 0px;
+		 	font-size: 2em;
+		 	font-family: monospace;
+		 	font-family: 'Amatic SC', cursive;
+		 	padding-top: 1%;
+		 	padding-bottom: 1%;
+		 	background-color: #0732E6;
+		 	color: snow;
+		 	font-weight: 200;
+
+		 }
+
+		 nav {
+
+ 		 }
+
+		p { 
+			margin-top: 0px;
+			border-radius: 5px;
+			padding: 2% 2% 5% 2%;
+			background-color: white;
+			font-size: 1.3em;
+			line-height: 2em;
+			color: #242424;
+			font-family: sans-serif;
+			box-shadow: 1px 1px 5px black;
+		 }
+
+		li.menu{
+			border-top: 1px solid #992705;
+			border-right: 1px solid #992705;
+			border-bottom: 1px solid #992705;
+			border-left: 1px solid #992705;
+		 	display: inline;
+		 	text-align: center;
+		 	font-size: 1.1em;
+			border-radius: 0px;
+			padding: 1%;
+			margin: 30px 20px 20px 20px;
+			font-family: heaters, monospace;
+		 }
+
+		li.menu:hover {
+			background-color: #992705;
+		 	font-size: 1.15em;
+		 	border-radius: 5%;
+		 	color: white;
+		 }
+
+		li.tiposDpaletas {
+			display: none;
+		 }
+
+ 		li.obs {
+			display: inline-block;
+ 			text-align: center;
+			width: 94%;
+			height: 40%;
+			margin-bottom: 4px;
+ 			font-size: 1.2em;
+ 			padding: 3% ;
+ 			background-color: rgb(158, 157, 157);
+			color: #000000d0;
+			 
+ 		}
+
+ 		li.obs:hover {
+			background-color: rgba(209, 207, 207, 0.541);
+ 			color: rgb(0, 0, 0);	
+ 			transition: 280ms;		
+ 		}
+
+		abbr {
+			color: #242424;
+			text-decoration: none;
+			text-shadow: 1px 1px 1px #242424;
+		}
+
+ 		input#Bpesq{
+ 			margin-top: 7%;
+ 		 	margin-left: 2px;
+ 		 }
+
+ 		input#pesq {
+ 			margin-top: 7%;
+ 			display: inline-block;
+ 		}
+
+		footer {
+			margin-bottom: -3px;
+			background-color: rgba(120, 120, 120, 0.5);
+			padding-top: 5%;
+			padding-bottom: 2%;
+			font-size: 1.2em;
+			text-align: center;
+		 	border-top: 2px solid rgba(80, 80, 80, 0.9);
+		 	box-shadow: 1px 1px 10px rgba(120, 120, 120, 0.9);
+		     }
+
+		 	ul {
+			 display: inline-flex;
+		     }
+
+		 	li {
+			 list-style-type: none;
+			 margin-right: 20px;
+			 }
+
+			a {	
+				color: black;
+				text-decoration-line: none;
+			}
+
+			a:hover {
+				color: white;
+			}
+
+			img.social { /*REDES SOCIAIS*/
+				text-align: left;
+				display: inline-block;
+				margin-top: 0px;
+			}
+		 	
 	</style>
 </head>
 <body>
@@ -22,13 +214,7 @@
 
 			<nav>
 				<ul id="menu">
-
-					<abbr title="desculpe, a opção selecionada não está disponivél nesse página web. volte para a nossa página inicial [BOTÃO 'HOME'] para acessa tal opção."><li class="tiposDpaletas"> MONOCROMÁTICA </li></abbr>
-
-					<abbr title="desculpe, a opção selecionada não está disponivél nesse página web. volte para a nossa página inicial [BOTÃO 'HOME'] para acessa tal opção."><li class="tiposDpaletas"> TRÍADE </li></abbr>
-
-					<abbr title="desculpe, a opção selecionada não está disponivél nesse página web. volte para a nossa página inicial [BOTÃO 'HOME'] para acessa tal opção."><li class="tiposDpaletas"> COMPLEMENTAR </li></abbr>
-
+					
 				 	<li class="menu">
 				 		<a class="menu" href="ajuda.html"><nobr>PRECISA DE AJUDA?</nobr></a></li>
 
@@ -38,17 +224,61 @@
 					<li class="menu">
 						<a class="menu" href="index.html">HOME</a></li>
 
-					<input type="text" id="pesq" placeholder="Pesquisar"> <input type="button" id="Bpesq" value="Pesquisar" onclick="pesquisar()">
+					<div id="pesquisar"><input list="sugestaodpesquisa" type="list" id="pesq" placeholder="Pesquisar"> <input type="button" id="Bpesq" value="Pesquisar" onclick="pesquisar()">
+						<datalist id="sugestaodpesquisa">
+							<option value="Sobre o LYC">
+							<option value="licença">
+							<option value="Fale conosco">
+							<option value="Redes sociais">
+							<option value="Ajuda">
+						</datalist>
+					</div>
+
 			    </ul>
 		 	 </nav>
-			
-
 	 </header>
 	 <section id="conteudo">
-		<p>Olá, Seja bem vindo ao Lorem ipsum Color!</p>
-		<p></p>
-	 </section>	 
-	<footer>
+	 <div id="h2"><h2>Olá, Seja bem vindo ao<br> Sobre mim do <br>LYC!</h2></div>
+
+	 <h3> lorem lorem lorem...</h3>
+	 <p>
+	 	vamos de Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	 	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	 	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	 	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	 	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	 </p>
+	 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	 proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	 <h4> ipsum ipsum e ipsum...</h4>
+	 <ul>
+	 	<li>lo</li>
+	 	<li>rem</li>
+	 	<li>ip</li>
+	 	<li>sum</li>
+	 </ul>
+	 
+	 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	 </section>
+
+
+<footer>
 	 <ul>
 		 <li><a href="http://instagram.com/ysh_rael" target="_blank"><img src="imagens/instagram-mark.png" class="social"> @ysh_rael</a></li>
 
@@ -56,7 +286,7 @@
 
 		<li><img src="imagens/gmail-mark.png" class="social"> ysp.rael@gmail.com</li>
 	 </ul>
-	 <p>Direitos Reservados &copy;Ysh-rael</p>
+	 	<br>Direitos Reservados &copy;Ysh-rael
  	 </footer>
 <script type="text/javascript" src="main.js"></script>
 <script type="text/javascript">

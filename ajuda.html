@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Precisando de Ajuda?</title>
+	<title>LYC | Precisando de Ajuda?</title>
 	<style type="text/css">
 	 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
 
@@ -41,7 +41,7 @@
 			display: inline;
 		}
 
-		div#pesq {
+		div#pesquisar {
 			display: inline-block;
 		}
 
@@ -105,8 +105,8 @@
 			background-color: white;
 			font-size: 1.3em;
 			line-height: 2em;
-			color: black;
-			font-family:cursive;
+			color: #242424;
+			font-family: sans-serif;
 			box-shadow: 1px 1px 5px black;
 		 }
 
@@ -117,7 +117,7 @@
 			border-left: 1px solid #992705;
 		 	display: inline;
 		 	text-align: center;
-		 	font-size: 0.8em;
+		 	font-size: 1.1em;
 			border-radius: 0px;
 			padding: 1%;
 			margin: 30px 20px 20px 20px;
@@ -126,7 +126,7 @@
 
 		li.menu:hover {
 			background-color: #992705;
-		 	font-size: 0.8em;
+		 	font-size: 1.15em;
 		 	border-radius: 5%;
 		 	color: white;
 		 }
@@ -135,21 +135,30 @@
 			display: none;
 		 }
 
- 		ul#obs { display:block;
- 			margin: auto;
- 		}
-
  		li.obs {
- 			display: inline-block;
+			display: inline-block;
+ 			text-align: center;
+			width: 94%;
+			height: 40%;
+			margin-bottom: 4px;
  			font-size: 1.2em;
- 			padding: 5px;
- 			background-color: gray;
+ 			padding: 3% ;
+ 			background-color: rgb(158, 157, 157);
+			color: #000000d0;
+			 
  		}
 
  		li.obs:hover {
- 			color: white;	
+			background-color: rgba(209, 207, 207, 0.541);
+ 			color: rgb(0, 0, 0);	
  			transition: 280ms;		
  		}
+
+		abbr {
+			color: #242424;
+			text-decoration: none;
+			text-shadow: 1px 1px 1px #242424;
+		}
 
  		input#Bpesq{
  			margin-top: 7%;
@@ -163,13 +172,13 @@
 
 		footer {
 			margin-bottom: -3px;
-			background-color: #992705;
+			background-color: rgba(120, 120, 120, 0.5);
 			padding-top: 5%;
 			padding-bottom: 2%;
 			font-size: 1.2em;
 			text-align: center;
-		 	border-top: 2px solid black;
-		 	box-shadow: 1px 1px 10px black;
+		 	border-top: 2px solid rgba(80, 80, 80, 0.9);
+		 	box-shadow: 1px 1px 10px rgba(120, 120, 120, 0.9);
 		     }
 
 		 	ul {
@@ -195,7 +204,7 @@
 				display: inline-block;
 				margin-top: 0px;
 			}
-		 }	
+		 	
 	</style>
 </head>
 <body>
@@ -205,13 +214,7 @@
 
 			<nav>
 				<ul id="menu">
-					<abbr title="desculpe, a opção selecionada não está disponivél nesse página web. volte para a nossa página inicial [BOTÃO 'HOME'] para acessa tal opção."><li class="tiposDpaletas"> MONOCROMÁTICA </li></abbr>
-
-					<abbr title="desculpe, a opção selecionada não está disponivél nesse página web. volte para a nossa página inicial [BOTÃO 'HOME'] para acessa tal opção."><li class="tiposDpaletas"> TRÍADE </li></abbr>
-
-					<abbr title="desculpe, a opção selecionada não está disponivél nesse página web. volte para a nossa página inicial [BOTÃO 'HOME'] para acessa tal opção."><li class="tiposDpaletas"> COMPLEMENTAR </li></abbr>
-			
-
+					
 				 	<li class="menu">
 				 		<a class="menu" href="ajuda.html"><nobr>PRECISA DE AJUDA?</nobr></a></li>
 
@@ -221,14 +224,22 @@
 					<li class="menu">
 						<a class="menu" href="index.html">HOME</a></li>
 
-					<div id="pesq"><input type="text" id="pesq" placeholder="Pesquisar"> <input type="button" id="Bpesq" value="Pesquisar" onclick="pesquisar()"></div>
+					<div id="pesquisar"><input list="sugestaodpesquisa" type="list" id="pesq" placeholder="Pesquisar"> <input type="button" id="Bpesq" value="Pesquisar" onclick="pesquisar()">
+						<datalist id="sugestaodpesquisa">
+							<option value="Sobre o LYC">
+							<option value="licença">
+							<option value="Fale conosco">
+							<option value="Redes sociais">
+							<option value="Ajuda">
+						</datalist>
+					</div>
 
 			    </ul>
 		 	 </nav>
 	 </header>
 
 	<section id="conteudo">
-		<div id="h2"><h2>Olá, Seja bem vindo ao<br> LYC!</h2></div>
+		<div id="h2"><h2>Olá, Seja bem vindo ao<br> Preciso de Ajuda do <br>LYC!</h2></div>
 			<h3>O que é o Lorem ipsum Color?</h3>
 		<p>
 			O Lorem ipsum Color (LYC) é uma página criada do zero com a finalidade de estudo e conhecimento, tanto para o usuário com o seu conteúdo sobre cores, com uma demonstração prática do aplicamento delas nas páginas de web-sites tanto quanto para o desenvolverdor <abbr title="termo usado para desenvolvedores que trabalham com linguagens de marcação/progamação que rodam ao lado do cliente">front-end</abbr> na criação e desenvolvimento do mesmo pondo em prática os conhecimentos adquiridos e pesquisando novas soluções a medida que novos problemas surgem.<br>
@@ -246,23 +257,25 @@
 			<h4>Quem é você?</h4>
 				
 				<p> <img src="cadastro.png">  um simples formulário de casdastro ondem posibilita uma interatividade com o usuário com campos em que o mesmo  pode(ou não) preencher com dados fictícios não precisando se preocupar com os dados  inseridos pois eles são apenas para demonstração e não ficará vinculado a você nem  serão usados, nem  salvos para  nenhum tipo de utilizão sem prévio avisa e concentimento do usuário. <br>
-				<strong>Atenção:</strong>
+				<strong><sub style="margin-bottom: -5px;">Atenção:</sub></strong>
 				</p>
 				
-					<ul id="obs">
-						<li class="obs">
-							o formulário é ficticio e não está vinculado a nenhum outro site.
-						</li>
+						<ul#obs>
+							<li class="obs">
+								o formulário é ficticio e não está vinculado a nenhum outro site.
+							</li>
 
-						<li class="obs"> Os dados inssiridos são apenas paraa interação ee diverção do usuário não tendo nenhum proposito espercífico nem nenhuma utilização posterior.
-						</li>
-						<li class="obs">
-							<strong>Não adicione</strong> Senha verdadeiras como de seu cartão de credito ou Senhas vinculadas a suas contas pessoais - Não nos responsabilizamos pelo uso indeviddo de terceiro.
-						</li>
-						<li class="obs"> a internet é um campo muito vasto e com muitas pessoas mal intecionadas prontas para tirar proveito do próximo.
-						Lembre: Enquanto naveegar na internet, TODO CUIDADO É POUCO.
-						</li>
-					</ul>
+							<li class="obs"> Os dados inssiridos são apenas para interação ee diverção do usuário não tendo nenhum proposito espercífico nem nenhuma utilização posterior.
+							</li>
+
+							<li class="obs">
+								<strong>Não adicione</strong> Senha verdadeiras como de seu cartão de credito ou Senhas vinculadas a suas contas pessoais - Não nos responsabilizamos pelo uso indeviddo de terceiro.
+							</li>
+							
+							<li class="obs"> a internet é um campo muito vasto e com muitas pessoas mal intecionadas prontas para tirar proveito do próximo.
+							Lembre: Enquanto naveegar na internet, TODO CUIDADO É POUCO.
+							</li>
+						</ul>
 				
 
 			<h4>Paletas de Cores</h4>

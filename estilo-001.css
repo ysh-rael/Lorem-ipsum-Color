@@ -29,14 +29,22 @@
 	font-family: arial, sans-seref;
  }
 
-body { /*gradient-cor1*/
+body {
  	margin: 10px 10px 0px 10px;
  	font-family: arial, sans-seref;
 	marker: auto;
-	background-image: linear-gradient(to bottom, #6058D1 , #6058D1);
+	background-image: linear-gradient(to bottom, #E3B692 50%, #dda77a);
 	}
 
  
+div#sobrecores {
+	display: block;
+	width: 95%;
+	height: 50%;
+	margin: auto;
+	border: 2px solid red; 
+}
+
 header {
 	
  }
@@ -45,7 +53,7 @@ header {
 	font-size: 2.5em;
 	font-family: heaters, monospace;
 	color: white;
-	border-bottom:2px solid #3D3885; /*cor 2(mesma cor do padding menu*/
+	border-bottom:2px solid #5E3C20;
 	padding-top: 10px;
 	margin-bottom: -15px;
 	text-shadow: 1px 1px 1px black;
@@ -55,7 +63,7 @@ header {
 	font-size: 2.5em;
 	font-family: 'Amatic SC', cursive;
 	color: white;
-	border-bottom:2px solid #3D3885; /*cor2*/
+	border-bottom:2px solid #5E3C20;
 	margin-bottom: -15px;
 	margin-top:0px;
 	padding-top: 3.5%;
@@ -65,12 +73,12 @@ header {
 
  }
 
- ul#sobrecores {
+ ul#menu {
  	display: block;
- 	background-color: #3D3885; /*cor2*/
+ 	background-color: #5E4C3C;
  	padding-left: 10px;
- 	padding-bottom: 15px;
- 	box-shadow: 1px 3px 15px #3D3885; /*cor2*/
+ 	padding-bottom: 10px;
+ 	box-shadow: 1px 3px 15px #5E3C20;
  }
 
 
@@ -99,7 +107,6 @@ header {
  }
 
  li.menu:hover {
-    text-decoration:underline;
  	font-size: 0.9em;
  	color: white;
  }
@@ -153,7 +160,7 @@ input[type='radio']:checked:after {
     top: -2px;
     left: -1px;
     position: relative;
-    background-color: #272456;
+    background-color: #AC6E3B;
     content: '';
     display: inline-block;
     visibility: visible;
@@ -202,7 +209,7 @@ select:hover {
 
 option {
 	color: black;
-	background-color: rgba(113, 110, 153, 0.5); /*cor3* 0.5/*/
+	background-color: #E3B692;
 	
  }
 
@@ -228,25 +235,21 @@ input.senha:hover {
  }
 
 input#confir {
-    margin-left: 70%;
+	
 	margin-bottom: 0px;
-	background-color: #3D3885; /*cor2*/
-	border-radius: 15px;
-    border-bottom-color:#605e81;
-    border-left-color: #524f7e;
-    border-right-color: #3D3885 ;
-    border-top-color: #5f5c80;
+	background-color: #5E3C20;
+	border-radius: 5px;
  }
 
 input#confir:hover {
-	color: #000000;
-	background-color: #646095; /*cor2 mais clara*/
+	color: snow;
+	background-color: #5E4C3C;
 	border-radius: 5px;
  }
 
 section {
 	display: inline-block;
-}
+ }
 
 section#conteudo {
 	float: left;
@@ -261,6 +264,7 @@ section#conteudo {
 	text-align: justify; 
  }
 
+
 aside {
 	display: inline-block;
  }
@@ -272,7 +276,7 @@ div#cad {
 	text-align: left;
 	width: 90%;
 	border-radius: 10px;
-	background-image: linear-gradient(to bottom, #38328b, #716E99); /*cor3*/
+	background-image: linear-gradient(to bottom, #df7f30, #DE8D4B);
 	padding: 5%;
 	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.671);
  }
@@ -302,7 +306,7 @@ footer {
 	font-size: 0.9em;
 	text-align: center;
 	margin-top: 20px;
- 	border-top: 2px solid #3D3885;/*cor2*/
+ 	border-top: 2px solid #5E3C20;
  }
 
  	ul {

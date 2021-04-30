@@ -41,7 +41,7 @@ header {
 	
  }
 
- h1 {
+h1 {
 	font-size: 2.5em;
 	font-family: heaters, monospace;
 	color: white;
@@ -51,7 +51,7 @@ header {
 	text-shadow: 1px 1px 1px black;
  }
 
- h2 {
+h2 {
 	font-size: 2.5em;
 	font-family: 'Amatic SC', cursive;
 	color: white;
@@ -65,7 +65,7 @@ header {
 
  }
 
- ul#menu {
+ul#sobrecores {
  	display: block;
  	background-color: #3C6C85; /*cor2*/
  	padding-left: 10px;
