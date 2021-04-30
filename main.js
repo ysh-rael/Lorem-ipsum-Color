@@ -137,18 +137,18 @@ function confirmar() {
  var conteudo = window.document.getElementById('conteudo')
 
  function monocromatico() {
-	conteudo.innerHTML = `<P><img src="imagens/monocromatica.png"> <h3>Monocromática</h3>
+	conteudo.innerHTML = `<P><img src="imagens/monocromatica.png"> <h4>Monocromática</h4>
 
  <strong>Cores monocromáticas</strong> são todas as cores de uma única tonalidade. Os esquemas de cores monocromáticos são derivados de uma única tonalidade base e estendidos usando suas tonalidades, tons e matizes. Os tons são alcançados adicionando branco e os tons e tons adicionando uma cor mais escura, cinza ou preto.</p>`
  }
 
  function triade() {
-	conteudo.innerHTML = `<p><img src="imagens/triade.png"> <h3>tríade</h3>
+	conteudo.innerHTML = `<p><img src="imagens/triade.png"> <h4>tríade</h4>
  As cores tríades são formadas por 3 cores que estão equidistantes no círculo cromático. Ou seja, se encontram exatamente na mesma distância dentro da roda de tonalidades. ... Assim, como as cores análogas e complementares, as tríades também são combinações harmonicamente perfeitas.</p>`
  }
 
  function complementar() {
-	conteudo.innerHTML = `<p><img src="imagens/complementar.png"> <h3>complementar</h3>
+	conteudo.innerHTML = `<p><img src="imagens/complementar.png"> <h4>complementar</h4>
  Cores Complementares são aquelas que mais oferecem contraste entre si. De acordo com a definição de Michel Eugene Chevreul, no século XIX, a cor complementar de uma matriz é aquela que mais absorve seu espectro.</p>`
  }
 
