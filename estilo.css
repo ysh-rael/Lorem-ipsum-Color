@@ -135,7 +135,11 @@ h3 {
  }
 
 ul#sobrecores {
-
+ 	display: block;
+ 	background-color: #3C6C85; /*cor2*/
+ 	padding-left: 10px;
+ 	padding-bottom: 15px;
+ 	box-shadow: 1px 3px 15px rgba(60, 108, 133, 0.99);
  }
 
 /*INICIO QUEM É VOCÊ?*/

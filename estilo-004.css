@@ -24,34 +24,119 @@
 	src:'fonts/Heaters.otf';
  }
 
-* {
-
-	font-family: arial, sans-seref;
+body {
+	margin-top: -20px;
+	background-color: #738C99;
+	background-image: url(.jpg);
  }
-
-body { /*gradient-cor1*/
- 	margin: 10px 10px 0px 10px;
- 	font-family: arial, sans-seref;
-	marker: auto;
-	background-image: linear-gradient(to bottom, #4D4D4D , #6d6d6d);
-	}
-
  
 header {
-	
+			padding-right: 5%;
+		 	padding-left: 5%;
+			text-align: center;
+			background-color: #992705;
+			margin-top: 0px;
+ 			display: block;
+ 
+ 			box-shadow: 1px 1px 10px black;
+		 }
+
+h1 {
+	margin-top: 30px;		 	
+	padding-top: 4%;
+	font-size: 4em;
+	font-family: monospace;
+	font-family: 'Amatic SC', cursive;
  }
 
- h1 {
-	font-size: 2.5em;
-	font-family: heaters, monospace;
-	color: white;
-	border-bottom:2px solid #000000; /*cor 2(mesma cor do padding menu*/
-	padding-top: 10px;
-	margin-bottom: -15px;
-	text-shadow: 1px 1px 1px black;
+/*MENU DE NAVEGAÇÃO*/
+
+ul#menu {
+		 	display: inline-block;
+		 	background-color: #992705;
+		 	padding-left: 0px;
+		 	/*padding-left: 10px;
+		 	padding-bottom: 10px*/;
+		 }
+
+li.menu{
+			border-top: 1px solid #992705;
+			border-right: 1px solid #992705;
+			border-bottom: 1px solid #992705;
+			border-left: 1px solid #992705;
+		 	display: inline;
+		 	text-align: center;
+		 	font-size: 1.1em;
+			border-radius: 0px;
+			padding: 1%;
+			margin: 30px 20px 20px 20px;
+			font-family: heaters, monospace;
+		 }
+
+li.menu:hover {
+			background-color: #992705;
+		 	font-size: 1.15em;
+		 	border-radius: 5%;
+		 	color: white;
+		 }
+
+div#pesquisar {
+	display: inline-block;
  }
 
- h2 {
+input#Bpesq{
+ 			margin-top: 7%;
+ 		 	margin-left: 2px;
+ 		 }
+
+input#pesq {
+ 	margin-top: 7%;
+ 	display: inline-block;
+ }
+
+
+
+/*DIV COM 'BEM VINDO AO LYC'*/
+div#bvindo {
+		  font-size: 5em;
+		  font-weight: bold;
+		  text-align: center;
+		  /* fundo gradiente */
+		  background-image: linear-gradient(#000000, #001fff, #8406d6, #000000);
+		  /* agora colocamos o fundo gradiente dentro do texto com essa propriedade */
+		  background-clip: text;
+		  -webkit-background-clip: text;
+		  /* a cor do texto deve estar como transparent */
+		  color: transparent;		 	
+		  margin: 0px 0px 100px 0px;
+		  font-family: 'Amatic SC', cursive;
+
+		 }
+
+/*INICIO SOBRE CORES*/
+div#sobrecores {
+	display: block;
+	width: 95%;
+	height: 50%;
+	margin: auto;
+	padding: 5px;
+	border: 2px solid blue; 
+	background-color: red;
+ }
+
+div#cad {
+	display: inline-block;
+	font-size: 1em;
+	color: #e8e8e8;
+	text-align: left;
+	width: 90%;
+	border-radius: 10px;
+	background-image: linear-gradient(to bottom, #333333, #333333); /*cor3*/
+	padding: 5%;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.671);
+ }
+
+h3 {
 	font-size: 2.5em;
 	font-family: 'Amatic SC', cursive;
 	color: white;
@@ -61,11 +146,8 @@ header {
 	padding-top: 3.5%;
  }
 
- nav {
 
- }
-
- ul#sobrecores {
+ul#sobrecores {
  	display: block;
  	background-color: #000000; /*cor2*/
  	padding-left: 10px;
@@ -82,27 +164,12 @@ header {
 	font-family: heaters, monospace;
  }
 
- li.menu{
- 	display: inline;
- 	text-align: right;
- 	font-size: 0.8em;
- 	margin-top: 0px;
-	border-radius: 0px;
-	padding: 30px 6px 4px 6px;
-	margin-right: 7px;
-	font-family: heaters, monospace;
- }
 
  li.tiposDpaletas:hover {
  	font-size: 0.9em;
  	color: white;
  }
 
- li.menu:hover {
-    text-decoration:underline;
- 	font-size: 0.9em;
- 	color: white;
- }
 
  input.cor {
     color: #bfbfbf;
@@ -275,17 +342,7 @@ aside {
 	display: inline-block;
  }
 
-div#cad {
-	display: inline-block;
-	font-size: 1em;
-	color: #e8e8e8;
-	text-align: left;
-	width: 90%;
-	border-radius: 10px;
-	background-image: linear-gradient(to bottom, #333333, #333333); /*cor3*/
-	padding: 5%;
-	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.671);
- }
+
 
 div.palletcolor {
  	margin: auto;
@@ -309,33 +366,37 @@ div.palletcolor {
  }
 
 footer {
-	font-size: 0.9em;
-	text-align: center;
-	margin-top: 20px;
- 	border-top: 2px solid #000000;/*cor2*/
- }
+			margin-top: 3%;
+			margin-bottom: -3px;
+			background-color: rgba(120, 120, 120, 0.5);
+			padding-top: 5%;
+			padding-bottom: 2%;
+			font-size: 1.2em;
+			text-align: center;
+		 	border-top: 2px solid rgba(80, 80, 80, 0.9);
+		 	box-shadow: 1px 1px 10px rgba(120, 120, 120, 0.9);
+		     }
 
- 	ul {
- 	
-	 display: inline-flex;
-     }
+		 	ul {
+			 display: inline-flex;
+		     }
 
- 	li {
-	 list-style-type: none;
-	 margin-right: 20px;
-	 }
+		 	li {
+			 list-style-type: none;
+			 margin-right: 20px;
+			 }
 
-	a {	
-		color: black;
-		text-decoration-line: none;
-	}
+			a {	
+				color: black;
+				text-decoration-line: none;
+			}
 
-	a:hover {
-		color: white;
-	}
+			a:hover {
+				color: white;
+			}
 
-	img.social { /*REDES SOCIAIS*/
-		text-align: left;
-		display: inline-block;
-		margin-top: 0px;
-	}
+			img.social { /*REDES SOCIAIS*/
+				text-align: left;
+				display: inline-block;
+				margin-top: 0px;
+			}

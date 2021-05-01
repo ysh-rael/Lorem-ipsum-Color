@@ -15,6 +15,10 @@
  #4D4D4D		#000000		#333333		#474747		#A3A3A3
  */
 
+
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
 @font-face {
@@ -24,42 +28,117 @@
 	src:'fonts/Heaters.otf';
  }
 
-* {
+body {
+	margin-top: -20px;
+	background-color: #738C99;
+	background-image: url(.jpg);
+ }
+ 
+header {
+			padding-right: 5%;
+		 	padding-left: 5%;
+			text-align: center;
+			background-color: #992705;
+			margin-top: 0px;
+ 			display: block;
+ 
+ 			box-shadow: 1px 1px 10px black;
+		 }
 
-	font-family: arial, sans-seref;
+h1 {
+	margin-top: 30px;		 	
+	padding-top: 4%;
+	font-size: 4em;
+	font-family: monospace;
+	font-family: 'Amatic SC', cursive;
  }
 
-body {
- 	margin: 10px 10px 0px 10px;
- 	font-family: arial, sans-seref;
-	marker: auto;
-	background-image: linear-gradient(to bottom, #E3B692 50%, #dda77a);
-	}
+/*MENU DE NAVEGAÇÃO*/
 
- 
+ul#menu {
+		 	display: inline-block;
+		 	background-color: #992705;
+		 	padding-left: 0px;
+		 	/*padding-left: 10px;
+		 	padding-bottom: 10px*/;
+		 }
+
+li.menu{
+			border-top: 1px solid #992705;
+			border-right: 1px solid #992705;
+			border-bottom: 1px solid #992705;
+			border-left: 1px solid #992705;
+		 	display: inline;
+		 	text-align: center;
+		 	font-size: 1.1em;
+			border-radius: 0px;
+			padding: 1%;
+			margin: 30px 20px 20px 20px;
+			font-family: heaters, monospace;
+		 }
+
+li.menu:hover {
+			background-color: #992705;
+		 	font-size: 1.15em;
+		 	border-radius: 5%;
+		 	color: white;
+		 }
+
+div#pesquisar {
+	display: inline-block;
+ }
+
+input#Bpesq{
+ 			margin-top: 7%;
+ 		 	margin-left: 2px;
+ 		 }
+
+input#pesq {
+ 	margin-top: 7%;
+ 	display: inline-block;
+ }
+
+
+
+/*DIV COM 'BEM VINDO AO LYC'*/
+div#bvindo {
+		  font-size: 5em;
+		  font-weight: bold;
+		  text-align: center;
+		  /* fundo gradiente */
+		  background-image: linear-gradient(#000000, #001fff, #8406d6, #000000);
+		  /* agora colocamos o fundo gradiente dentro do texto com essa propriedade */
+		  background-clip: text;
+		  -webkit-background-clip: text;
+		  /* a cor do texto deve estar como transparent */
+		  color: transparent;		 	
+		  margin: 0px 0px 100px 0px;
+		  font-family: 'Amatic SC', cursive;
+
+		 }
+
+
+/*INICIO SOBRE CORES*/
 div#sobrecores {
 	display: block;
 	width: 95%;
 	height: 50%;
 	margin: auto;
-	border: 2px solid red; 
-}
-
-header {
-	
+	padding: 5px;
+	border: 2px solid blue; 
+	background-color: red;
  }
 
- h1 {
-	font-size: 2.5em;
-	font-family: heaters, monospace;
-	color: white;
-	border-bottom:2px solid #5E3C20;
-	padding-top: 10px;
-	margin-bottom: -15px;
-	text-shadow: 1px 1px 1px black;
+ul#sobrecores {
+ 	display: block;
+ 	background-color: #3C6C85; /*cor2*/
+ 	padding-left: 10px;
+ 	padding-bottom: 15px;
+ 	box-shadow: 1px 3px 15px rgba(60, 108, 133, 0.99);
  }
 
- h2 {
+
+ h3 {
 	font-size: 2.5em;
 	font-family: 'Amatic SC', cursive;
 	color: white;
@@ -69,59 +148,17 @@ header {
 	padding-top: 3.5%;
  }
 
- nav {
 
- }
-
- ul#menu {
- 	display: block;
- 	background-color: #5E4C3C;
- 	padding-left: 10px;
- 	padding-bottom: 10px;
- 	box-shadow: 1px 3px 15px #5E3C20;
- }
-
-
- li.tiposDpaletas {
- 	font-size: 0.8em;
- 	display: inline-block;
- 	border-radius: 0px;
-	padding: 20px 10px 20px 0px;
-	font-family: heaters, monospace;
- }
-
- li.menu{
- 	display: inline;
- 	text-align: right;
- 	font-size: 0.8em;
- 	margin-top: 0px;
-	border-radius: 0px;
-	padding: 30px 6px 4px 6px;
-	margin-right: 7px;
-	font-family: heaters, monospace;
- }
-
- li.tiposDpaletas:hover {
- 	font-size: 0.9em;
- 	color: white;
- }
-
- li.menu:hover {
- 	font-size: 0.9em;
- 	color: white;
- }
-
- input.cor {
- 	background-color: transparent;
- 	border-bottom: none;
- 	border-top: none;
- 	border-left: none;
- 	border-right: none;
- }
-
- input.cor:hover{
- 	font-size: 0.9em;
- 	color: white;
+div#cad {
+	display: inline-block;
+	font-size: 1em;
+	color: rgb(20, 20, 20);
+	text-align: left;
+	width: 90%;
+	border-radius: 10px;
+	background-image: linear-gradient(to bottom, #df7f30, #DE8D4B);
+	padding: 5%;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.671);
  }
 
 input#txtn {
@@ -247,6 +284,8 @@ input#confir:hover {
 	border-radius: 5px;
  }
 
+/*FIM --- QUEM É VOCÊ?*/
+
 section {
 	display: inline-block;
  }
@@ -264,24 +303,12 @@ section#conteudo {
 	text-align: justify; 
  }
 
-
+/* OPÇÕES DE PALETAS DE CORES*/
 aside {
 	display: inline-block;
  }
 
-div#cad {
-	display: inline-block;
-	font-size: 1em;
-	color: rgb(20, 20, 20);
-	text-align: left;
-	width: 90%;
-	border-radius: 10px;
-	background-image: linear-gradient(to bottom, #df7f30, #DE8D4B);
-	padding: 5%;
-	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.671);
- }
-
-div.palletcolor {
+ div.palletcolor {
  	margin: auto;
  	display: inline;
  	margin-top: 20px;
@@ -302,34 +329,67 @@ div.palletcolor {
  	font-family: heaters, monospace;
  }
 
-footer {
-	font-size: 0.9em;
-	text-align: center;
-	margin-top: 20px;
- 	border-top: 2px solid #5E3C20;
+  li.tiposDpaletas {
+ 	font-size: 0.8em;
+ 	display: inline-block;
+ 	border-radius: 0px;
+	padding: 20px 10px 20px 0px;
+	font-family: heaters, monospace;
  }
 
- 	ul {
- 	
-	 display: inline-flex;
-     }
 
- 	li {
-	 list-style-type: none;
-	 margin-right: 20px;
-	 }
+ li.tiposDpaletas:hover {
+ 	font-size: 0.9em;
+ 	color: white;
+ }
 
-	a {	
-		color: black;
-		text-decoration-line: none;
-	}
 
-	a:hover {
-		color: white;
-	}
+ input.cor {
+ 	background-color: transparent;
+ 	border-bottom: none;
+ 	border-top: none;
+ 	border-left: none;
+ 	border-right: none;
+ }
 
-	img.social { /*REDES SOCIAIS*/
-		text-align: left;
-		display: inline-block;
-		margin-top: 0px;
-	}
+ input.cor:hover{
+ 	font-size: 0.9em;
+ 	color: white;
+ }
+
+
+footer {
+			margin-top: 3%;
+			margin-bottom: -3px;
+			background-color: rgba(120, 120, 120, 0.5);
+			padding-top: 5%;
+			padding-bottom: 2%;
+			font-size: 1.2em;
+			text-align: center;
+		 	border-top: 2px solid rgba(80, 80, 80, 0.9);
+		 	box-shadow: 1px 1px 10px rgba(120, 120, 120, 0.9);
+		     }
+
+		 	ul {
+			 display: inline-flex;
+		     }
+
+		 	li {
+			 list-style-type: none;
+			 margin-right: 20px;
+			 }
+
+			a {	
+				color: black;
+				text-decoration-line: none;
+			}
+
+			a:hover {
+				color: white;
+			}
+
+			img.social { /*REDES SOCIAIS*/
+				text-align: left;
+				display: inline-block;
+				margin-top: 0px;
+			}
