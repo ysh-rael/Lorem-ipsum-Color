@@ -27,8 +27,7 @@
 
 body {
 	margin-top: -20px;
-	background-color: #738C99;
-	background-image: url(.jpg);
+	background-color:  rgb(190, 190, 190);
  }
  
 header {
@@ -53,48 +52,47 @@ h1 {
 /*MENU DE NAVEGAÇÃO*/
 
 ul#menu {
-		 	display: inline-block;
-		 	background-color: #992705;
-		 	padding-left: 0px;
-		 	/*padding-left: 10px;
-		 	padding-bottom: 10px*/;
-		 }
+	display: inline-block;
+	background-color: #992705;
+	padding-left: 0px;
+	/*padding-left: 10px;
+	padding-bottom: 10px*/;
+}
 
 li.menu{
-			border-top: 1px solid #992705;
-			border-right: 1px solid #992705;
-			border-bottom: 1px solid #992705;
-			border-left: 1px solid #992705;
-		 	display: inline;
-		 	text-align: center;
-		 	font-size: 1.1em;
-			border-radius: 0px;
-			padding: 1%;
-			margin: 30px 20px 20px 20px;
-			font-family: heaters, monospace;
-		 }
+   border-top: 1px solid #992705;
+   border-right: 1px solid #992705;
+   border-bottom: 1px solid #992705;
+   border-left: 1px solid #992705;
+	display: inline;
+	text-align: center;
+	font-size: 1.1em;
+   border-radius: 0px;
+   padding: 1%;
+   margin: 30px 20px 20px 20px;
+   font-family: heaters, monospace;
+}
 
 li.menu:hover {
-			background-color: #992705;
-		 	font-size: 1.15em;
-		 	border-radius: 5%;
-		 	color: white;
-		 }
+   background-color: #992705;
+	font-size: 1.15em;
+	border-radius: 5%;
+	color: white;
+}
 
 div#pesquisar {
-	display: inline-block;
- }
+display: inline-block;
+}
 
 input#Bpesq{
- 			margin-top: 7%;
- 		 	margin-left: 2px;
- 		 }
-
-input#pesq {
- 	margin-top: 7%;
- 	display: inline-block;
+	margin-top: 7%;
+	 margin-left: 2px;
  }
 
+input#pesq {
+margin-top: 7%;
+display: inline-block;
+}
 
 
 /*DIV COM 'BEM VINDO AO LYC'*/
@@ -128,17 +126,17 @@ h3 {
 /*INICIO SOBRE CORES*/
 div#sobrecores {
 	display: block;
-	width: 95%;
+	width: 99%;
 	height: 50%;
 	margin: auto;
 	padding: 5px;
-	border: 2px solid blue; 
-	background-color: red;
+	border: 2px solid rgb(153, 153, 153); 
+	background-color: #738C99;
  }
 
 ul#sobrecores {
  	display: block;
- 	background-color: #3C6C85; /*cor2*/
+ 	background-color: #233e4d; /*cor2*/
  	padding-left: 10px;
  	padding-bottom: 15px;
  	box-shadow: 1px 3px 15px rgba(60, 108, 133, 0.99);
@@ -176,6 +174,7 @@ li.menu:hover {
  }
 
 input.cor {
+	color: rgb(212, 212, 212);
  	background-color: transparent;
  	border-bottom: none;
  	border-top: none;
@@ -373,38 +372,37 @@ div.palletcolor {
  	font-family: heaters, monospace;
  }
 
-footer {
-			margin-top: 3%;
-			margin-bottom: -3px;
-			background-color: rgba(120, 120, 120, 0.5);
-			padding-top: 5%;
-			padding-bottom: 2%;
-			font-size: 1.2em;
-			text-align: center;
-		 	border-top: 2px solid rgba(80, 80, 80, 0.9);
-		 	box-shadow: 1px 1px 10px rgba(120, 120, 120, 0.9);
-		     }
+ footer {
+	margin-top: 2%;
+	margin-bottom: -3px;
+	background-color: rgb(190, 190, 190);
+	padding-top: 5%;
+	padding-bottom: 2%;
+	font-size: 1.2em;
+	text-align: center;
+	 border-top: 2px solid rgba(80, 80, 80, 0.9);
+	 }
 
-		 	ul {
-			 display: inline-flex;
-		     }
+	 ul {
+	 display: inline-flex;
+	 }
 
-		 	li {
-			 list-style-type: none;
-			 margin-right: 20px;
-			 }
+	 li {
+	 list-style-type: none;
+	 margin-right: 20px;
+	 }
 
-			a {	
-				color: black;
-				text-decoration-line: none;
-			}
+	a {	
+		color: black;
+		text-decoration-line: none;
+	}
 
-			a:hover {
-				color: white;
-			}
+	a:hover {
+		color: white;
+	}
 
-			img.social { /*REDES SOCIAIS*/
-				text-align: left;
-				display: inline-block;
-				margin-top: 0px;
-			}
+	img.social { /*REDES SOCIAIS*/
+		text-align: left;
+		display: inline-block;
+		margin-top: 0px;
+	}

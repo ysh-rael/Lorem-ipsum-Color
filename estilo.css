@@ -25,8 +25,7 @@
 
 body {
 	margin-top: -20px;
-	background-color: #738C99;
-	background-image: url(.jpg);
+	background-color: rgb(190, 190, 190);
  }
  
 header {
@@ -115,12 +114,12 @@ div#bvindo {
 /*INICIO SOBRE CORES*/
 div#sobrecores {
 	display: block;
-	width: 95%;
+	width: 99%;
 	height: 50%;
 	margin: auto;
 	padding: 5px;
-	border: 2px solid blue; 
-	background-color: red;
+	border: 2px solid rgb(153, 153, 153); 
+	background-color: #E3B692;
  }
 
 
@@ -136,10 +135,10 @@ h3 {
 
 ul#sobrecores {
  	display: block;
- 	background-color: #3C6C85; /*cor2*/
+ 	background-color: #412916; /*cor2*/
  	padding-left: 10px;
  	padding-bottom: 15px;
- 	box-shadow: 1px 3px 15px rgba(60, 108, 133, 0.99);
+ 	box-shadow: 1px 3px 15px #412916;
  }
 
 /*INICIO QUEM É VOCÊ?*/
@@ -347,6 +346,7 @@ li.menu:hover {
  }
 
 input.cor {
+	color: rgb(211, 211, 211);
  	background-color: transparent;
  	border-bottom: none;
  	border-top: none;
@@ -368,15 +368,14 @@ p#pc { /*"p" paletas de cores*/
 
 
 footer {
-			margin-top: 3%;
+			margin-top: 2%;
 			margin-bottom: -3px;
-			background-color: rgba(120, 120, 120, 0.5);
+			background-color: rgb(190, 190, 190);
 			padding-top: 5%;
 			padding-bottom: 2%;
 			font-size: 1.2em;
 			text-align: center;
 		 	border-top: 2px solid rgba(80, 80, 80, 0.9);
-		 	box-shadow: 1px 1px 10px rgba(120, 120, 120, 0.9);
 		     }
 
 		 	ul {

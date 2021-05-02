@@ -26,8 +26,7 @@
 
 body {
 	margin-top: -20px;
-	background-color: #738C99;
-	background-image: url(.jpg);
+	background-color: rgb(190, 190, 190);
  }
  
 header {
@@ -116,12 +115,12 @@ div#bvindo {
 /*INICIO SOBRE CORES*/
 div#sobrecores {
 	display: block;
-	width: 95%;
+	width: 99%;
 	height: 50%;
 	margin: auto;
 	padding: 5px;
-	border: 2px solid blue; 
-	background-color: red;
+	border: 2px solid rgb(153, 153, 153); 
+	background-color: #9A97D1;
  }
 
 div#cad {
@@ -148,7 +147,7 @@ h3 {
 
 ul#sobrecores {
  	display: block;
- 	background-color: #3D3885; /*cor2*/
+ 	background-color: #302c66; /*cor2*/
  	padding-left: 10px;
  	padding-bottom: 15px;
  	box-shadow: 1px 3px 15px #3D3885; /*cor2*/
@@ -345,6 +344,7 @@ li.tiposDpaletas {
  }
 
  input.cor {
+	color: rgb(212, 212, 212);
  	background-color: transparent;
  	border-bottom: none;
  	border-top: none;
@@ -357,38 +357,37 @@ li.tiposDpaletas {
  	color: white;
  }
 
-footer {
-			margin-top: 3%;
-			margin-bottom: -3px;
-			background-color: rgba(120, 120, 120, 0.5);
-			padding-top: 5%;
-			padding-bottom: 2%;
-			font-size: 1.2em;
-			text-align: center;
-		 	border-top: 2px solid rgba(80, 80, 80, 0.9);
-		 	box-shadow: 1px 1px 10px rgba(120, 120, 120, 0.9);
-		     }
+ footer {
+	margin-top: 2%;
+	margin-bottom: -3px;
+	background-color: rgb(190, 190, 190);
+	padding-top: 5%;
+	padding-bottom: 2%;
+	font-size: 1.2em;
+	text-align: center;
+	 border-top: 2px solid rgba(80, 80, 80, 0.9);
+	 }
 
-		 	ul {
-			 display: inline-flex;
-		     }
+	 ul {
+	 display: inline-flex;
+	 }
 
-		 	li {
-			 list-style-type: none;
-			 margin-right: 20px;
-			 }
+	 li {
+	 list-style-type: none;
+	 margin-right: 20px;
+	 }
 
-			a {	
-				color: black;
-				text-decoration-line: none;
-			}
+	a {	
+		color: black;
+		text-decoration-line: none;
+	}
 
-			a:hover {
-				color: white;
-			}
+	a:hover {
+		color: white;
+	}
 
-			img.social { /*REDES SOCIAIS*/
-				text-align: left;
-				display: inline-block;
-				margin-top: 0px;
-			}
+	img.social { /*REDES SOCIAIS*/
+		text-align: left;
+		display: inline-block;
+		margin-top: 0px;
+	}
