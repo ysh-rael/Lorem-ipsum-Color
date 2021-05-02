@@ -117,6 +117,43 @@ div#bvindo {
 		 }
 
 
+/*TEXTOS COMPLEMENTARES*/
+
+h2 {
+
+}
+
+#txtcores {
+	display: inline-block;
+	width: 98%;
+	background-color: rgb(243, 243, 243);
+	padding: 3% 1% 5% 1%;
+	margin-bottom: 2%;
+	border-radius: 5px;
+	box-shadow: 1px 2px 5px gray;
+	font-family: sans-serif;
+	color: #242424;
+	text-align: justify;
+	text-indent: 20px;
+	line-height: 2em;
+}
+
+
+#txtpaletas {
+	display: inline-block;
+	width: 98%;
+	background-color: rgb(243, 243, 243);
+	padding: 3% 1% 5% 1%;
+	margin-bottom: 2%;
+	border-radius: 5px;
+	box-shadow: 1px 2px 5px gray;
+	font-family: sans-serif;
+	color: #242424;
+	text-align: justify;
+	text-indent: 20px;
+	line-height: 2em;
+}
+
 /*INICIO SOBRE CORES*/
 div#sobrecores {
 	display: block;
