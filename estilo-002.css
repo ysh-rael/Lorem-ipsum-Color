@@ -151,14 +151,17 @@ li.tiposDpaletas {
 	font-family: heaters, monospace;
  }
 
-li.menu{
- 	display: inline;
- 	text-align: right;
- 	font-size: 0.8em;
- 	margin-top: 0px;
+ li.menu{
+	border-top: 1px solid #992705;
+	border-right: 1px solid #992705;
+	border-bottom: 1px solid #992705;
+	border-left: 1px solid #992705;
+	 display: inline;
+	 text-align: center;
+	 font-size: 1.1em;
 	border-radius: 0px;
-	padding: 30px 6px 4px 6px;
-	margin-right: 7px;
+	padding: 1%;
+	margin: 30px 20px 20px 20px;
 	font-family: heaters, monospace;
  }
 
@@ -366,7 +369,7 @@ div.palletcolor {
  	margin:0% 10% 0% 5%;
  }
 
- p#pc { /*"p" paletas de cores*/
+ p.pc { /*"p" paletas de cores*/
  	margin-top: 30px;
  	font-size: 0.7em;
  	font-family: heaters, monospace;

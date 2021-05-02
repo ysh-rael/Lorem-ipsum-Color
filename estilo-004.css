@@ -58,7 +58,7 @@ ul#menu {
 		 	padding-bottom: 10px*/;
 		 }
 
-li.menu{
+		 li.menu{
 			border-top: 1px solid #992705;
 			border-right: 1px solid #992705;
 			border-bottom: 1px solid #992705;
@@ -179,9 +179,6 @@ ul#sobrecores {
  	border-right: none;
  }
 
-a.menu {
-  color: #bfbfbf;  
-}
 
 input.cor:hover {
     text-decoration: underline;
@@ -358,7 +355,7 @@ div.palletcolor {
  	margin:0% 10% 0% 5%;
  }
 
- p#pc { /*"p" paletas de cores*/
+ p.pc { /*"p" paletas de cores*/
  	margin-top: 30px;
  	font-size: 0.7em;
  	font-family: heaters, monospace;
