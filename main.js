@@ -203,16 +203,16 @@ function confirmar() {
 	conteudo.innerHTML = `<p><img src="imagens/triade.png"> <h4>tríade</h4>
  As cores tríades são formadas por 3 cores que estão equidistantes no círculo cromático. Ou seja, se encontram exatamente na mesma distância dentro da roda de tonalidades. ... Assim, como as cores análogas e complementares, as tríades também são combinações harmonicamente perfeitas.</p>`
 
- 	var c1p = window.document.getElementById('c1p')
- 	var c2p = window.document.getElementById('c2p')
- 	var c3p = window.document.getElementById('c3p')
- 	var c4p = window.document.getElementById('c4p')
- 	var c5p = window.document.getElementById('c5p')
- 	c1p.style.backgroundColor = '#';
- 	c2p.style.backgroundColor = '#';
- 	c3p.style.backgroundColor = '#';
- 	c4p.style.backgroundColor = '#';
- 	c5p.style.backgroundColor = '#';
+ 	var c1p1 = window.document.getElementById('c1p1')
+ 	var c2p1 = window.document.getElementById('c2p1')
+ 	var c3p1 = window.document.getElementById('c3p1')
+ 	var c4p1 = window.document.getElementById('c4p1')
+ 	var c5p1 = window.document.getElementById('c5p1')
+ 	c1p1.style.backgroundColor = '#';
+ 	c2p1.style.backgroundColor = '#';
+ 	c3p1.style.backgroundColor = '#';
+ 	c4p1.style.backgroundColor = '#';
+ 	c5p1.style.backgroundColor = '#';
 
 	var c1p2 = window.document.getElementById('c1p2')
  	var c2p2 = window.document.getElementById('c2p2')
@@ -225,27 +225,27 @@ function confirmar() {
  	c4p2.style.backgroundColor = '#';
  	c5p2.style.backgroundColor = '#';
 
- 	var c1p = window.document.getElementById('c1p')
- 	var c2p = window.document.getElementById('c2p')
- 	var c3p = window.document.getElementById('c3p')
- 	var c4p = window.document.getElementById('c4p')
- 	var c5p = window.document.getElementById('c5p')
- 	c1p.style.backgroundColor = '#';
- 	c2p.style.backgroundColor = '#';
- 	c3p.style.backgroundColor = '#';
- 	c4p.style.backgroundColor = '#';
- 	c5p.style.backgroundColor = '#';
+ 	var c1p3 = window.document.getElementById('c1p3')
+ 	var c2p3 = window.document.getElementById('c2p3')
+ 	var c3p3 = window.document.getElementById('c3p3')
+ 	var c4p3 = window.document.getElementById('c4p3')
+ 	var c5p3 = window.document.getElementById('c5p3')
+ 	c1p3.style.backgroundColor = '#';
+ 	c2p3.style.backgroundColor = '#';
+ 	c3p3.style.backgroundColor = '#';
+ 	c4p3.style.backgroundColor = '#';
+ 	c5p3.style.backgroundColor = '#';
 
- 	var c1p = window.document.getElementById('c1p')
- 	var c2p = window.document.getElementById('c2p')
- 	var c3p = window.document.getElementById('c3p')
- 	var c4p = window.document.getElementById('c4p')
- 	var c5p = window.document.getElementById('c5p')
- 	c1p.style.backgroundColor = '#';
- 	c2p.style.backgroundColor = '#';
- 	c3p.style.backgroundColor = '#';
- 	c4p.style.backgroundColor = '#';
- 	c5p.style.backgroundColor = '#';
+ 	var c1p4 = window.document.getElementById('c1p4')
+ 	var c2p4 = window.document.getElementById('c2p4')
+ 	var c3p4 = window.document.getElementById('c3p4')
+ 	var c4p4 = window.document.getElementById('c4p4')
+ 	var c5p4 = window.document.getElementById('c5p4')
+ 	c1p4.style.backgroundColor = '#';
+ 	c2p4.style.backgroundColor = '#';
+ 	c3p4.style.backgroundColor = '#';
+ 	c4p4.style.backgroundColor = '#';
+ 	c5p4.style.backgroundColor = '#';
 
  }
 
@@ -253,49 +253,49 @@ function confirmar() {
 	conteudo.innerHTML = `<p><img src="imagens/complementar.png"> <h4>complementar</h4>
  Cores Complementares são aquelas que mais oferecem contraste entre si. De acordo com a definição de Michel Eugene Chevreul, no século XIX, a cor complementar de uma matriz é aquela que mais absorve seu espectro.</p>`
 
- 	var c1p = window.document.getElementById('c1p')
- 	var c2p = window.document.getElementById('c2p')
- 	var c3p = window.document.getElementById('c3p')
- 	var c4p = window.document.getElementById('c4p')
- 	var c5p = window.document.getElementById('c5p')
- 	c1p.style.backgroundColor = '#';
- 	c2p.style.backgroundColor = '#';
- 	c3p.style.backgroundColor = '#';
- 	c4p.style.backgroundColor = '#';
- 	c5p.style.backgroundColor = '#';
+ 	var c1p1 = window.document.getElementById('c1p1')
+ 	var c2p1 = window.document.getElementById('c2p1')
+ 	var c3p1 = window.document.getElementById('c3p1')
+ 	var c4p1 = window.document.getElementById('c4p1')
+ 	var c5p1 = window.document.getElementById('c5p1')
+ 	c1p1.style.backgroundColor = '#';
+ 	c2p1.style.backgroundColor = '#';
+ 	c3p1.style.backgroundColor = '#';
+ 	c4p1.style.backgroundColor = '#';
+ 	c5p1.style.backgroundColor = '#';
 
- 	var c1p = window.document.getElementById('c1p')
- 	var c2p = window.document.getElementById('c2p')
- 	var c3p = window.document.getElementById('c3p')
- 	var c4p = window.document.getElementById('c4p')
- 	var c5p = window.document.getElementById('c5p')
- 	c1p.style.backgroundColor = '#';
- 	c2p.style.backgroundColor = '#';
- 	c3p.style.backgroundColor = '#';
- 	c4p.style.backgroundColor = '#';
- 	c5p.style.backgroundColor = '#';
+ 	var c1p2 = window.document.getElementById('c1p2')
+ 	var c2p2 = window.document.getElementById('c2p2')
+ 	var c3p2 = window.document.getElementById('c3p2')
+ 	var c4p2 = window.document.getElementById('c4p2')
+ 	var c5p2 = window.document.getElementById('c5p2')
+ 	c1p2.style.backgroundColor = '#';
+ 	c2p2.style.backgroundColor = '#';
+ 	c3p2.style.backgroundColor = '#';
+ 	c4p2.style.backgroundColor = '#';
+ 	c5p2.style.backgroundColor = '#';
 
- 	var c1p = window.document.getElementById('c1p')
- 	var c2p = window.document.getElementById('c2p')
- 	var c3p = window.document.getElementById('c3p')
- 	var c4p = window.document.getElementById('c4p')
- 	var c5p = window.document.getElementById('c5p')
- 	c1p.style.backgroundColor = '#';
- 	c2p.style.backgroundColor = '#';
- 	c3p.style.backgroundColor = '#';
- 	c4p.style.backgroundColor = '#';
- 	c5p.style.backgroundColor = '#';
+ 	var c1p3 = window.document.getElementById('c1p3')
+ 	var c2p3 = window.document.getElementById('c2p3')
+ 	var c3p3 = window.document.getElementById('c3p3')
+ 	var c4p3 = window.document.getElementById('c4p3')
+ 	var c5p3 = window.document.getElementById('c5p3')
+ 	c1p3.style.backgroundColor = '#';
+ 	c2p3.style.backgroundColor = '#';
+ 	c3p3.style.backgroundColor = '#';
+ 	c4p3.style.backgroundColor = '#';
+ 	c5p3.style.backgroundColor = '#';
 
- 	var c1p = window.document.getElementById('c1p')
- 	var c2p = window.document.getElementById('c2p')
- 	var c3p = window.document.getElementById('c3p')
- 	var c4p = window.document.getElementById('c4p')
- 	var c5p = window.document.getElementById('c5p')
- 	c1p.style.backgroundColor = '#';
- 	c2p.style.backgroundColor = '#';
- 	c3p.style.backgroundColor = '#';
- 	c4p.style.backgroundColor = '#';
- 	c5p.style.backgroundColor = '#';
+ 	var c1p4 = window.document.getElementById('c1p4')
+ 	var c2p4 = window.document.getElementById('c2p4')
+ 	var c3p4 = window.document.getElementById('c3p4')
+ 	var c4p4 = window.document.getElementById('c4p4')
+ 	var c5p4 = window.document.getElementById('c5p4')
+ 	c1p4.style.backgroundColor = '#';
+ 	c2p4.style.backgroundColor = '#';
+ 	c3p4.style.backgroundColor = '#';
+ 	c4p4.style.backgroundColor = '#';
+ 	c5p4.style.backgroundColor = '#';
  }
 
 

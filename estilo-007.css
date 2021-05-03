@@ -1,0 +1,432 @@
+
+/*				paleta de cores 001 - 
+ 
+ */
+
+/* 				PALETA DE CORES 002 - 
+ 
+ */
+
+/*				PALETA DE CORES 003 - 
+ 
+ */
+
+/*				PALETA DE CORES 004 - 
+ 
+ */
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+@font-face {
+	font-family: heaters, monospace;
+	font-style: normal;
+	font-weight: normal;
+	src:'fonts/Heaters.otf';
+ }
+
+body {
+	margin-top: -20px;
+	background-color:  rgb(190, 190, 190);
+ }
+ 
+header {
+			padding-right: 5%;
+		 	padding-left: 5%;
+			text-align: center;
+			background-color: #992705;
+			margin-top: 0px;
+ 			display: block;
+ 
+ 			box-shadow: 1px 1px 10px black;
+		 }
+
+h1 {
+	margin-top: 30px;		 	
+	padding-top: 4%;
+	font-size: 4em;
+	font-family: monospace;
+	font-family: 'Amatic SC', cursive;
+ }
+
+/*MENU DE NAVEGAÇÃO*/
+
+ul#menu {
+		 	display: inline-block;
+		 	background-color: #992705;
+		 	padding-left: 0px;
+		 	/*padding-left: 10px;
+		 	padding-bottom: 10px*/;
+		 }
+
+li.menu{
+			border-top: 1px solid #992705;
+			border-right: 1px solid #992705;
+			border-bottom: 1px solid #992705;
+			border-left: 1px solid #992705;
+		 	display: inline;
+		 	text-align: center;
+		 	font-size: 1.1em;
+			border-radius: 0px;
+			padding: 1%;
+			margin: 30px 20px 20px 20px;
+			font-family: heaters, monospace;
+		 }
+
+li.menu:hover {
+			background-color: #992705;
+		 	font-size: 1.15em;
+		 	border-radius: 5%;
+		 	color: white;
+		 }
+
+div#pesquisar {
+	display: inline-block;
+ }
+
+input#Bpesq{
+ 			margin-top: 7%;
+ 		 	margin-left: 2px;
+ 		 }
+
+input#pesq {
+ 	margin-top: 7%;
+ 	display: inline-block;
+ }
+
+
+
+/*DIV COM 'BEM VINDO AO LYC'*/
+div#bvindo {
+		  font-size: 5em;
+		  font-weight: bold;
+		  text-align: center;
+		  /* fundo gradiente */
+		  background-image: linear-gradient(#000000, #001fff, #8406d6, #000000);
+		  /* agora colocamos o fundo gradiente dentro do texto com essa propriedade */
+		  background-clip: text;
+		  -webkit-background-clip: text;
+		  /* a cor do texto deve estar como transparent */
+		  color: transparent;		 	
+		  margin: 0px 0px 100px 0px;
+		  font-family: 'Amatic SC', cursive;
+
+		 }
+
+
+/*TEXTOS COMPLEMENTARES*/
+
+h2 {
+
+}
+
+#txtcores {
+	display: inline-block;
+	width: 98%;
+	background-color: rgb(243, 243, 243);
+	padding: 3% 1% 5% 1%;
+	margin-bottom: 2%;
+	border-radius: 5px;
+	box-shadow: 1px 2px 5px gray;
+	font-family: sans-serif;
+	color: #242424;
+	text-align: justify;
+	text-indent: 20px;
+	line-height: 2em;
+}
+
+
+#txtpaletas {
+	display: inline-block;
+	width: 98%;
+	background-color: rgb(243, 243, 243);
+	padding: 3% 1% 5% 1%;
+	margin-bottom: 2%;
+	border-radius: 5px;
+	box-shadow: 1px 2px 5px gray;
+	font-family: sans-serif;
+	color: #242424;
+	text-align: justify;
+	text-indent: 20px;
+	line-height: 2em;
+}
+
+/*INICIO SOBRE CORES*/
+div#sobrecores {
+	display: block;
+	width: 99%;
+	height: 50%;
+	margin: auto;
+	padding: 5px;
+	border: 2px solid ; 
+	background-color: #;
+ }
+
+ul#sobrecores {
+ 	display: block;
+ 	background-color: #; /*cor2*/
+ 	padding-left: 10px;
+ 	padding-bottom: 15px;
+ 	box-shadow: 1px 3px 15px #;
+ }
+
+
+h3 {
+	font-size: 2.5em;
+	font-family: 'Amatic SC', cursive;
+	color: white;
+	border-bottom:2px solid #;
+	margin-bottom: -15px;
+	margin-top:0px;
+	padding-top: 3.5%;
+ }
+
+
+div#cad {
+	display: inline-block;
+	font-size: 1em;
+	color: rgb(20, 20, 20);
+	text-align: left;
+	width: 90%;
+	border-radius: 10px;
+	background-image: linear-gradient(to bottom, #, #);
+	padding: 5%;
+	box-shadow: 5px 5px 5px ;
+ }
+
+input#txtn {
+ 	border-top: 0px;
+ 	border-right: 0px;
+ 	border-left: 0px;
+ 	border-bottom: 0px;
+	color: black;
+	text-indent: 10px;
+	background-color: snow;
+	border-radius: 5px;
+ }
+
+input#txtn:hover {
+	background-color: ;
+ }
+
+input[type='radio']:after {
+    width: 10px;
+    height: 10px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: ;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid ;
+ }
+
+input[type='radio']:checked:after {
+    width: 10px;
+    height: 10px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid ;
+ }
+
+label#fem {
+	margin-left: 70px;
+ }
+
+input#idade {
+ 	border-top: 0px;
+ 	border-right: 0px;
+ 	border-left: 0px;
+ 	border-bottom: 0px;
+	width: 80px;
+	color: black;
+	text-indent: 5px;
+	background-color: ;
+	border-radius: 5px;
+ }
+
+#idade:hover {
+	color: ;
+	background-color: ;
+ }
+
+select {
+ 	border-top: 0px;
+ 	border-right: 0px;
+ 	border-left: 0px;
+ 	border-bottom: 0px;
+	margin-left: 5px;
+	display: inline-block;
+	width: 80px;
+	color: ;
+	text-indent: 3px;
+	border-radius: 5px;
+	/*box-shadow: 0px 2px 3px rgba(17, 17, 17, 0.884);*/
+	background-color: ;
+ }
+
+select:hover {
+	background-color: ;
+ }
+
+option {
+	color: ;
+	background-color: #;
+	
+ }
+
+div#emoji {
+	display: inline;
+ }
+
+input.senha {
+ 	border-top: 0px;
+ 	border-right: 0px;
+ 	border-left: 0px;
+ 	border-bottom: 0px;
+	margin-bottom: 10px;
+	width: 130px;
+	color: black;
+	text-indent: 10px;
+	background-color: ;
+	border-radius: 5px;
+ }
+
+input.senha:hover {
+ 	background-color: ;
+ }
+
+input#confir {
+	
+	margin-bottom: 0px;
+	background-color: #;
+	border-radius: 5px;
+ }
+
+input#confir:hover {
+	color: snow;
+	background-color: #;
+	border-radius: 5px;
+ }
+
+/*FIM --- QUEM É VOCÊ?*/
+
+section {
+	display: inline-block;
+ }
+
+section#conteudo {
+	float: left;
+	width: 55%;
+	display: inline-block;
+	margin-right: 2%;
+	margin-bottom: 3%;
+	padding: 3%;
+	background-color: ;
+	font-family: heaters, monospace;
+	text-indent: 2%;
+	text-align: justify; 
+ }
+
+/* OPÇÕES DE PALETAS DE CORES*/
+aside {
+	display: inline-block;
+ }
+
+ div.palletcolor {
+ 	margin: auto;
+ 	display: inline;
+ 	margin-top: 20px;
+ 	width: 20px;
+ 	height: 20px;
+ 	padding: 10px;
+ }
+
+ div#cores {
+	display: inline-block;
+ 	font-family: heaters, monospace;
+ 	margin:0% 10% 0% 5%;
+ }
+
+ p.pc { /*"p" paletas de cores*/
+ 	margin-top: 30px;
+ 	font-size: 0.7em;
+ 	font-family: heaters, monospace;
+ }
+
+  li.tiposDpaletas {
+ 	font-size: 0.8em;
+ 	display: inline-block;
+ 	border-radius: 0px;
+	padding: 20px 10px 20px 0px;
+	font-family: heaters, monospace;
+ }
+
+
+ li.tiposDpaletas:hover {
+ 	font-size: 0.9em;
+ 	color: white;
+ }
+
+
+ input.cor {
+	color: rgb(211, 211, 211);
+ 	background-color: transparent;
+ 	border-bottom: none;
+ 	border-top: none;
+ 	border-left: none;
+ 	border-right: none;
+ }
+
+ input.cor:hover{
+	text-decoration: underline;
+ 	font-size: 0.9em;
+ 	color: white;
+ }
+
+
+ footer {
+	margin-top: 2%;
+	margin-bottom: -3px;
+	background-color: rgb(190, 190, 190);
+	padding-top: 5%;
+	padding-bottom: 2%;
+	font-size: 1.2em;
+	text-align: center;
+	 border-top: 2px solid rgba(80, 80, 80, 0.9);
+	 }
+
+	 ul {
+	 display: inline-flex;
+	 }
+
+	 li {
+	 list-style-type: none;
+	 margin-right: 20px;
+	 }
+
+	a {	
+		color: black;
+		text-decoration-line: none;
+	}
+
+	a:hover {
+		color: white;
+	}
+
+	img.social { /*REDES SOCIAIS*/
+		text-align: left;
+		display: inline-block;
+		margin-top: 0px;
+	}
