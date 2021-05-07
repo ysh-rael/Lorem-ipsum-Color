@@ -4,9 +4,45 @@
 	<meta charset="utf-8">
 	<title>Lorem ipsum Color | LYC</title>
 	<link id="estilo" rel="stylesheet" type="text/css" href="estilo.css">
+	<style id="tagStyle" type="text/css">
+	</style>
 
 	<style type="text/css">
-		
+	 .soc {
+
+	 	list-style-type: circle;
+	 }
+
+	 #txtcores {
+		display: block;
+		width: 90%;
+		background-color: rgb(243, 243, 243);
+		padding: 3% 5% 5% 5%;
+		margin-bottom: 2%;
+		border-radius: 5px;
+		box-shadow: 1px 2px 5px gray;
+		font-family: sans-serif;
+		color: #242424;
+		text-align: justify;
+		text-indent: 20px;
+		line-height: 2em;
+ 	 }
+
+
+	 #txtpaletas {
+		display: block;
+		width: 90%;
+		background-color: rgb(243, 243, 243);
+		padding: 3% 5% 5% 5%;
+		margin-bottom: 2%;
+		border-radius: 5px;
+		box-shadow: 1px 2px 5px gray;
+		font-family: sans-serif;
+		color: #242424;
+		text-align: justify;
+		text-indent: 20px;
+		line-height: 2em;
+ 	 }
 	</style>
 		 	
 </head>
@@ -75,37 +111,24 @@
 		<p>
 			as paletas de cores são formadas com cores pre-selecionadas do círculo cromático, contudo, não são escolhidass aleatoriamente. existe um(alguns) padrão que nos auxiliam na hora de colorir.
 		</p>
-		<p>
-			Análogas
-Combinação que utiliza cores vizinhas à principal
-
-Monocromáticas
-Combinação que utiliza apenas uma cor com diferentes tonalidades
-
-Complementares
-Combinação que utiliza cores opostas à principal
-
-Triádicas
-Combinação obtida através da junção de cores que corresponde a um triângulo no círculo cromático.
-		</p>
 		
 			<ol>
-				<li>Análogas</li>
-				<ul>
-					<li>Combinação que utiliza apenas uma cor com diferentes tonalidades.</li>
-				</ul>
 				<li>Monocromáticas</li>
 				<ul>
-					<li></li>
+					<li class="soc">Combinação que utiliza apenas uma cor com diferentes tonalidades.</li>
 				</ul>
+
+
 				<li>Complementares</li>
-				<ul>
-					<li></li>
-				
+				<ul >
+					<li class="soc">Combinação que utiliza cores opostas à principal</li>
+				</ul>
+
+
 				<li>Triádicas</li>
 				<ul>
-					<li></li>
-				
+					<li class="soc">Combinação obtida através da junção de cores que corresponde a um triângulo no círculo cromático.</li>
+				</ul>
 			</ol>
 		
 	</div>
@@ -114,11 +137,11 @@ Combinação obtida através da junção de cores que corresponde a um triângul
 
 		<nav>
 			<ul id="sobrecores">
-						<li class="tiposDpaletas"> <input class="cor" type="button" value="MONOCROMÁTICO" onclick="monocromatico()"></li>
+						<li class="tiposDpaletas"> <input id="mono" class="cor" type="button" value="MONOCROMÁTICO" onclick="monocromatico()"></li>
 
-						<li class="tiposDpaletas"> <input class="cor" type="button" value="TRÍADE" onclick="triade()"></li>
+						<li class="tiposDpaletas"> <input id="tria" class="cor" type="button" value="TRÍADE" onclick="triade()"></li>
 
-						<li class="tiposDpaletas"> <input class="cor" type="button" value="COMPLEMENTAR" onclick="complementar()"></li>
+						<li class="tiposDpaletas"> <input id="comple" class="cor" type="button" value="COMPLEMENTAR" onclick="complementar()"></li>
 			</ul>
 		 </nav>
 
