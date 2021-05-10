@@ -1,5 +1,7 @@
+var txtp = window.document.getElementById('pesq')
 function pesquisar() {
-	alert('Desculpe, o objeto de pesquisa ainda eestá em desenvolvimento e no momento não está funcionando.')
+	alert('Desculpe, o objeto de pesquisa ainda está em desenvolvimento e no momento não está funcionando.')
+	alert(txtp.value)
  }
 
 function confirmar() {
@@ -65,28 +67,16 @@ function confirmar() {
  let com = window.document.getElementById('comple')
  var estilo = window.document.getElementById('estilo')
 
+//paletas 
+ 	var p1 = window.document.getElementById('p1')
+ 	var p2 = window.document.getElementById('p2')
+ 	var p3 = window.document.getElementById('p3')
+ 	var p4 = window.document.getElementById('p4')
 
-//PALETA DE CORES MONOCROMÁTICAS
- function cores001(){
-		estilo.href = 'estilo-001.css'
- }
-
- function cores002(){
-
-	estilo.href = 'estilo-002.css'
- }
-
- function cores003(){
-
-	estilo.href = 'estilo-003.css'
- }
-
- function cores004(){
-
-	estilo.href = 'estilo-004.css'
-   }
- 
 //CONTEUDO-MENU DAS CORES
+var jscript = window.document.getElementById('js')
+//PALETA DE CORES MONOCROMÁTICAS
+
  var conteudo = window.document.getElementById('conteudo')
 // N° DA COR + N° DA PALETA (C*P*)
 function monocromatico() {
@@ -175,7 +165,6 @@ function monocromatico() {
  }
 
 function triade() {
- 
 	conteudo.innerHTML = `<p><img src="imagens/triade.png"> <h4>tríade</h4>
  As cores tríades são formadas por 3 cores que estão equidistantes no círculo cromático. Ou seja, se encontram exatamente na mesma distância dentro da roda de tonalidades. ... Assim, como as cores análogas e complementares, as tríades também são combinações harmonicamente perfeitas.</p>`
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -254,7 +243,7 @@ function triade() {
 
  }
 
-function complementar() {
+function complementar() {	
 	conteudo.innerHTML = `<p><img src="imagens/complementar.png"> <h4>complementar</h4>
   Cores Complementares são aquelas que mais oferecem contraste entre si. De acordo com a definição de Michel Eugene Chevreul, no século XIX, a cor complementar de uma matriz é aquela que mais absorve seu espectro.</p>`
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -334,6 +323,8 @@ function complementar() {
 
 //ESTILO DO CONTENE COM EXEMPLOS DE CORES
 
+
+
 /*Para alterar um texto para maiúsculo em JavaScript, utilizamos o método toUpperCase(). Para alterar para minúsculo, utilizamos o método toLowerCase().*/
 
 /*
@@ -348,3 +339,6 @@ function complementar() {
  	c4p.style.backgroundColor = '#';
  	c5p.style.backgroundColor = '#';
  	*/
+
+
+ 	
