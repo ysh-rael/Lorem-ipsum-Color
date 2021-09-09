@@ -114,27 +114,26 @@
 		<section>
 				<div id="cad" class="as"><h3>Quem é você?</h3><br>
 					 <!--NOME -->
-						<p>	<label for="nome">Nome:</label>
+						<p>	<label for="nome">Nome:</label><br>
 							<input type="text" name="nome" id="txtn" placeholder="Nome e sobrenome">
 						</p>
 
 					 <!--SEXO -->
 						<p>
-							<label>Homem</label>
-							<input type="radio" name="radx" id="mas" checked>
-							<label id="fem">Mulher</label>
-							<input type="radio" name="radx" id="fem">
+							<nobr><label for="mas">Homem</label>
+							<input type="radio" name="radx" id="mas" checked></nobr>
+							<span style="float: right;">
+								<input type="radio" name="radx" id="fem">
+								<nobr><label id="fem" for="fem">Mulher</label></nobr>
+							</span>
 						</p>
 
 					 <!--Idade -->
 						<p>
-							<label>Idade:</label>
-							<input type="number" name="idade" id="idade" min="1" max="122" placeholder="Idade">
-						</p>
+							<label>Idade:</label> <span style="float: right; margin-right: 50px;">País:</span><br> 
+							<input type="number" name="idade" id="idade" min="1" max="122" placeholder="Idade"> 
 
-					 <!--país-->
-						<p> País:
-							<select id="paises" onchange="mudarselect()">
+							<select style="float: right;" id="paises" onchange="mudarselect()">
 							   <!-- A -->
 									<option value="">Afeganistão</option>
 									<option value="">África do Sul</option>
@@ -366,15 +365,19 @@
 									<option value="">Zâmbia</option>
 									<option value="">Zimbábue</option>
 							</select>
+						</p>
+
+					 <!--país-->
+						<p> 
 							<div id="emoji"><!-- &#x para por emoji --></div><br>
 
 							<!-- SENHA -->
-							<label>Senha:</label>
+							<label>Senha:</label><br>
 							<input id="senha" type="password" name="senha" class="senha" placeholder="Digite Sua Senha"><br>
 
 							<!-- CONFIRMAR SENHA -->
-							<label>Confirme sua Senha:</label>
-							<input id="confirsenha" type="password" name="confirsenha" class="senha" placeholder="Digite sua Senha" style="margin-top: 10px;">
+							<label>Confirme sua Senha:</label><br>
+							<input id="confirsenha" type="password" name="confirsenha" class="senha" placeholder="Digite sua Senha">
 							<br>
 
 							<!-- BOTÃO CONFIRMAR -->

@@ -233,10 +233,10 @@ li.tiposDpaletas:hover {
 /*INICIO QUEM É VOCÊ?*/
 div#cad {
 	display: inline-block;
-	width: 90%;
+	width: 110%;
 	margin: 10px 3px;
 	border-radius: 10px;
-	padding: 5%;
+	padding: 20px 20px 0 20px;
 	text-align: left;
 	font-size: 1em;
 	color: rgb(20, 20, 20);
@@ -244,15 +244,14 @@ div#cad {
 	background-image: linear-gradient(to bottom, #df7f30, #DE8D4B);
  }
 
-input#txtn {
- 	border-top: 0px;
- 	border-right: 0px;
- 	border-left: 0px;
- 	border-bottom: 0px;
-	color: black;
-	text-indent: 10px;
-	background-color: snow;
+input#txtn, input.senha {
+	width: 100%;
+	height: 30px;
+ 	border:  0;
 	border-radius: 5px;
+	text-indent: 10px;
+	color: black;
+	background-color: snow;
  }
 
 input#txtn:hover {
@@ -287,15 +286,10 @@ input[type='radio']:checked:after {
     border: 2px solid white;
  }
 
-label#fem {
-	margin-left: 70px;
- }
+
 
 input#idade {
- 	border-top: 0px;
- 	border-right: 0px;
- 	border-left: 0px;
- 	border-bottom: 0px;
+ 	border:  0;
 	width: 80px;
 	color: black;
 	text-indent: 5px;
@@ -309,13 +303,10 @@ input#idade {
  }
 
 select {
- 	border-top: 0px;
- 	border-right: 0px;
- 	border-left: 0px;
- 	border-bottom: 0px;
+ 	border: 0;
 	margin-left: 5px;
 	display: inline-block;
-	width: 80px;
+	width: 100px;
 	color: rgba(110, 110, 110, 1);
 	text-indent: 3px;
 	border-radius: 5px;
@@ -338,33 +329,31 @@ div#emoji {
  }
 
 input.senha {
- 	border-top: 0px;
- 	border-right: 0px;
- 	border-left: 0px;
- 	border-bottom: 0px;
-	margin-bottom: 10px;
-	width: 130px;
-	color: black;
-	text-indent: 10px;
-	background-color: snow;
-	border-radius: 5px;
- }
+	margin-bottom: 15px;
+}
 
 input.senha:hover {
  	background-color: rgba(210, 210, 210, 0.5);
  }
 
-input#confir {
-	
-	margin-bottom: 0px;
-	background-color: #5E3C20;
+
+input#confir { /*Botão*/
+	font-size: 1.1em;
+	width: 200px;
+	height: 50px;
+	margin: 5px 10% 5px 10%;
+	border: 1px solid #5E3C20;
 	border-radius: 5px;
+	background-color: transparent;
  }
 
 input#confir:hover {
-	color: snow;
-	background-color: #5E4C3C;
 	border-radius: 5px;
+	color: snow;
+	background-image: linear-gradient(45deg, #5E3C20 30%, #AC6E3B);
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+	text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+	transition-duration: 500ms;
  }
 /*FIM ---- QUEM É VOCÊ*/
 
@@ -400,6 +389,7 @@ section#conteudo {
 /*OPÇÕES DE PALETAS DE CORES*/
 aside {
 	display: inline-block;
+	margin-left: 100px;
  }
 
 div#cores {
