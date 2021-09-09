@@ -24,7 +24,15 @@
 	src:'fonts/Heaters.otf';
  }
 
+
+
+html {
+	
+ }
+
 body {
+	margin-left: 0;
+	margin-right: 0;
 	background-color: rgb(2, 10, 20);
  }
  
@@ -46,6 +54,10 @@ h1 {
 	color: white;
  }
 
+
+
+
+
 /*MENU DE NAVEGAÇÃO*/
 
 ul#menu {
@@ -53,18 +65,27 @@ ul#menu {
 		 	padding-left: 0px;
 		 }
 
-li.menu{
-			border-bottom: 1px solid #992705;
+li.menu {
 		 	display: inline;
+
+ }
+
+li.menu > a{
+			display: inline-block;
+			border-bottom: 1px solid #992705;
 		 	text-align: center;
 		 	font-size: 0.9em;
 			padding: 10px 10px 5px 10px;
-			margin: 30px 20px 20px 20px;
+			margin: 20px 20px 20px 20px;
 			font-family: heaters, monospace;
+
+			
 		 }
 
-li.menu:hover {
-			background-color: #992705;
+li.menu:hover > a {
+			text-shadow: 0px 1px 20px rgba(0, 0, 0, 0.8);
+			transition-duration: 900ms;
+			background: #992705;
 		 	color: white;
 		 }
 
@@ -81,6 +102,8 @@ input#pesq {
  	margin-top: 7%;
  	display: inline-block;
  }
+
+
 
 
 
@@ -106,52 +129,66 @@ div#bvindo {
 	 	list-style-type: circle;
 	 }
 
-	 #txtcores {
-		display: block;
-		width: 90%;
-		background-color: rgb(243, 243, 243);
-		padding: 3% 5% 5% 5%;
-		margin-bottom: 2%;
-		border-radius: 5px;
-		box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.4);
-		font-family: sans-serif;
-		color: #242424;
-		text-align: justify;
-		text-indent: 20px;
-		line-height: 2em;
- 	 }
+	 
 
 
-	 #txtpaletas {
-		display: block;
-		width: 90%;
-		background-color: rgb(243, 243, 243);
-		padding: 3% 5% 5% 5%;
-		margin-bottom: 2%;
-		border-radius: 5px;
-		box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.4);
-		font-family: sans-serif;
-		color: #242424;
-		text-align: justify;
-		text-indent: 20px;
-		line-height: 2em;
- 	 }
+
+
+
 
 
 /*TEXTOS COMPLEMENTARES*/
 
 h2 {
+	font-size: 2em;
+	font-weight: 600;
+	text-align: left;
+	/* fundo gradiente */
+	background-image: linear-gradient(#000000, #001fff, #8406d6, #000000);
+	/* agora colocamos o fundo gradiente dentro do texto com essa propriedade */
+	-webkit-background-clip: text;
+	/* a cor do texto deve estar como transparent */
+	color: transparent;		 	
+	margin: 50px 0px 10px 0px;
+	font-family: 'Amatic SC', cursive;
 
-}
+ }
+
+/*txt cores e paletas*/
+
+ .txtCoresPaletas {
+	display: block;
+	width: 92%;
+	
+	margin: auto;
+	margin-bottom: 1%;
+	border-radius: 5px;
+	padding: 3vw 3vw 5vw 3vw;
+	font-family: sans-serif;
+	text-align: justify;
+	text-indent: 20px;
+	line-height: 2em;
+	color: #333333;
+	box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.4);
+	background-color: white;
+
+ }
+
+ 	#txtcores {
+		
+ 	 }
+
+
+	#txtpaletas {
+		
+ 	 }
 
 /*INICIO SOBRE CORES*/
 div#sobrecores {
 	display: block;
-	width: 99%;
+	width: 98%;
 	height: 50%;
 	margin: auto;
-	top: 0;
-	padding: 5px;
 	border: 2px solid rgb(153, 153, 153); 
 	background-color: #E3B692;
  }
@@ -167,25 +204,44 @@ h3 {
 	padding-top: 3.5%;
  }
 
-ul#sobrecores {
+ul#sobrecores { /*menu 2*/
  	display: block;
  	background-color: #412916; /*cor2*/
- 	padding-left: 10px;
- 	padding-bottom: 15px;
+ 	margin-top: 0;
+ 	margin-bottom: 0;
+ 	padding: 30px 0;
  	box-shadow: 1px 3px 15px #412916;
  }
+
+li.tiposDpaletas {
+	text-indent: 20px;
+ 	font-size: 1em;
+ 	display: inline-block;
+ 	border-radius: 0px;
+ 	vertical-align: middle;
+	font-family: heaters, monospace;
+ }
+
+li.tiposDpaletas:hover {
+ 	color: white;
+ }
+
+
+
+
 
 /*INICIO QUEM É VOCÊ?*/
 div#cad {
 	display: inline-block;
+	width: 90%;
+	margin: 10px 3px;
+	border-radius: 10px;
+	padding: 5%;
+	text-align: left;
 	font-size: 1em;
 	color: rgb(20, 20, 20);
-	text-align: left;
-	width: 90%;
-	border-radius: 10px;
-	background-image: linear-gradient(to bottom, #df7f30, #DE8D4B);
-	padding: 5%;
 	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.671);
+	background-image: linear-gradient(to bottom, #df7f30, #DE8D4B);
  }
 
 input#txtn {
@@ -314,22 +370,30 @@ input#confir:hover {
 
 
 
+
+
+
+
 section {
 	display: inline-block;
  }
 
 section#conteudo {
-	float: left;
-	width: 55%;
 	display: inline-block;
-	margin-right: 2%;
-	margin-bottom: 3%;
+	margin: auto;
 	padding: 3%;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
 	background-color: rgba(236, 236, 236, 0.87);
 	font-family: heaters, monospace;
 	text-indent: 2%;
 	text-align: justify; 
  }
+
+
+
+
+
 
 
 
@@ -361,19 +425,6 @@ ul#cores {
  	box-shadow: 1px 3px 15px #5E3C20;
  }
 
-li.tiposDpaletas {
- 	font-size: 0.8em;
- 	display: inline-block;
- 	border-radius: 0px;
-	padding: 20px 10px 20px 0px;
-	font-family: heaters, monospace;
- }
-
-li.tiposDpaletas:hover {
- 	font-size: 0.9em;
- 	color: white;
- }
-
 
 input.cor {
 	color: rgb(211, 211, 211);
@@ -400,15 +451,15 @@ p.pc { /*"p" paletas de cores*/
 footer {
 			margin-top: 2%;
 			margin-bottom: -3px;
-			padding-top: 5%;
+			padding-top: 10vh;
 			padding-bottom: 2%;
 			font-size: 1.2em;
 			text-align: center;
-		 	border-top: 2px solid rgba(80, 80, 80, 0.9);
+			color: rgb(170, 170, 170);
 		     }
 
 		 	ul {
-			 display: inline-flex;
+			 display: flex;
 		     }
 
 		 	li {
@@ -423,6 +474,7 @@ footer {
 
 			a:hover {
 				color: white;
+				
 			}
 
 			img.social { /*REDES SOCIAIS*/
