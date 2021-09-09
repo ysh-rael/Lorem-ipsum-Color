@@ -25,19 +25,16 @@
  }
 
 body {
-	margin-top: -20px;
-	background-color: rgb(190, 190, 190);
+	background-color: rgb(2, 10, 20);
  }
  
-header {
-			padding-right: 5%;
-		 	padding-left: 5%;
-			text-align: center;
-			background-color: #992705;
-			margin-top: 0px;
- 			display: block;
- 
- 			box-shadow: 1px 1px 10px black;
+header {	
+	display: block;
+	padding-right: 5%;
+ 	padding-left: 5%;
+	text-align: center;
+	margin-top: -30px;
+	height: 100vh;
 		 }
 
 h1 {
@@ -46,36 +43,28 @@ h1 {
 	font-size: 4em;
 	font-family: monospace;
 	font-family: 'Amatic SC', cursive;
+	color: white;
  }
 
 /*MENU DE NAVEGAÇÃO*/
 
 ul#menu {
-		 	display: inline-block;
-		 	background-color: #992705;
+		 	display: block;
 		 	padding-left: 0px;
-		 	/*padding-left: 10px;
-		 	padding-bottom: 10px*/;
 		 }
 
 li.menu{
-			border-top: 1px solid #992705;
-			border-right: 1px solid #992705;
 			border-bottom: 1px solid #992705;
-			border-left: 1px solid #992705;
 		 	display: inline;
 		 	text-align: center;
-		 	font-size: 1.1em;
-			border-radius: 0px;
-			padding: 1%;
+		 	font-size: 0.9em;
+			padding: 10px 10px 5px 10px;
 			margin: 30px 20px 20px 20px;
 			font-family: heaters, monospace;
 		 }
 
 li.menu:hover {
 			background-color: #992705;
-		 	font-size: 1.15em;
-		 	border-radius: 5%;
 		 	color: white;
 		 }
 
@@ -107,10 +96,47 @@ div#bvindo {
 		  -webkit-background-clip: text;
 		  /* a cor do texto deve estar como transparent */
 		  color: transparent;		 	
-		  margin: 50px 0px 50px 0px;
+		  margin: 50px 0px 0px 0px;
 		  font-family: 'Amatic SC', cursive;
 
 		 }
+
+	 .soc {
+
+	 	list-style-type: circle;
+	 }
+
+	 #txtcores {
+		display: block;
+		width: 90%;
+		background-color: rgb(243, 243, 243);
+		padding: 3% 5% 5% 5%;
+		margin-bottom: 2%;
+		border-radius: 5px;
+		box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.4);
+		font-family: sans-serif;
+		color: #242424;
+		text-align: justify;
+		text-indent: 20px;
+		line-height: 2em;
+ 	 }
+
+
+	 #txtpaletas {
+		display: block;
+		width: 90%;
+		background-color: rgb(243, 243, 243);
+		padding: 3% 5% 5% 5%;
+		margin-bottom: 2%;
+		border-radius: 5px;
+		box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.4);
+		font-family: sans-serif;
+		color: #242424;
+		text-align: justify;
+		text-indent: 20px;
+		line-height: 2em;
+ 	 }
+
 
 /*TEXTOS COMPLEMENTARES*/
 
@@ -124,6 +150,7 @@ div#sobrecores {
 	width: 99%;
 	height: 50%;
 	margin: auto;
+	top: 0;
 	padding: 5px;
 	border: 2px solid rgb(153, 153, 153); 
 	background-color: #E3B692;
@@ -347,10 +374,6 @@ li.tiposDpaletas:hover {
  	color: white;
  }
 
-li.menu:hover {
- 	font-size: 0.9em;
- 	color: white;
- }
 
 input.cor {
 	color: rgb(211, 211, 211);
@@ -377,7 +400,6 @@ p.pc { /*"p" paletas de cores*/
 footer {
 			margin-top: 2%;
 			margin-bottom: -3px;
-			background-color: rgb(190, 190, 190);
 			padding-top: 5%;
 			padding-bottom: 2%;
 			font-size: 1.2em;
@@ -395,7 +417,7 @@ footer {
 			 }
 
 			a {	
-				color: black;
+				color: white;
 				text-decoration-line: none;
 			}
 
