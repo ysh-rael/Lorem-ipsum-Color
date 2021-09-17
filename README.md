@@ -1,5 +1,5 @@
 # Lorem ipsum color
-![LYC](https://user-images.githubusercontent.com/79410863/132627909-6c8b9719-d09a-43d8-96cc-4079c6dd8d39.jpg)
+[![LYC](https://user-images.githubusercontent.com/79410863/132627909-6c8b9719-d09a-43d8-96cc-4079c6dd8d39.jpg)](https://ysh-rael.github.io/Lorem-ipsum-Color/)
 ---
 Um site Sobre cores e Paletas de Cores
 
@@ -13,3 +13,4 @@ Vantagens:
   ° Poder testar Paletas de cores na página sem precisar mexer em todo o código. 
   
   Em desenvolvimento....
+  [Ir para o Site](https://ysh-rael.github.io/Lorem-ipsum-Color/)
