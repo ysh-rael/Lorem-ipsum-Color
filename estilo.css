@@ -67,6 +67,9 @@ h1 {
 
 
 /*MENU DE NAVEGAÇÃO*/
+#mark {
+	background-color: #a95705;
+}
 
 ul#menu {
 		 	display: block;
