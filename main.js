@@ -1,7 +1,7 @@
 /*menu fixo no topo*/
 const nav = window.document.getElementsByTagName('nav')[0]
 const topoNav = nav.offsetTop
-const quebrarLinha = window.document.querySelector(".quebra_linha")
+const quebrarLinha = window.document.querySelector("#quebra_linha")
 window.onscroll = function(){fixaMenuNoTopo()}
 function fixaMenuNoTopo() {
 	if (window.pageYOffset >= topoNav) {
