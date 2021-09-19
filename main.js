@@ -1,9 +1,3 @@
-var txtp = window.document.getElementById('pesq')
-function pesquisar() {
-	alert('Desculpe, o objeto de pesquisa ainda está em desenvolvimento e no momento não está funcionando.')
-	alert(txtp.value)
- }
-
 function confirmar() {
 // VAR NOME
 	var txtn = window.document.getElementById('txtn')
