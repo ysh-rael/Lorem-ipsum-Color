@@ -1,0 +1,532 @@
+/*				PALETA DE CORES 001 - LARENJA
+ #DE8D4B		#5E3C20		#E3B692		#5E4C3C		#AC6E3B
+ */
+
+/* 				PALETA DE CORES 002 - AZUL
+ #5EA9D1		#3C6C85		#738C99		#9DBFD1		#254252
+ */
+
+/*				PALETA DE CORES 003 - ROXO
+ #6058D1		#3D3885		#716E99		#9A97D1		#272456
+ */
+
+/*				PALETA DE CORES 004 - PRETO
+ #4D4D4D		#000000		#333333		#474747		#A3A3A3
+ */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+@font-face {
+	font-family: heaters, monospace;
+	font-style: normal;
+	font-weight: normal;
+	src:'fonts/Heaters.otf';
+ }
+
+
+
+html {
+	
+ }
+
+body {
+	margin-left: 0;
+	margin-right: 0;
+	background-image: linear-gradient(to bottom, rgb(2, 10, 20)21%, rgb(21, 28, 38));
+ }
+ 
+header {	
+	display: block;
+	padding-right: 5%;
+ 	padding-left: 5%;
+	text-align: center;
+	margin-top: -30px;
+	height: 100vh;
+	background-color: rgb(2, 10, 20);
+		 }
+
+body::before {
+	content: "Feito com \01F90D  por Yshrael Pimentel";
+	color: rgba(255, 255, 255, 0.7);
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: -15px;
+}
+
+h1 {
+	margin-top: 30px;		 	
+	padding-top: 4%;
+	font-size: 4em;
+	font-family: monospace;
+	font-family: 'Amatic SC', cursive;
+	color: white;
+ }
+
+
+
+/*MENU DE NAVEGAÇÃO*/
+#mark {
+
+	background-color: #a95705;
+ }
+
+ul#menu {
+		 	display: block;
+		 	padding-left: 0px;
+		 }
+
+li.menu {
+		 	display: inline;
+
+ }
+
+li {
+ list-style-type: none;
+ margin-right: 20px;
+ }
+
+li.menu > a{
+			display: inline-block;
+			border-bottom: 1px solid #992705;
+			background-color: rgb(21, 28, 38);
+		 	text-align: center;
+		 	font-size: 0.9em;
+			padding: 15px 20px 5px 20px;
+			margin: 20px 10px 20px 10px;
+			font-family: heaters, monospace;
+			border-radius: 5px;
+
+			
+		 }
+
+li.menu:hover > a {
+			text-shadow: 0px 1px 20px rgba(0, 0, 0, 0.8);
+			transition-duration: 900ms;
+			background: #992705;
+		 	color: white;
+		 }
+
+div#pesquisar {
+	display: inline-block;
+ }
+
+input#pesq {
+ 	display: inline-block;
+	height: 2.5em;
+ 	margin-top: 7%;
+ 	border-radius: 5px;
+ 	padding-left: 10px;
+ 	border: none;
+ }
+
+input#Bpesq{
+	height: 2.7em;
+	margin-top: 7%;
+ 	margin-left: 20px;
+ 	border-radius: 5px;
+ 	border: none;
+ 	padding-left: 25px;
+ 	padding-right: 25px;
+ 	text-align: center;
+ 	background-color: #9e2705;
+ 	color: rgb(190, 190, 190);
+ }
+
+#Bpesq:hover {
+	background-color: #9e2705;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+	color: rgb(220, 220, 220);
+}
+
+
+
+
+
+/*DIV COM 'BEM VINDO AO LYC'*/
+div#bvindo {
+		  font-size: 5em;
+		  font-weight: bold;
+		  text-align: center;
+		  /* fundo gradiente */
+		  background-image: linear-gradient(#000000, #001fff, #8406d6, #000000);
+		  /* agora colocamos o fundo gradiente dentro do texto com essa propriedade */
+		  background-clip: text;
+		  -webkit-background-clip: text;
+		  /* a cor do texto deve estar como transparent */
+		  color: transparent;		 	
+		  margin: 50px 0px 0px 0px;
+		  font-family: 'Amatic SC', cursive;
+
+		 }
+
+	 .soc {
+
+	 	list-style-type: circle;
+	 }
+
+	 
+
+
+
+
+
+
+
+/*TEXTOS COMPLEMENTARES*/
+
+h2 {
+	font-size: 2em;
+	font-weight: 600;
+	text-align: left;
+	/* fundo gradiente */
+	background-image: linear-gradient(#000000, #001fff, #8406d6, #000000);
+	/* agora colocamos o fundo gradiente dentro do texto com essa propriedade */
+	-webkit-background-clip: text;
+	/* a cor do texto deve estar como transparent */
+	color: transparent;		 	
+	margin: 50px 0px 10px 0px;
+	font-family: 'Amatic SC', cursive;
+
+ }
+
+/*txt cores e paletas*/
+
+ .txtCoresPaletas {
+	display: block;
+	width: 92%;
+	
+	margin: auto;
+	margin-bottom: 1%;
+	border-radius: 5px;
+	padding: 3vw 3vw 5vw 3vw;
+	font-family: sans-serif;
+	text-align: justify;
+	text-indent: 20px;
+	line-height: 2em;
+	color: #333333;
+	box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.4);
+	background-color: white;
+
+ }
+
+ 	#txtcores {
+		
+ 	 }
+
+
+	#txtpaletas {
+		
+ 	 }
+
+/*INICIO SOBRE CORES*/
+div#sobrecores {
+	display: block;
+	width: 98%;
+	height: 50%;
+	margin: auto;
+	border: 2px solid rgb(153, 153, 153); 
+	background-color: #E3B692;
+ }
+
+
+h3 {
+	font-size: 2.5em;
+	font-family: 'Amatic SC', cursive;
+	color: white;
+	border-bottom:2px solid #5E3C20;
+	margin-bottom: -15px;
+	margin-top:0px;
+	padding-top: 3.5%;
+ }
+
+ul#sobrecores { /*menu 2*/
+ 	display: block;
+ 	background-color: #412916; /*cor2*/
+ 	margin-top: 0;
+ 	margin-bottom: 0;
+ 	padding: 30px 0;
+ 	box-shadow: 1px 3px 15px #412916;
+ }
+
+li.tiposDpaletas {
+	text-indent: 20px;
+ 	font-size: 1em;
+ 	display: inline-block;
+ 	border-radius: 0px;
+ 	vertical-align: middle;
+	font-family: heaters, monospace;
+ }
+
+li.tiposDpaletas:hover {
+ 	color: white;
+ }
+
+
+
+
+
+/*INICIO QUEM É VOCÊ?*/
+div#cad {
+	display: inline-block;
+	width: 110%;
+	margin: 10px 3px;
+	border-radius: 10px;
+	padding: 20px 20px 0 20px;
+	text-align: left;
+	font-size: 1em;
+	color: rgb(20, 20, 20);
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.671);
+	background-image: linear-gradient(to bottom, #df7f30, #DE8D4B);
+ }
+
+input#txtn, input.senha {
+	width: 100%;
+	height: 30px;
+ 	border:  0;
+	border-radius: 5px;
+	text-indent: 10px;
+	color: black;
+	background-color: snow;
+ }
+
+input#txtn:hover {
+	background-color: rgba(210, 210, 210, 0.5);
+ }
+
+input[type='radio']:after {
+    width: 10px;
+    height: 10px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: white;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+ }
+
+input[type='radio']:checked:after {
+    width: 10px;
+    height: 10px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #AC6E3B;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+ }
+
+
+
+input#idade {
+ 	border:  0;
+	width: 80px;
+	color: black;
+	text-indent: 5px;
+	background-color: snow;
+	border-radius: 5px;
+ }
+
+#idade:hover {
+	color: black;
+	background-color: rgba(210, 210, 210, 0.5);
+ }
+
+select {
+ 	border: 0;
+	margin-left: 5px;
+	display: inline-block;
+	width: 100px;
+	color: rgba(110, 110, 110, 1);
+	text-indent: 3px;
+	border-radius: 5px;
+	/*box-shadow: 0px 2px 3px rgba(17, 17, 17, 0.884);*/
+	background-color: snow;
+ }
+
+select:hover {
+	background-color: rgba(210, 210, 210, 0.5);
+ }
+
+option {
+	color: black;
+	background-color: #E3B692;
+	
+ }
+
+div#emoji {
+	display: inline;
+ }
+
+input.senha {
+	margin-bottom: 15px;
+}
+
+input.senha:hover {
+ 	background-color: rgba(210, 210, 210, 0.5);
+ }
+
+
+input#confir { /*Botão*/
+	font-size: 1.1em;
+	width: 200px;
+	height: 50px;
+	margin: 5px 10% 5px 10%;
+	border: 1px solid #5E3C20;
+	border-radius: 5px;
+	background-color: transparent;
+ }
+
+input#confir:hover {
+	border-radius: 5px;
+	color: snow;
+	background-image: linear-gradient(45deg, #5E3C20 30%, #AC6E3B);
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+	text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+	transition-duration: 500ms;
+ }
+/*FIM ---- QUEM É VOCÊ*/
+
+
+
+
+
+
+
+section {
+	display: inline-block;
+ }
+
+section#conteudo {
+	display: inline-block;
+	margin: auto;
+	padding: 3%;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	background-color: rgba(236, 236, 236, 0.87);
+	font-family: heaters, monospace;
+	text-indent: 2%;
+	text-align: justify; 
+ }
+
+
+
+
+
+
+
+
+/*OPÇÕES DE PALETAS DE CORES*/
+aside {
+	display: inline-block;
+	margin-left: 100px;
+ }
+
+div#cores {
+	display: inline-block;
+ 	font-family: heaters, monospace;
+ 	margin:0% 10% 0% 5%;
+ }
+
+div.palletcolor {
+ 	margin: auto;
+ 	display: inline;
+ 	margin-top: 20px;
+ 	width: 20px;
+ 	height: 20px;
+ 	padding: 10px;
+ }
+
+ul#cores {
+ 	display: block;
+ 	background-color: #5E4C3C;
+ 	padding-left: 10px;
+ 	padding-bottom: 10px;
+ 	box-shadow: 1px 3px 15px #5E3C20;
+ }
+
+
+input.cor {
+	color: rgb(211, 211, 211);
+ 	background-color: transparent;
+ 	border-bottom: none;
+ 	border-top: none;
+ 	border-left: none;
+ 	border-right: none;
+ }
+
+input.cor:hover{
+ 	font-size: 0.9em;
+ 	color: white;
+ }
+
+p.pc { /*"p" paletas de cores*/
+ 	margin-top: 30px;
+ 	font-size: 0.7em;
+ 	font-family: heaters, monospace;
+ }
+
+
+
+footer {
+	margin-top: 2%;
+	margin-bottom: -3px;
+	padding-top: 10vh;
+	padding-bottom: 2%;
+	font-size: 1.2em;
+	text-align: center;
+	color: rgb(170, 170, 170);
+     }
+
+    ul {
+    	display: flex;
+    }
+
+   footer > ul > li {
+   	flex-direction: column;
+   	margin: auto;
+   	margin-top: 20px;
+   }
+
+	a {	
+		color: white;
+		text-decoration-line: none;
+	}
+
+	a:hover {
+		color: white;
+		
+	}
+
+	img.social { /*REDES SOCIAIS*/
+		text-align: left;
+		display: inline-block;
+		margin-top: 0px;
+	}
+
+	img.social:hover{
+		box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+	}
+
+	#sombraGH {
+		position: relative;
+	}
+
+	#octocatGH {
+		position: absolute;
+		margin-left: -60px;
+		margin-top: 10px;
+		opacity: 0;
+	}
+
+	#octocatGH:hover, #sombraGH:hover {
+		transition-duration: 800ms;
+		opacity: 1;
+	}
