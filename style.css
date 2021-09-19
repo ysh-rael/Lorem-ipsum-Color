@@ -38,8 +38,8 @@ body {
  
 header {	
 	display: block;
-	padding-right: 5%;
- 	padding-left: 5%;
+	padding-right: 0;
+ 	padding-left: 0;
 	text-align: center;
 	margin-top: -30px;
 	height: 100vh;
@@ -58,6 +58,7 @@ body::before {
 h1 {
 	margin-top: 30px;		 	
 	padding-top: 4%;
+	margin-bottom: 0;
 	font-size: 4em;
 	font-family: monospace;
 	font-family: 'Amatic SC', cursive;
@@ -67,14 +68,24 @@ h1 {
 
 
 /*MENU DE NAVEGAÇÃO*/
+
+.fixaTopo {
+	color: white;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: rgba(2, 10, 20, 1);
+}
+
+
 #mark {
 
 	background-color: #a95705;
  }
 
-ul#menu {
-		 	display: block;
-		 	padding-left: 0px;
+ul#menu {	
+ 	display: block;
+ 	padding: 0px;
 		 }
 
 li.menu {
@@ -108,6 +119,10 @@ li.menu:hover > a {
 		 	color: white;
 		 }
 
+.quebra_linha {
+	display: none;
+}
+
 div#pesquisar {
 	display: inline-block;
  }
@@ -115,7 +130,7 @@ div#pesquisar {
 input#pesq {
  	display: inline-block;
 	height: 2.5em;
- 	margin-top: 7%;
+ 	
  	border-radius: 5px;
  	padding-left: 10px;
  	border: none;
@@ -123,7 +138,7 @@ input#pesq {
 
 input#Bpesq{
 	height: 2.7em;
-	margin-top: 7%;
+
  	margin-left: 20px;
  	border-radius: 5px;
  	border: none;
@@ -301,7 +316,6 @@ input[type='radio']:after {
     border-radius: 15px;
     top: -2px;
     left: -1px;
-    position: relative;
     background-color: white;
     content: '';
     display: inline-block;
@@ -315,7 +329,6 @@ input[type='radio']:checked:after {
     border-radius: 15px;
     top: -2px;
     left: -1px;
-    position: relative;
     background-color: #AC6E3B;
     content: '';
     display: inline-block;
