@@ -92,10 +92,6 @@ li.menu {
 
  }
 
-li {
- list-style-type: none;
- margin-right: 20px;
- }
 
 li.menu > a{
 			display: inline-block;
@@ -208,9 +204,9 @@ h2 {
 
 /*txt cores e paletas*/
 
- .txtCoresPaletas {
+ .txtCoresPaletas, .texto {
 	display: block;
-	width: 92%;
+	width: 92%; 
 	
 	margin: auto;
 	margin-bottom: 1%;
@@ -277,7 +273,6 @@ li.tiposDpaletas {
 li.tiposDpaletas:hover {
  	color: white;
  }
-
 
 
 
@@ -498,12 +493,13 @@ footer {
 	color: rgb(170, 170, 170);
      }
 
-    ul {
+    footer > ul {
     	display: flex;
     }
 
    footer > ul > li {
-   	flex-direction: column;
+ 	list-style-type: none;
+   	flex-direction: row;
    	margin: auto;
    	margin-top: 20px;
    }
@@ -515,7 +511,7 @@ footer {
 
 	a:hover {
 		color: white;
-		text-shadow: 1px 1px 10px rgba(0, 0, 0, 1);
+		text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
 		
 	}
 
@@ -557,3 +553,19 @@ footer {
 		opacity: 1;
 	}
 
+
+/*PROJETOS PESSOAIS*/
+
+ul#Projetos_pessoais {
+	list-style: none;
+	flex-wrap: wrap;
+	display: flex;
+}
+
+ul#Projetos_pessoais > li {
+	width: 500px;
+	flex-direction: row;
+	margin: 20px auto;
+	padding: 16px;
+	background-color: dimgray;
+}
