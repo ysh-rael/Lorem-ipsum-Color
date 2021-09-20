@@ -248,10 +248,10 @@ div#sobrecores {
  }
 
 
-h3 {
+span#quemEVoce {
 	font-size: 2.5em;
 	font-family: 'Amatic SC', cursive;
-	color: rgb(20, 20, 50);
+	color: white;
 	border-bottom:2px solid dimgray;
 	margin-top:0px;
 	padding-top: 3.5%;
@@ -580,4 +580,8 @@ ul#cursos > li > strong > a {
 
 ul#cursos > li > strong > a:hover {
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+details {
+	user-select: none;
 }
