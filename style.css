@@ -573,7 +573,7 @@ ul#Projetos_pessoais > li {
 }
 
 ul#cursos > li > strong > a {
-	color: #9E2705;
+	color: rgb(107, 25, 3);
 }
 
 ul#cursos > li > strong > a:hover {
