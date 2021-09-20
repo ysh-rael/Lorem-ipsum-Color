@@ -85,12 +85,12 @@ h1 {
  }
 
 ul#menu {	
- 	display: block;
+ 	display: flex;
  	padding: 0px;
 		 }
 
 li.menu {
-		 	display: inline;
+	Flex-diretion: row;
 
  }
 
