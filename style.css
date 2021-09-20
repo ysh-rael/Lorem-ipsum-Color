@@ -44,7 +44,7 @@ header {
 	margin-top: -30px;
         Width: 100%;
 	height: 100vh;
-	background-image: linear-gradient(to bottom, rgb(0, 5, 22), #02123F 100%);
+	background-image: linear-gradient(to bottom, rgb(0, 5, 22), #010B2B);
 		 }
 
 body::before {
