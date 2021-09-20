@@ -416,7 +416,6 @@ section {
  }
 
 section#conteudo {
-	display: inline-block;
 	margin: auto;
 	padding: 3%;
 	border-bottom-left-radius: 10px;
