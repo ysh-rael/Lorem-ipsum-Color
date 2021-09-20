@@ -571,3 +571,11 @@ ul#Projetos_pessoais > li {
 	padding: 16px;
 	background-color: dimgray;
 }
+
+ul#cursos > li > strong > a {
+	color: #9E2705;
+}
+
+ul#cursos > li > strong > a:hover {
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
