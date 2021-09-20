@@ -26,11 +26,10 @@
 
 
 html {
-	
  }
 
 body {
-        Width: 100%;
+    Width: 100%;
 	margin-left: 0;
 	margin-right: 0;
 	background-image: linear-gradient(to bottom, #010B2B 21%, rgb(0, 5, 22));
