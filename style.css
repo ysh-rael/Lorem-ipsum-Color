@@ -573,6 +573,14 @@ ul#Projetos_pessoais > li {
 	padding: 16px;
 }
 
+a.linkProjeto {
+	color: darkslateblue;
+}
+a.linkProjeto:hover {
+	color: mediumslateblue;
+	text-shadow: 1px 1px rgba(0, 0, 0, 0.8);
+}
+
 ul#cursos > li > strong > a {
 	color: rgb(107, 25, 3);
 }
@@ -583,4 +591,14 @@ ul#cursos > li > strong > a:hover {
 
 details {
 	user-select: none;
+}
+
+ul#Projetos_pessoais > li > img {
+	width: 200px;
+	height: 200px;
+	transition: all 0.3s ease-out;
+}
+
+ul#Projetos_pessoais > li > img:hover {
+	transform: scale(1.6,1.6);
 }
