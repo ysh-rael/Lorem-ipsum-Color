@@ -597,8 +597,13 @@ ul#Projetos_pessoais > li > img {
 	width: 200px;
 	height: 200px;
 	transition: all 0.3s ease-out;
+	di
 }
 
 ul#Projetos_pessoais > li > img:hover {
 	transform: scale(1.6,1.6);
+}
+
+footer > ul {
+	flex-wrap: wrap;
 }
