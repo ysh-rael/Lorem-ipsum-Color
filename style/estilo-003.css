@@ -8,7 +8,7 @@
 		text-indent: 2%;
 		text-align: justify; 
 		font-family: heaters, monospace;
-		background-color: rgba(236, 236, 236, 0.87);
+		background-color: rgba();
 	 }
 	section#demonstracaoCores {
 		display: flex;
@@ -21,8 +21,8 @@
 		width: 98%;
 		heigh:  auto;
 		margin: auto;
-		border: 2px solid rgb(153, 153, 153); 
-		background-color: #E3B692;
+		border: 2px solid rgb(); 
+		background-color: #;
 	 }
 
 
@@ -39,11 +39,11 @@
 	 }
 	ul#contemtiposPaletas { /*menu 2*/
 	 	display: block;
-	 	background-color: #412916; /*cor2*/
+	 	background-color: #; /*cor2*/
 	 	margin-top: 0;
 	 	margin-bottom: 0;
 	 	padding: 30px 0;
-	 	box-shadow: 1px 3px 15px #412916;
+	 	box-shadow: 1px 3px 15px #;
 	 }
 	li.tiposPaletas {
 		text-indent: 20px;
@@ -70,8 +70,8 @@
 		padding: 40px 40px 0 40px;
 		text-align: left;
 		font-size: 1em;
-		box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.671);
-		background-image: linear-gradient(to bottom, #df7f30, #DE8D4B);
+		box-shadow: 5px 5px 5px rgba();
+		background-image: linear-gradient(to bottom, #, #);
 		color: rgb(20, 20, 20);
 	 }
 	input#txtn, input.senha {
@@ -104,7 +104,7 @@
 	    border-radius: 15px;
 	    top: -2px;
 	    left: -1px;
-	    background-color: #AC6E3B;
+	    background-color: #;
 	    content: '';
 	    display: inline-block;
 	    visibility: visible;
@@ -138,7 +138,7 @@
 	 }
 	option {
 		color: black;
-		background-color: #E3B692;
+		background-color: #;
 		
 	 }
 	div#emoji {
@@ -155,14 +155,14 @@
 		width: 200px;
 		height: 50px;
 		margin: 5px 10% 5px 10%;
-		border: 1px solid #5E3C20;
+		border: 1px solid #;
 		border-radius: 5px;
 		background-color: transparent;
 	 }
 	input#confir:hover {
 		border-radius: 5px;
 		color: snow;
-		background-image: linear-gradient(45deg, #5E3C20 30%, #AC6E3B);
+		background-image: linear-gradient(45deg, # 30%, #);
 		box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 		text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 		transition-duration: 500ms;
