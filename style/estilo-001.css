@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* -- MINI PÁGINA DE DEMONSTRAÇÂO -- */
 	/*INICIO SOBRE CORES*/
 	section#explicaSobre {
@@ -24,6 +25,9 @@
 		border: 2px solid rgb(153, 153, 153); 
 		background-color: #E3B692;
 	 }
+
+
+
 
 
 	h1#tituloCad {
@@ -53,6 +57,9 @@
 	li.tiposPaletas:hover {
 	 	color: white;
 	 }
+
+
+
 
 
 
@@ -104,9 +111,6 @@
 	    visibility: visible;
 	    border: 2px solid white;
 	 }
-
-
-
 	input#idade {
 	 	border:  0;
 		width: 80px;
@@ -166,6 +170,10 @@
 	 }
 	/*FIM ---- QUEM É VOCÊ*/
 
+
+
+
+
 	/*
 	ESCOLHA OQ VC VAI FAZER HOJE: 
 
@@ -180,26 +188,23 @@
 
 
 
+
+
+
 	/*OPÇÕES DE PALETAS DE CORES*/
 	div#cores {
 		display: inline-block;
 	 	font-family: heaters, monospace;
-	 	margin:0% 10% 0% 5%;
+	 	margin: 0 0 10px 5%;
 	 }
-	div.palletcolor {
-	 	margin: auto;
-	 	display: inline;
-	 	margin-top: 20px;
-	 	width: 20px;
-	 	height: 20px;
-	 	padding: 10px;
-	 }
-	ul#cores {
-	 	display: block;
-	 	background-color: #5E4C3C;
-	 	padding-left: 10px;
-	 	padding-bottom: 10px;
-	 	box-shadow: 1px 3px 15px #5E3C20;
+	input.palletcolor {
+	 	margin: 0;
+	 	display: inline-block;
+	 	width: 30px;
+	 	height: 30px;
+	 	border: 1px solid show;
+	 	border-radius: 10px;
+	 	background-color: transparent;
 	 }
 	input.inpt_tiposPaletas {
 		color: rgb(211, 211, 211);
@@ -214,8 +219,9 @@
 	 	color: white;
 	 }
 	p.pc { /*"p" paletas de cores*/
-	 	margin-top: 30px;
 	 	font-size: 0.7em;
 	 	font-family: heaters, monospace;
 	 }
 /*FIM  FIM =>PÁGINA DE DEMONSTRAÇÂO<= FIM FIM*/
+=======
+>>>>>>> parent of 0be556e (!!ATENÇÃO!!)

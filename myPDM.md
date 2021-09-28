@@ -29,4 +29,6 @@ __bom mano, irei por aqui as ideias, planejamento e que foi feito cada dia.__
 	* por projetos ao lado usando flex-box
 6. tirar "sobrecores" para ajuste
 7. criação de páginas temporárias para ajustes espercíficos. *ok*
+8. mudar de div pata inpt type color *ok*
+	* alterar cor de modo dinâmico com js
 

@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="style/estilo-001.css">
+	<link id="estilo" rel="stylesheet" type="text/css" href="style/estilo-001.css">
 	<title>pag de ajuste | lyc</title>
 </head>
 <body>
@@ -300,69 +300,51 @@
 				<!-- BOTÃO CONFIRMAR -->
 				<input type="button" id="confir" value="Confirmar" onclick="confirmar()">
 		 </p>
-		 </div>	
-		<aside>
-		  	<div id="cores"> <!-- PALETA DE CORES -->
-			<p>
-				<p class="pc">Paleta de Cores 01</p>
-					<div id="c1p1" class="palletcolor" style="background-color: #DE8D4B"></div>
-				    <div id="c2p1" class="palletcolor" style="background-color: #5E3C20"></div>
-				    <div id="c3p1" class="palletcolor" style="background-color: #E3B692"></div>
-				    <div id="c4p1" class="palletcolor" style="background-color: #AC6E3B"></div>
-				    <div id="c5p1" class="palletcolor" style="background-color: #5E4C3C"></div>
-					<input type="radio" name="cor" onclick="cores001()" checked id="btnP1"></P>
-				<P>
-			   <p class="pc">Paleta de Cores 02</p>
-				   <div id="c1p2" class="palletcolor" style="background-color: #5EA9D1"></div>
-				   <div id="c2p2" class="palletcolor" style="background-color: #3C6C85"></div>
-				   <div id="c3p2" class="palletcolor" style="background-color: #738C99"></div>
-				   <div id="c4p2" class="palletcolor" style="background-color: #9DBFD1"></div>
-				   <div id="c5p2" class="palletcolor" style="background-color: #254252"></div>
-				   <input type="radio" name="cor" onclick="cores002()" id="btnP2">
-			   </P>
-			   <P>
-			   <p class="pc">Paleta de Cores 03</p>
-				   <div id="c1p3" class="palletcolor" style="background-color: #6058D1"></div>
-				   <div id="c2p3" class="palletcolor" style="background-color: #3D3885"></div>
-				   <div id="c3p3" class="palletcolor" style="background-color: #716E99"></div>
-				   <div id="c4p3" class="palletcolor" style="background-color: #9A97D1"></div>
-				   <div id="c5p3" class="palletcolor" style="background-color: #272456"></div>
-				   <input type="radio" name="cor" onclick="cores003()" id="btnP3">
-			   </P>
-			   <P>
-				   <p class="pc">Paleta de Cores 04</p>
-				   <div id="c1p4" class="palletcolor" style="background-color: #4D4D4D"></div>
-				   <div id="c2p4" class="palletcolor" style="background-color: #000000"></div>
-				   <div id="c3p4" class="palletcolor" style="background-color: #333333"></div>
-				   <div id="c4p4" class="palletcolor" style="background-color: #474747"></div>
-				   <div id="c5p4" class="palletcolor" style="background-color: #A3A3A3"></div>
-				   <input type="radio" name="cor" onclick="cores004()" id="btnP4">
-			   </P>
-				   </div>
-			</P>
-		</aside>	
+	</div>	
+	<aside>
+	  	<div id="cores"> <!-- PALETA DE CORES -->
+		<p>
+
+			<p class="pc">Paleta de Cores 01</p>
+				<input type="color" id="c1p1" class="palletcolor" value="#DE8D4B">
+			    <input type="color" id="c2p1" class="palletcolor" value="#5E3C20">
+			    <input type="color" id="c3p1" class="palletcolor" value="#E3B692">
+			    <input type="color" id="c4p1" class="palletcolor" value="#AC6E3B">
+			    <input type="color" id="c5p1" class="palletcolor" value="#5E4C3C"><nobr>
+				<input type="radio" name="cor" onclick="cores001()" checked id="btnP1"></P>
+			<P>
+		   <p class="pc">Paleta de Cores 02</p>
+			   <input type="color" id="c1p2" class="palletcolor" value= "#5EA9D1">
+			   <input type="color" id="c2p2" class="palletcolor" value= "#3C6C85">
+			   <input type="color" id="c3p2" class="palletcolor" value= "#738C99">
+			   <input type="color" id="c4p2" class="palletcolor" value= "#9DBFD1">
+			   <input type="color" id="c5p2" class="palletcolor" value= "#254252">
+			   <input type="radio" name="cor" onclick="cores002()" id="btnP2">
+		   </P>
+		   <P>
+		   <p class="pc">Paleta de Cores 03</p>
+			   <input type="color" id="c1p3" class="palletcolor" value= "#6058D1">
+			   <input type="color" id="c2p3" class="palletcolor" value= "#3D3885">
+			   <input type="color" id="c3p3" class="palletcolor" value= "#716E99">
+			   <input type="color" id="c4p3" class="palletcolor" value= "#9A97D1">
+			   <input type="color" id="c5p3" class="palletcolor" value= "#272456">
+			   <input type="radio" name="cor" onclick="cores003()" id="btnP3">
+		   </P>
+		   <P>
+			   <p class="pc">Paleta de Cores 04</p>
+			   <input type="color" id="c1p4" class="palletcolor" value= "#4D4D4D">
+			   <input type="color" id="c2p4" class="palletcolor" value= "#000000">
+			   <input type="color" id="c3p4" class="palletcolor" value= "#333333">
+			   <input type="color" id="c4p4" class="palletcolor" value= "#474747">
+			   <input type="color" id="c5p4" class="palletcolor" value= "#A3A3A3">
+			   <input type="radio" name="cor" onclick="cores004()" id="btnP4">
+		   </P>
+			   </div>
+		</P>
+	</aside>	
  </section>
 </div>
-<script type="text/javascript" src="mainTemporário.js"></script>
-<script type="text/javascript" id="js">
- function cores001(){
-	estilo.href = 'estilo-001.css'
- }
-
- function cores002(){
-	estilo.href = 'estilo-002.css'
-
- }
-
- function cores003(){
-
-	estilo.href = 'estilo-003.css'
- }
-
- function cores004(){
-
-	estilo.href = 'estilo-004.css'
-   }
+<script type="text/javascript" src="mainTemporário.js">
 </script>
 </body>
 </html>
