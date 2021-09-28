@@ -1,6 +1,6 @@
 function confirmar() {
 	// letNOME
-		lettxtn = window.document.getElementById('txtn')
+		let txtn = window.document.getElementById('txtn')
 		let nome = txtn.value.toUpperCase()
 	// letGENERO 
 		letsex = window.document.getElementsByName('radx')
@@ -11,14 +11,14 @@ function confirmar() {
 			genero = 'mulher'
 		}
 	// letIDADE
-		letidade = window.document.getElementById('idade')
+		let idade = window.document.getElementById('idade')
 		let idad = Number(idade.value)
 	// letNACIONALIDADE
 	 
-		letselect = window.document.getElementById('paises')
+		let select = window.document.getElementById('paises')
 		let vpaís = select.options[select.selectedIndex].text
-		letbr = window.document.getElementById('br')
-		letdivEmoji = window.document.getElementById('emoji')
+		let br = window.document.getElementById('br')
+		let divEmoji = window.document.getElementById('emoji')
 		if (vpaís == 'Brasil') {
 			emoji.innerHTML = '&#x1F1E7 &#x1F1F7'
 		} else{
@@ -82,12 +82,6 @@ function confirmar() {
 	 	letc3p3 = window.document.getElementById('c3p3')
 	 	letc4p3 = window.document.getElementById('c4p3')
 	 	letc5p3 = window.document.getElementById('c5p3')
-	//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-	 	letc1p4 = window.document.getElementById('c1p4')
-	 	letc2p4 = window.document.getElementById('c2p4')
-	 	letc3p4 = window.document.getElementById('c3p4')
-	 	letc4p4 = window.document.getElementById('c4p4')
-	 	letc5p4 = window.document.getElementById('c5p4')
 
 function monocromatico() {
 		explicaSobre.innerHTML = `<P><img src="imagens/monocromatica.png"> <h4>Monocromática</h4>
@@ -108,7 +102,6 @@ function complementar() {
 
 
 function loop () {
-	alert(letc1p1.value)
 }
 
 requestAnimationFrame(loop)
@@ -126,8 +119,42 @@ requestAnimationFrame(loop)
 
 	estilo.href = 'style/estilo-003.css'
  }
+/*PARALE 004 -> CORES PERSONALIZADAS!*/
+{	
+	const c1p4 = window.document.getElementById('c1p4')
+	const c2p4 = window.document.getElementById('c2p4')
+	const c3p4 = window.document.getElementById('c3p4')
+	const c4p4 = window.document.getElementById('c4p4')
+	const c5p4 = window.document.getElementById('c5p4')
+
+	const body 		= window.document.getElementsByTagName("body")[0]
+	const header 	= window.document.getElementsByTagName("header")[0]
+	const section 	= window.document.getElementsByTagName("section")[0]
+	const div1 		= window.document.getElementById('')
+	const div2 		= window.document.getElementById('')
+	const divClass1 = window.document.getElementsByClassName('')
+	const divClass2 = window.document.getElementsByClassName('')
+	const divClass3 = window.document.getElementsByClassName('')
+	const p 		= window.document.getElementsByTagName('p')
+	const h1	 	= window.document.getElementsByTagName("h1")[0]
+	const h2 		= window.document.getElementsByTagName('h2')
+	const h3 		= window.document.getElementsByTagName('h3')
+	const h4 		= window.document.getElementsByTagName('h4')
+	const ul 		= window.document.getElementsByTagName('ul')
+	const li 		= window.document.getElementsByTagName('li')
+	const a 		= window.document.getElementsByTagName('a')
+
 
  function cores004(){
-
-	estilo.href = 'style/estilo-004.css'
+ 	for(let i in h1) {h1[i].style.color = c2p4.value}
+ 	for(let i in h2) {h2[i].style.color = c4p4.value}
+ 	for(let i in h3) {h3[i].style.color = c1p4.value}
+ 	for(let i in h4) {h4[i].style.color = c5p4.value}
+	for(let i in p)  { p[i].style.color = c4p4.value}
+ 	for(let i in ul) {ul[i].style.color = c3p4.value}
+ 	for(let i in li) {li[i].style.color = c2p4.value}
+ 	for(let i in a)  { a[i].style.color = c1p4.value}
+	
    }
+}
+/*for(let i in ) {[i].style.color = cp4.value}*/

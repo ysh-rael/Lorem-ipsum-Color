@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /* -- MINI PÁGINA DE DEMONSTRAÇÂO -- */
 	/*INICIO SOBRE CORES*/
 	section#explicaSobre {
@@ -197,12 +197,12 @@
 	 	font-family: heaters, monospace;
 	 	margin: 0 0 10px 5%;
 	 }
-	input.palletcolor {
+	.palletcolor {
 	 	margin: 0;
 	 	display: inline-block;
 	 	width: 30px;
 	 	height: 30px;
-	 	border: 1px solid show;
+	 	border: 1px solid #666666;
 	 	border-radius: 10px;
 	 	background-color: transparent;
 	 }
@@ -223,5 +223,3 @@
 	 	font-family: heaters, monospace;
 	 }
 /*FIM  FIM =>PÁGINA DE DEMONSTRAÇÂO<= FIM FIM*/
-=======
->>>>>>> parent of 0be556e (!!ATENÇÃO!!)
