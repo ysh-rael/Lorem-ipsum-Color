@@ -1,3 +1,7 @@
+/*		paleta de cores: 353D40
+#353D40		#D9D9D9		#A1A5A6		#F2B138		#003F63
+*/
+
 /* -- MINI PÁGINA DE DEMONSTRAÇÂO -- */
 	/*INICIO SOBRE CORES*/
 	section#explicaSobre {
@@ -8,7 +12,8 @@
 		text-indent: 2%;
 		text-align: justify; 
 		font-family: heaters, monospace;
-		background-color: rgba();
+		background-color: #353D40;
+		color: snow;
 	 }
 	section#demonstracaoCores {
 		display: flex;
@@ -21,8 +26,8 @@
 		width: 98%;
 		heigh:  auto;
 		margin: auto;
-		border: 2px solid rgb(); 
-		background-color: #;
+		border: 2px solid #003F63; 
+		background-color: #D9D9D9;
 	 }
 
 
@@ -39,11 +44,10 @@
 	 }
 	ul#contemtiposPaletas { /*menu 2*/
 	 	display: block;
-	 	background-color: #; /*cor2*/
+	 	background-color: #F2B138; /*cor2*/
 	 	margin-top: 0;
 	 	margin-bottom: 0;
 	 	padding: 30px 0;
-	 	box-shadow: 1px 3px 15px #;
 	 }
 	li.tiposPaletas {
 		text-indent: 20px;
@@ -71,8 +75,11 @@
 		text-align: left;
 		font-size: 1em;
 		box-shadow: 5px 5px 5px rgba();
-		background-image: linear-gradient(to bottom, #, #);
+		background-image: linear-gradient(45deg, #003F63, #003F6a);
 		color: rgb(20, 20, 20);
+	 }
+	label, span#spanPais {
+		color: lightgrey;
 	 }
 	input#txtn, input.senha {
 		width: 100%;
@@ -104,7 +111,7 @@
 	    border-radius: 15px;
 	    top: -2px;
 	    left: -1px;
-	    background-color: #;
+	    background-color: #003F6a;
 	    content: '';
 	    display: inline-block;
 	    visibility: visible;
@@ -137,8 +144,8 @@
 		background-color: rgba(210, 210, 210, 0.5);
 	 }
 	option {
-		color: black;
-		background-color: #;
+		color: white;
+		background-color: #003F63d1;
 		
 	 }
 	div#emoji {
@@ -162,7 +169,7 @@
 	input#confir:hover {
 		border-radius: 5px;
 		color: snow;
-		background-image: linear-gradient(45deg, # 30%, #);
+		background-image: linear-gradient(45deg, #353D40, #A1A5A6);
 		box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 		text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 		transition-duration: 500ms;
@@ -206,7 +213,7 @@
 	 	background-color: transparent;
 	 }
 	input.inpt_tiposPaletas {
-		color: rgb(211, 211, 211);
+		color: rgba(0, 0, 0, 1.0);
 	 	background-color: transparent;
 	 	border-bottom: none;
 	 	border-top: none;
@@ -214,11 +221,12 @@
 	 	border-right: none;
 	 }
 	input.inpt_tiposPaletas:hover{
-	 	font-size: 0.9em;
 	 	color: white;
+	 	text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
 	 }
 	p.pc { /*"p" paletas de cores*/
 	 	font-size: 0.7em;
 	 	font-family: heaters, monospace;
 	 }
+
 /*FIM  FIM =>PÁGINA DE DEMONSTRAÇÂO<= FIM FIM*/

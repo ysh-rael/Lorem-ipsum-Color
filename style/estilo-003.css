@@ -1,3 +1,7 @@
+/* 					Paleta de Cores: 		
+#142620		#19402E		#327355		#F28627		#F27127
+*/
+
 /* -- MINI PÁGINA DE DEMONSTRAÇÂO -- */
 	/*INICIO SOBRE CORES*/
 	section#explicaSobre {
@@ -73,6 +77,9 @@
 		box-shadow: 5px 5px 5px rgba();
 		background-image: linear-gradient(to bottom, #, #);
 		color: rgb(20, 20, 20);
+	 }
+	label, span#spanPais {
+		color: lightgrey;
 	 }
 	input#txtn, input.senha {
 		width: 100%;
@@ -221,4 +228,5 @@
 	 	font-size: 0.7em;
 	 	font-family: heaters, monospace;
 	 }
+
 /*FIM  FIM =>PÁGINA DE DEMONSTRAÇÂO<= FIM FIM*/
