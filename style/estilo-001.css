@@ -3,13 +3,14 @@
 	/*INICIO SOBRE CORES*/
 	section#explicaSobre {
 		margin: auto;
-		padding: 3%;
+		padding: 1.5%;
 		border-bottom-left-radius: 10px;
 		border-bottom-right-radius: 10px;
 		text-indent: 2%;
 		text-align: justify; 
 		font-family: heaters, monospace;
 		background-color: rgba(236, 236, 236, 0.87);
+		box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.2);
 	 }
 	section#demonstracaoCores {
 		display: flex;
@@ -71,7 +72,7 @@
 		padding: 40px 40px 0 40px;
 		text-align: left;
 		font-size: 1em;
-		box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.671);
+		box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
 		background-image: linear-gradient(to bottom, #df7f30, #DE8D4B);
 		color: rgb(20, 20, 20);
 	 }

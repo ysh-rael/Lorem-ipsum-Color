@@ -6,13 +6,15 @@
 	/*INICIO SOBRE CORES*/
 	section#explicaSobre {
 		margin: auto;
-		padding: 3%;
+		padding: 1.5%;
 		border-bottom-left-radius: 10px;
 		border-bottom-right-radius: 10px;
 		text-indent: 2%;
+		color: rgb(40, 40, 40);
 		text-align: justify; 
 		font-family: heaters, monospace;
-		background-color: rgba();
+		background-color: rgba(0, 0, 0, 0.15);
+		box-shadow: 1px 5px 5px rgba(0,0,0, 0.5);
 	 }
 	section#demonstracaoCores {
 		display: flex;
@@ -25,8 +27,8 @@
 		width: 98%;
 		heigh:  auto;
 		margin: auto;
-		border: 2px solid rgb(); 
-		background-color: #;
+		border: 2px solid #19402E; 
+		background-color: rgb(260, 240, 220);
 	 }
 
 
@@ -43,7 +45,7 @@
 	 }
 	ul#contemtiposPaletas { /*menu 2*/
 	 	display: block;
-	 	background-color: #; /*cor2*/
+	 	background-color: #142620; /*cor1*/
 	 	margin-top: 0;
 	 	margin-bottom: 0;
 	 	padding: 30px 0;
@@ -74,8 +76,8 @@
 		padding: 40px 40px 0 40px;
 		text-align: left;
 		font-size: 1em;
-		box-shadow: 5px 5px 5px rgba();
-		background-image: linear-gradient(to bottom, #, #);
+		box-shadow: 5px 5px 5px rgba(0,0,0, 0.5);
+		background-image: linear-gradient(to bottom, #F28627, #F2a627);
 		color: rgb(20, 20, 20);
 	 }
 	label, span#spanPais {
@@ -91,7 +93,7 @@
 		background-color: snow;
 	 }
 	input#txtn:hover {
-		background-color: rgba(210, 210, 210, 0.5);
+		background-color: rgba(210, 210, 210, 0.4);
 	 }
 	input[type='radio']:after {
 	    width: 10px;
@@ -111,7 +113,7 @@
 	    border-radius: 15px;
 	    top: -2px;
 	    left: -1px;
-	    background-color: #;
+	    background-color: #F27127;
 	    content: '';
 	    display: inline-block;
 	    visibility: visible;
@@ -145,7 +147,7 @@
 	 }
 	option {
 		color: black;
-		background-color: #;
+		background-color: #F2862747;
 		
 	 }
 	div#emoji {
@@ -169,7 +171,7 @@
 	input#confir:hover {
 		border-radius: 5px;
 		color: snow;
-		background-image: linear-gradient(45deg, # 30%, #);
+		background-image: linear-gradient(45deg, #F27127 30%, #F28627);
 		box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 		text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 		transition-duration: 500ms;
