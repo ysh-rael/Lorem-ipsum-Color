@@ -243,7 +243,7 @@ footer {
     	display: flex;
     }
 
-   footer > ul > li {
+   li.redesSociaisLI{
  	list-style-type: none;
    	flex-direction: row;
    	margin: auto;
@@ -282,8 +282,8 @@ footer {
 	}
 
 	#fala_octocat {
-		margin-top: -90px;
-		margin-left: 60px;
+		margin-top: -20px;
+		margin-left: 4px;
 		position: absolute;
 		width: 90px;
 		border-radius: 5px;
