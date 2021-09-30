@@ -1,9 +1,9 @@
 function confirmar() {
 	// letNOME
-		let txtn = window.document.getElementById('txtn')
+		const txtn = window.document.getElementById('txtn')
 		let nome = txtn.value.toUpperCase()
 	// letGENERO 
-		letsex = window.document.getElementsByName('radx')
+		const sex = window.document.getElementsByName('radx')
 		let genero = ''
 		if (sex[0].checked) {
 			genero = 'Homem'
@@ -25,7 +25,7 @@ function confirmar() {
 			emoji.innerHTML = '"emoji"'
 		}
 	// letSENHA
-		let txts = window.document.getElementById('senha')
+		const txts = window.document.getElementById('inptSenha')
 		let senha = txts.value
 		let caracteres = senha.length
 		let txtcs = window.document.getElementById('confirsenha')
@@ -49,7 +49,7 @@ function confirmar() {
 	  }
 	 }
 	
-	// bot
+	// bttn
 	 let mon = window.document.getElementById('mono')
 	 let tri = window.document.getElementById('tria')
 	 let com = window.document.getElementById('comple')
@@ -60,7 +60,10 @@ function confirmar() {
 	 	let p3 = window.document.getElementById('p3')
 	 	let p4 = window.document.getElementById('p4')
 	//letEUDO-MENU DAS CORES
-	let jscript = window.document.getElementById('js')
+		let jscript = window.document.getElementById('js')
+	//colorir e resertcores
+		const bttnColorir = window.document.getElementsByClassName('bttnColo_Resert')[0]
+		const resertCores = window.document.getElementsByClassName('bttnColo_Resert')[1]
 	//PAletA DE CORES MONOCROMÁTICAS
 
 	 let explicaSobre = window.document.getElementById('explicaSobre')
@@ -101,60 +104,87 @@ function complementar() {
  }
 
 
-function loop () {
-}
-
-requestAnimationFrame(loop)
-
  function cores001(){
+ 	tagStyle.innerHTML = ""
+ 	bttnColorir.setAttribute("hidden","hidden")
+ 	resertCores.setAttribute("hidden","hidden")
 	estilo.href = 'style/estilo-001.css'
  }
 
  function cores002(){
+ 	tagStyle.innerHTML = ""
+ 	bttnColorir.setAttribute("hidden","hidden")
+ 	resertCores.setAttribute("hidden","hidden")
 	estilo.href = 'style/estilo-002.css'
 
  }
 
  function cores003(){
-
+ 	tagStyle.innerHTML = ""
+	bttnColorir.setAttribute("hidden","hidden")
+ 	resertCores.setAttribute("hidden","hidden")
 	estilo.href = 'style/estilo-003.css'
  }
+  function cores004(){
+ 	estilo.href = 'style/estilo-004.css'
+ 	bttnColorir.removeAttribute("hidden")
+ 	resertCores.removeAttribute("hidden")
+ 	
+}
 /*PARALE 004 -> CORES PERSONALIZADAS!*/
-{	
+	
 	const c1p4 = window.document.getElementById('c1p4')
 	const c2p4 = window.document.getElementById('c2p4')
 	const c3p4 = window.document.getElementById('c3p4')
 	const c4p4 = window.document.getElementById('c4p4')
 	const c5p4 = window.document.getElementById('c5p4')
 
-	const body 		= window.document.getElementsByTagName("body")[0]
-	const header 	= window.document.getElementsByTagName("header")[0]
-	const section 	= window.document.getElementsByTagName("section")[0]
-	const div1 		= window.document.getElementById('')
-	const div2 		= window.document.getElementById('')
-	const divClass1 = window.document.getElementsByClassName('')
-	const divClass2 = window.document.getElementsByClassName('')
-	const divClass3 = window.document.getElementsByClassName('')
-	const p 		= window.document.getElementsByTagName('p')
-	const h1	 	= window.document.getElementsByTagName("h1")[0]
-	const h2 		= window.document.getElementsByTagName('h2')
-	const h3 		= window.document.getElementsByTagName('h3')
-	const h4 		= window.document.getElementsByTagName('h4')
-	const ul 		= window.document.getElementsByTagName('ul')
-	const li 		= window.document.getElementsByTagName('li')
-	const a 		= window.document.getElementsByTagName('a')
-
-
- function cores004(){
- 	for(let i in h1) {h1[i].style.color = c2p4.value}
- 	for(let i in h2) {h2[i].style.color = c4p4.value}
- 	for(let i in h3) {h3[i].style.color = c1p4.value}
- 	for(let i in h4) {h4[i].style.color = c5p4.value}
-	for(let i in p)  { p[i].style.color = c4p4.value}
- 	for(let i in ul) {ul[i].style.color = c3p4.value}
- 	for(let i in li) {li[i].style.color = c2p4.value}
- 	for(let i in a)  { a[i].style.color = c1p4.value}
-	
-   }
+	const tagStyle = window.document.getElementById("tagStyle")
+	const divEscreva = window.document.getElementById("escreva")
+	/*desculpa a bagunça.. mas tentei de muitas outras formas e não conseguir. essa é uma solução temporária.*/
+function restaurarCores() {
+	tagStyle.innerHTML = ""
+	c1p4.value = "#4D4D4D"
+	c2p4.value = "#000000"
+	c3p4.value = "#333333"
+	c4p4.value = "#474747"
+	c5p4.value = "#A3A3A3"
 }
-/*for(let i in ) {[i].style.color = cp4.value}*/
+function colorir() {
+	let cor1 = c1p4.value
+	let cor2 = c2p4.value
+	let cor3 = c3p4.value
+	let cor4 = c4p4.value
+	let cor5 = c5p4.value
+	tagStyle.innerHTML = `
+		section#explicaSobre {
+		color: ${cor5};
+		background-color: ${cor2};
+		}
+		div#miniPagTest {
+		background-color: ${cor3};
+		}
+		h1#tituloCad {
+		color: white;
+		}
+		ul#contemtiposPaletas {
+		background-color: ${cor3};
+		}
+		li.tiposPaletas:hover {
+		color: white;
+		}
+		div#cad {
+		background-image: linear-gradient(to bottom, ${cor1}, ${cor2});
+		color: ${cor1};
+		}
+		label, span#spanPais {
+				color: lightgrey;
+		}
+		input#confir {
+		background-color: transparent;
+		}
+		input#confir:hover {
+		background-image: linear-gradient(45deg, ${cor2} 30%, ${cor1});
+		}
+		`
+}
