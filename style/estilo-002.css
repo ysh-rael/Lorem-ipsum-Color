@@ -104,7 +104,7 @@
 	    content: '';
 	    display: inline-block;
 	    visibility: visible;
-	    border: 2px solid white;
+	    border: 2px solid darkgrey;
 	 }
 	input[type='radio']:checked:after {
 	    width: 10px;
@@ -116,7 +116,7 @@
 	    content: '';
 	    display: inline-block;
 	    visibility: visible;
-	    border: 2px solid white;
+	    border: 2px solid darkgrey;
 	 }
 	input#idade {
 	 	border:  0;
@@ -162,7 +162,7 @@
 		font-size: 1.1em;
 		width: 200px;
 		height: 50px;
-		margin: 5px 10% 5px 10%;
+		margin: 5px auto 5px auto;
 		border: 1px solid #;
 		border-radius: 5px;
 		background-color: transparent;
