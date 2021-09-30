@@ -27,7 +27,7 @@
 
 				 	<li class="menu">
 				 		<a class="menu" href="ajuda.html"><nobr>PRECISA DE AJUDA?</nobr></a></li><div id="quebra_linha"><br><br></div >
-					<span id="pesquisar"><nobr><input list="sugestaodpesquisa" type="list" id="pesq" placeholder="Pesquisar"> <a id="bttn_pesquisar"><input type="button" id="Bpesq" value="Pesquisar" onclick="pesquisar()"></a></nobr>
+					<span id="pesquisar"><nobr><input list="sugestaodpesquisa" type="search" id="pesq" placeholder="Pesquisar"> <a id="bttn_pesquisar"><input type="button" id="Bpesq" value="Pesquisar" onclick="pesquisar()"></a></nobr>
 						<datalist id="sugestaodpesquisa">
 							<option> Sobre o LYC</option>
 							<option> Sobre cores</option>
@@ -95,6 +95,7 @@
 	</div>
 
 		<div id="miniPagTest">
+			<span id="transLYC"><input type="range" name="transparencia" min="0" max="100" value="100" onchange="a()"><span id="escreva">100%</span></span>
 	<nav>
 		<ul id="contemtiposPaletas">
 			<li class="tiposPaletas"> 
@@ -389,7 +390,7 @@
 				<input type="button" id="confir" value="Confirmar" onclick="confirmar()">
 		 </p>
 	</div>	
-	<aside>
+	<aside id="LYC">
 	  	<div id="cores"> <!-- PALETA DE CORES -->
 		<p>
 

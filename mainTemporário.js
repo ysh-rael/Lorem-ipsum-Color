@@ -140,7 +140,7 @@ function complementar() {
 	const c5p4 = window.document.getElementById('c5p4')
 
 	const tagStyle = window.document.getElementById("tagStyle")
-	const divEscreva = window.document.getElementById("escreva")
+	const spanEscreva = window.document.getElementById("escreva")
 	/*desculpa a bagunça.. mas tentei de muitas outras formas e não conseguir. essa é uma solução temporária.*/
 function restaurarCores() {
 	tagStyle.innerHTML = ""
@@ -187,4 +187,17 @@ function colorir() {
 		background-image: linear-gradient(45deg, ${cor2} 30%, ${cor1});
 		}
 		`
+}
+
+const inptTrans = window.document.getElementsByName('transparencia')[0]
+let lyc = window.document.getElementById('LYC')
+function a() {
+	let transAtual = inptTrans.value/100
+	spanEscreva.textContent = (transAtual*100).toFixed(0) +"%"
+	lyc.style.opacity = transAtual
+	if (transAtual = 0) {
+		lyc.setAttribute("hidden","hidden")
+	} else{
+		lyc.removeAttribute("hidden")
+	}
 }
