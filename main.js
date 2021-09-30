@@ -203,16 +203,16 @@ function colorir() {
 		`
 }
 /*transparência*/
-const inptTrans = window.document.getElementsByName('transparencia')[0]
-const spanEscreva = window.document.getElementById("escreva")
-let lyc = window.document.getElementById('LYC')
-function opacidade() {
-	let transAtual = inptTrans.value/100
-	spanEscreva.textContent = (transAtual*100).toFixed(0) +"%"
-	lyc.style.opacity = transAtual
-	if (transAtual = 0) {
-		lyc.setAttribute("hidden","hidden")
-	} else{
-		lyc.removeAttribute("hidden")
-	}
+	const inptTrans = window.document.getElementsByName('transparencia')[0]
+	const spanEscreva = window.document.getElementById("escreva")
+	let lyc = window.document.getElementById('LYC')
+	function opacidade() {
+		let transAtual = inptTrans.value/100
+		spanEscreva.textContent = (transAtual*100).toFixed(0) +"%"
+		lyc.style.opacity = transAtual
+		if (transAtual = 0) {
+			lyc.setAttribute("hidden","hidden")
+		} else{
+			lyc.removeAttribute("hidden")
+		}
 }
