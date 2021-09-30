@@ -216,3 +216,7 @@ function colorir() {
 			lyc.removeAttribute("hidden")
 		}
 }
+
+
+
+

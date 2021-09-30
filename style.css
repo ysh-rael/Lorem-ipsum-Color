@@ -272,17 +272,18 @@ footer {
 	}
 
 	#sombraGH {
+		margin-top: -38px;
 		position: relative;
 	}
 
 	#octocatGH {
 		position: absolute;
 		margin-left: -65px;
-		margin-top: 10px;
+		margin-top: -28px;
 	}
 
 	#fala_octocat {
-		margin-top: -20px;
+		margin-top: -58px;
 		margin-left: 4px;
 		position: absolute;
 		width: 90px;
