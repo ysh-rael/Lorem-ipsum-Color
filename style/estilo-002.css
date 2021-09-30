@@ -104,7 +104,7 @@
 	    content: '';
 	    display: inline-block;
 	    visibility: visible;
-	    border: 2px solid darkgrey;
+	    border: 2px solid rgb(40, 40, 40);
 	 }
 	input[type='radio']:checked:after {
 	    width: 10px;
@@ -116,7 +116,7 @@
 	    content: '';
 	    display: inline-block;
 	    visibility: visible;
-	    border: 2px solid darkgrey;
+	    border: 2px solid rgb(40, 40, 40);
 	 }
 	input#idade {
 	 	border:  0;
