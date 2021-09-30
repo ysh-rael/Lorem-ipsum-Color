@@ -51,5 +51,5 @@ __bom mano, irei por aqui as ideias, planejamento e que foi feito cada dia.__
 ### Alegria de pobre dura pouco... consertando bugs que surgiram ao juntar os projetos..
 10. dar uma olhada no tópico "2"... o erro deve tá por aqui.
 	* manter separado os 2 projetos enquanto não estiver ambos estáveis. *ok*
-	* juntar js *ok*
+	* juntar js *ok* 
 
