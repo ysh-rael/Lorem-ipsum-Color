@@ -227,6 +227,14 @@ h2 {
 
  }
 
+ abbr {
+ 	text-decoration-line: none;
+ 	color: darkslategray;
+ }
+ abbr:hover {
+ 	text-shadow:1px 1px 3px rgba(0, 0, 0, 0.5);
+ }
+
 
 footer {
 	margin-top: 2%;
