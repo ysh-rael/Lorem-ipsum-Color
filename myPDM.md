@@ -68,3 +68,7 @@ _____________________________FIM__________________________________
 	* última revisão no conteudo do texto
 	* alterar as tag "img" para a picture.
 	* commitar versão instável e subir ao github.
+## 4 outubro 21
+### continuar projeto:
+12. IMAGENS: 
+	* obs¹: ao 324widht a tela quebra.
