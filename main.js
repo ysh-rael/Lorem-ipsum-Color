@@ -12,7 +12,6 @@ function fixaMenuNoTopo() {
 		quebrarLinha.classList.remove("quebra_linha")
 	}
 }
-
 function confirmar() {
 	// letNOME
 		const txtn = window.document.getElementById('txtn')
